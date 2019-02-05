@@ -1,0 +1,72 @@
+use_xft yes
+xftfont DejaVu Sans Mono:pixelsize=12
+xftalpha 0.8
+text_buffer_size 2048
+update_interval 1.0
+total_run_times 0
+own_window yes
+own_window_transparent yes
+#own_window_type override
+own_window_type desktop
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+#minimum_size 110 0
+#maximum_width 150
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+stippled_borders 0
+border_margin 1
+border_width 1
+#default_color D0D0D0
+default_color white
+#default_shade_color black
+#default_outline_color grey
+own_window_colour black
+alignment bottom_left
+gap_x 20
+gap_y 40
+no_buffers yes
+uppercase no
+cpu_avg_samples 1
+net_avg_samples 1
+override_utf8_locale yes
+use_spacer none
+
+TEXT
+#${alignc}#! System
+#$nodename${alignr 4}$sysname $machine
+#$alignc$kernel
+${color grey}
+#${color}${alignc}$nodename
+#${color grey}${alignc}$sysname $machine
+#${alignc}$kernel
+${color grey}Uptime: ${color}${alignr 4}$uptime_short
+${color grey}Power: ${alignr 2}
+${color grey}Capacity: ${battery_bar 5,35 BAT0} ${color green}${alignr 4}$battery_percent%
+${color grey}Time left: ${color green}${alignr 2}$battery_time
+
+#${alignc}#! Disks
+#${cpugraph cpu0 20,100 ffffff 00cc00 100 -l -t}
+${color grey}CPU: ${color green}${cpu cpu0}% ${color grey}${alignr 4}${cpubar cpu0 5,45}
+${color grey}RAM: ${color green}$memperc% ${color grey}${alignr 4}${membar 5,45}
+${color grey}HDD: ${color green}${fs_used_perc /}% ${color grey}${alignr 4}${fs_bar 5,45 /}
+#Swap: $swapperc % ${alignr 4}${swapbar 5,45}
+${color grey}I/O: ${color green}${alignr 4}$diskio
+${color grey}${alignc}${diskiograph 10,90}
+${color grey}${alignc}$loadavg
+${color grey}${alignc}${loadgraph 10,90}
+
+#${alignc}#! Net
+${color grey}${alignc}Network Connection
+${color grey}IP:${color green}${alignr 4}${addr eth0}
+${color grey}Up:${color}${alignr 4}${upspeed eth0}k/s
+${color grey}${alignc}${upspeedgraph eth0 10,85}
+${color grey}Down:${color}${alignr 4}${downspeed eth0}k/s
+${color grey}${alignc}${downspeedgraph eth0 10,85}
+
+
+
+${color}${font DejaVu:size=30}${alignc}${time %H:%M}
+${color}${font DejaVu:size=14}${alignc}${time %d %b %Y}

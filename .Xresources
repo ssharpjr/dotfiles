@@ -1,0 +1,40 @@
+!! The default colors are "Gruvbox":
+*.color0: #1d2021
+*.color1: #cc241d
+*.color2: #98971a
+*.color3: #d79921
+*.color4: #458588
+*.color5: #b16286
+*.color6: #689d6a
+*.color7: #a89984
+*.color8: #928374
+*.color9: #fb4934
+*.color10: #b8bb26
+*.color11: #fabd2f
+*.color12: #83a598
+*.color13: #d3869b
+*.color14: #8ec07c
+*.color15: #ebdbb2
+
+!! URxvt
+urxvt*termName:		rxvt-256color
+urxvt*geometry:		170x40
+urxvt*scrollBar:	false
+urxvt*iso14755:		false
+urxvt*font:		xft:DejaVu Sans Mono Nerd Font:pixelsize=14
+urxvt*boldFont:		xft:DejaVu Sans Mono Nerd Font:bold:pixelsize=14
+urxvt*italicFont:	xft:Bitstream Vera Sans Mono Nerd Font:italic:autohint=true:pixelsize=14
+urxvt*boldItalicFont:	xft:Bitstream Vera Sans Mono Nerd Font:bold:autohint=true:pixelsize=14
+urxvt*letterSpace:	-1
+urxvt*borderColor:	#000030
+urxvt*internalBorder:	1
+urxvt*loginShell:	true
+urxvt*depth:		32
+urxvt*background:	[90]#000000
+urxvt*foreground:	White
+urxvt*colorUL:		Yellow
+urxvt*underlineColor:	Yellow
+
+urxvt*perl-ext-common: 	default,matcher
+urxvt*url-launcher:	/usr/bin/xdg-open
+urxvt*matcher.button:	1

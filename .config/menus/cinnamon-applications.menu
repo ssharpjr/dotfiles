@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/cinnamon-applications.menu</MergeFile>
+	<Menu>
+		<Name>Games</Name>
+		<Include>
+			<Filename>alacarte-made-5ab35aee-23cc-11e9-959b-308d9917219b.desktop</Filename>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Development</Name>
+		<Include>
+			<Filename>alacarte-made-17e162dc-23fa-11e9-a416-308d9917219b.desktop</Filename>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>cmake-gui.desktop</Filename>
+			<Filename>gtk3-demo.desktop</Filename>
+			<Filename>gtk3-icon-browser.desktop</Filename>
+			<Filename>assistant-qt4.desktop</Filename>
+			<Filename>designer-qt4.desktop</Filename>
+			<Filename>linguist-qt4.desktop</Filename>
+			<Filename>qdbusviewer-qt4.desktop</Filename>
+			<Filename>gtk3-widget-factory.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+</Menu>
