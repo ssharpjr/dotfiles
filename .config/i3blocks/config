@@ -1,0 +1,37 @@
+# i3blocks config file
+
+command=~/.config/i3blocks/$BLOCK_NAME
+separator_block_width=15
+markup=pango
+
+
+[cpu_usage]
+command=~/.config/i3blocks/cpu_usage/cpu_usage
+label=CPU
+interval=10
+min_width=CPU 100.00%
+
+[memory]
+command=~/.config/i3blocks/memory/memory
+label=MEM
+instance=mem
+interval=30
+
+[ip]
+command=ip add | grep dynamic | awk '{print "IP:" $2}'
+interval=once
+color=#91e78b
+
+[weather]
+command=curl -Ss 'https://wttr.in?0&T&Q' | cut -c 16- | head -2 | xargs echo
+interval=3600
+color=#A4C2F4
+
+[battery]
+command=~/.config/i3blocks/battery/battery
+label=BATT
+interval=30
+
+[time]
+command=date '+%a, %b %d %Y  %H:%M'
+interval=5
