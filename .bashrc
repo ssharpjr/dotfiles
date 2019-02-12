@@ -8,6 +8,12 @@ case $- in
       *) return;;
 esac
 
+
+# Variables
+export VISUAL=vim
+export EDITOR=vim
+
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
@@ -106,6 +112,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Gruvbox color palette
+source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
 
 # Prompt
 # export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"

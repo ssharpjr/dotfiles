@@ -18,15 +18,15 @@
 
 !! URxvt
 urxvt*termName:		rxvt-256color
-urxvt*geometry:		170x40
+!! urxvt*geometry:		170x40
 urxvt*scrollBar:	false
 urxvt*iso14755:		false
-urxvt*font:		xft:DejaVu Sans Mono Nerd Font:pixelsize=14
-urxvt*boldFont:		xft:DejaVu Sans Mono Nerd Font:bold:pixelsize=14
+urxvt*font:		xft:DejaVu Sans Mono for PowerLine:pixelsize=14
+urxvt*boldFont:		xft:DejaVu Sans Mono for PowerLine:bold:pixelsize=14
 urxvt*italicFont:	xft:Bitstream Vera Sans Mono Nerd Font:italic:autohint=true:pixelsize=14
 urxvt*boldItalicFont:	xft:Bitstream Vera Sans Mono Nerd Font:bold:autohint=true:pixelsize=14
-urxvt*letterSpace:	-1
-urxvt*borderColor:	#000030
+!! urxvt*letterSpace:	-1
+urxvt*borderColor:	#000033
 urxvt*internalBorder:	1
 urxvt*loginShell:	true
 urxvt*depth:		32

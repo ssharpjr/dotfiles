@@ -7,48 +7,38 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Plugins
-" Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
-
-" File System Plugins
-" Plugin 'scrooloose/nerdtree'
-" Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'kien/ctrlp.vim'
-" Plugin 'rking/ag.vim'
-
 " Git Plugins
 Plugin 'tpope/vim-fugitive'
-
-" Undo Plugin
-" Plugin 'sjl/gundo.vim'
-
 " Python Plugins
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'nvie/vim-flake8'
-Plugin 'tmhedberg/SimpylFold'
-
 " Frontend Plugins
 Plugin 'othree/html5.vim'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'othree/xml.vim'
 Plugin 'JamshedVesuna/vim-markdown-preview'
-
-" Color Schemes
-" Plugin 'jnurmine/Zenburn'
-" Plugin 'altercation/vim-colors-solarized'
-" Plugin 'sjl/badwolf'
-" Plugin 'tomasr/molokai'
+" Other Syntax Plugins
+Plugin 'mboughaba/i3config.vim'
+" Color Theme Plugins
 Plugin 'morhetz/gruvbox'
-" Plugin 'gosukiwi/vim-atom-dark'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+" Color Theme Setting
+set background=dark
+colorscheme gruvbox
+let g:gruvbox_termcolors=256
+let g:gruvbox_contrast_dark='hard'
+let g:gruvbox_bold='1'
+let g:gruvbox_underline='1'
+let g:airline_theme='gruvbox'
+set laststatus=2
+let g:airline_powerline_fonts = 1
 
 " Relative numbers
 set number relativenumber
@@ -56,28 +46,20 @@ set number relativenumber
 let python_highlight_all=1
 syntax on
 set pastetoggle=<F5>  " Paste without indent issues
-
-" Color Schemes & Themes
-set background=dark
-colorscheme gruvbox
-let g:airline_theme='gruvbox'  " airline theme
-set laststatus=2  " airline status bar always on
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
-
 " set mouse=a
 set encoding=utf-8
-set nu  " Line Numbers
 set splitbelow
 set splitright
 set clipboard=unnamedplus
-
 
 " REMAPS
 let mapleader = ","  " Leader is comma
 
 " Shortcut to Edit .vmirc
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
+
+" Execute python
+nnoremap <F9> <Esc>:w<CR>:!clear;python %<CR> 
 
 " jk is escape
 inoremap jk <esc>
@@ -88,21 +70,6 @@ let vim_markdown_preview_github=1
 let vim_markdown_preview_browser='Google Chrome'
 let vim_markdown_preview_toggle=1
 
-" toggle gundo
-" nnoremap <leader>u :GundoToggle<CR>
-
-" open ag.vim
-" nnoremap <leader>a :Ag
-
-" CtrlP Plugin
-let g:ctrlp_map = '<c-p>'
-let g:cttlp_cmd = 'CtrlP'
-let g:ctrlp_match_window = 'bottom,order:ttb'
-let g:ctrlp_switch_buffer = 0
-let g:ctrlp_working_path_mode = 0
-let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
-let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-
 " split navigations
 set splitright splitbelow
 nnoremap <C-J> <C-W><C-J>
@@ -110,31 +77,14 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" Enable folding with the spacebar
-nnoremap <space> za
-
-" Enable folding
-set foldmethod=indent
-set foldlevel=99
-
-" NERDTree Configuration
-" let NERDTreeWinSize=35
-" nnoremap <silent> <C-n> :NERDTreeToggle<CR>
-" nnoremap <slient> <Leader>n :NERDTreeToggle<CR>
-
-
-" Flag Whitespace
-" au BufNewFile,BufRead *.py, *.pyw, *.c, *.h match BadWhitespace /\s\+$/
-
-
 " Python with Virtualenv Support
 py << EOF
 import os
 import sys
 if 'VIRTUAL_ENV' in os.environ:
     project_base_dir = os.environ['VIRTUAL_ENV']
-    activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
-    execfile(activate_this, dict(__file__=activate_this))
+    activate = os.path.join(project_base_dir, 'bin/activate')
+    execfile(activate, dict(__file__=activate))
 EOF
 
 " Backup Settings
@@ -143,17 +93,6 @@ set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set backupskip=/tmp/*,/private/tmp/*
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set writebackup
-
-" Choose the proper theme
-" if has('gui_running')
-"  set background=dark
-"  colorscheme solarized
-" else
-"  colorscheme zenburn
-" endif
-
-" Toggle Solarized
-" call togglebg#map("<F5>")
 
 " Tmux cursor change
 if exists('$TMUX')
