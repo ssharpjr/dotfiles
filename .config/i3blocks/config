@@ -4,7 +4,6 @@ command=~/.config/i3blocks/$BLOCK_NAME
 separator_block_width=15
 markup=pango
 
-
 [cpu_usage]
 command=~/.config/i3blocks/cpu_usage/cpu_usage
 label=CPU
