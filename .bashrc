@@ -97,6 +97,9 @@ alias evimrc="vim ~/.vimrc"
 alias ei3config="vim ~/.config/i3/config"
 alias exresources="vim ~/.Xresources"
 
+# Configs bare repo
+alias config='/usr/bin/git --git-dir=/home/ssharp/.cfg/ --work-tree=/home/ssharp'
+
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -150,4 +153,3 @@ source /usr/bin/virtualenvwrapper.sh
 
 # PATH=$PATH:/home/ssharp/dev/rpi/kernel-dev/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
 # PATH=$PATH:/home/ssharp/dev/rpi/kernel-dev/rpf/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
-alias config='/usr/bin/git --git-dir=/home/ssharp/.cfg/ --work-tree=/home/ssharp'
