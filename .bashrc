@@ -92,6 +92,11 @@ alias yt="youtube-dl --add-metadata -i"  # Download video link
 alias yta="yt -x -f bestaudio/best"  # Download audio only
 alias YT="youtube-viewer"
 
+# Configs to edit
+alias evimrc="vim ~/.vimrc"
+alias ei3config="vim ~/.config/i3/config"
+alias exresources="vim ~/.Xresources"
+
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.

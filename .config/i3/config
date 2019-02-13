@@ -17,14 +17,16 @@ set $shutdown sudo -A shutdown -h now
 set $reboot sudo -A reboot
 set $netrefresh --no-startup-id sudo -A systemctl restart NetworkManager
 set $term urxvt
+set $filebrowser nemo
 set $calculator gnome-calculator
 set $browser google-chrome-stable
 set $email GTK_THEME=Adwaita evolution
 set $rdp remmina
 set $musicplayer clementine
+set $ide pycharm
 
 # Set font
-font pango:DejaVu Sans 8
+font pango:Ubuntu Mono Nerd Font 8
 
 
 # Set display mode
@@ -35,14 +37,22 @@ bindsym $mod+x mode $displayMode
 mode $displayMode {
 	bindsym w exec --no-startup-id ~/.config/i3/scripts/i3-work-displays.sh; mode "default"
 	bindsym l exec --no-startup-id ~/.config/i3/scripts/i3-laptop-display.sh; mode "default"
-
-
 	bindsym Return mode "default"
 	bindsym Escape mode "default"
+	bindsym $mod+x mode "default"
 }
 
+# System Mode
+set $systemMode "[R]eboot, [S]hutdown, or [E]xit?"
 
+bindsym $mod+Shift+e mode $systemMode
 
+mode $systemMode {
+	bindsym s exec --no-startup-id sudo shutdown -h now
+	bindsym r exec --no-startup-id sudo reboot
+	bindsym e exec --no-startup-id i3-msg exit
+	bindsym Escape mode "default"
+}
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -56,7 +66,7 @@ bindsym $mod+q			[con_id="__focused__" instance="^(?!dropdown_).*$"] kill
 bindsym $mod+Shift+q		[con_id="__focused__" instance="^(?!dropdown_).*$"] kill
 
 # Lock screen (Mod1=Alt)
-bindsym Control+Mod1+l exec --no-startup-id i3lock -e -i /home/ssharp/.wall.png
+bindsym Control+Mod1+l exec --no-startup-id i3lock -e -t -i /home/ssharp/.wall.png
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
@@ -111,8 +121,6 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-# Reboot
-bindsym $mod+Shift+Backspace exec --no-startup-id prompt "Reboot computer?" "$reboot"
 
 # Resize gaps
 bindsym $mod+z gaps outer current plus 5
@@ -135,24 +143,26 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # App Hot Keys
-bindsym $mod+w exec $browser
-bindsym $mod+c exec $calculator
-bindsym $mod+e exec $email
-bindsym $mod+t exec $rdp
-bindsym $mod+m exec $musicplayer
+bindsym $mod+n exec --no-startup-id $filebrowser
+bindsym $mod+w exec --no-startup-id $browser
+bindsym $mod+c exec --no-startup-id $calculator
+bindsym $mod+e exec --no-startup-id $email
+bindsym $mod+t exec --no-startup-id remmina -c ~/.remmina/TPI_RDS_ACCT.remmina
+bindsym $modShift+t exec --no-startup-id $rdp
+bindsym $mod+m exec --no-startup-id $musicplayer
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: Terminal"
-set $ws2 "2: Browser"
-set $ws3 "3: Mail"
+set $ws1 "1: TERM"
+set $ws2 "2: WWW"
+set $ws3 "3: MAIL"
 set $ws4 "4: RDP"
-set $ws5 "5: Coding"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8: Games"
-set $ws9 "9: Chat"
-set $ws10 "10: Music"
+set $ws5 "5: DEV"
+set $ws6 "6: FILE"
+set $ws7 "7: MISC"
+set $ws8 "8: GAMES"
+set $ws9 "9: CHAT"
+set $ws10 "10: MEDIA"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -178,31 +188,43 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
-# Move apps to workspaces
+# Assign apps to workspaces
 for_window [class="Google-chrome"] move workspace $ws2; workspace $ws2
 for_window [class="qutebrowser"] move workspace $ws2; workspace $ws2
 for_window [class="Evolution"] move workspace $ws3; workspace $ws3
 for_window [class="org.remmina.Remmina"] move workspace $ws4; workspace $ws4
 for_window [class="Clementine"] move workspace $ws10; workspace $ws10
+for_window [class="Nemo"] move workspace $ws6; workspace $ws6
 for_window [class="Spotify"] move workspace $ws10; workspace $ws10
-for_window [class="Hexchat"] move workspace $ws9; workspace $ws9
+for_window [class="Hexchat"] move workspace $ws3; workspace $ws3
+for_window [class="discord"] move workspace $ws9; workspace $ws9
+for_window [class="Wine"] move workspace $ws8; workspace $ws8
+for_window [class="jetbrains-pycharm-ce"] move workspace $ws5; workspace $ws5
 
 # Floating apps
-for_window [class="Evolution"] floating enable
-for_window [class="Evolution"] resize set 1300 650
-for_window [class="Evolution"] move position 610 10
+# for_window [class="Evolution"] floating enable
+# for_window [class="Evolution"] resize set 1300 650
+# for_window [class="Evolution"] move position 610 10
+# for_window [class="Hexchat"] floating enable
+# for_window [class="Hexchat"] resize set 1200 500
+# for_window [class="Hexchat"] move position 10 540
 for_window [class="Gnome-calculator"] floating enable
 for_window [class="Gnome-calculator"] move output primary
 for_window [class="Gnome-calculator"] move position center
 for_window [class="Lxappearance"] floating enable
+for_window [class="Lxappearance"] move position center
 for_window [class="Blueberry.py"] floating enable
-for_window [class="org.remmina.Remmina"] floating enable
-for_window [class="org.remmina.Remmina"] resize set 1350 760
+for_window [class="Blueberry.py"] move position center
+for_window [class="org.remmina.Remmina"] fullscreen enable
+for_window [class="org.remmina.Remmina"] fullscreen disable
+for_window [class="Wine"] floating enable
+for_window [class="Wine"] move position 10 10
+for_window [instance="Wine"] move position 10 10
 
 # Start workspaces on certain displays (if they exist)
 workspace $ws4 output primary  # stay on primary
-
 workspace $ws3 output DP1-1  # email on the left
+workspace $ws8 output DP1-1 # games on the left
 workspace $ws9 output DP1-1 # chats on the left
 workspace $ws2 output DP1-2  # browser on the right
 
@@ -212,7 +234,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+# bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -258,7 +280,8 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 # bar
 bar {
   	status_command i3blocks
-	font pango:DejaVu Sans Mono 10
+	tray_output primary
+	font pango:Ubuntu Mono Nerd Font 10
 	colors {
 		background $bg-color
 	    	separator #757575
@@ -273,6 +296,8 @@ bar {
 
 ### Programs to run on startup
 
+# Set display profile
+exec_always --no-startup-id xrandr --output VIRTUAL1 --off --output eDP1 --primary --mode 1366x768 --pos 1920x0 --rotate normal --output DP1 --off --output HDMI2 --off --output HDMI1 --off --output DP1-3 --off --output DP1-2 --mode 1920x1080 --pos 3286x0 --rotate normal --output DP1-1 --mode 1920x1080 --pos 0x0 --rotate normal --output DP2 --off
 # Set background image
 exec_always --no-startup-id feh --bg-scale $HOME/.wall.png
 # Hide inactive mouse
@@ -280,9 +305,7 @@ exec_always --no-startup-id unclutter -b
 # Compton
 exec_always --no-startup-id compton -b
 # Move back to Workspace 1
-exec --no-startup-id i3-msg workspace $ws1
-# Set display profile
-exec_always --no-startup-id ~/bin/i3-work-displays.sh
+exec_always --no-startup-id i3-msg workspace $ws1
 # Applets
 exec --no-startup-id nm-applet
 exec --no-startup-id blueberry-tray

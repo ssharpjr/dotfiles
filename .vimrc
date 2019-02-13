@@ -29,7 +29,7 @@ Plugin 'morhetz/gruvbox'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" Color Theme Setting
+" Color Theme Settings
 set background=dark
 colorscheme gruvbox
 let g:gruvbox_termcolors=256

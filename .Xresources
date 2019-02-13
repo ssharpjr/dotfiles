@@ -16,15 +16,33 @@
 *.color14: #8ec07c
 *.color15: #ebdbb2
 
+!! xft
+xft.dpi:	96
+xft.antialias:	true
+xft.hinting:	true
+xft.rgba:	rgb
+xft.autohint:	true
+xft.hintstyle:	hintfull
+xft.lcdfilter:	lcdfilter
+
 !! URxvt
 urxvt*termName:		rxvt-256color
 !! urxvt*geometry:		170x40
 urxvt*scrollBar:	false
 urxvt*iso14755:		false
-urxvt*font:		xft:DejaVu Sans Mono for PowerLine:pixelsize=14
-urxvt*boldFont:		xft:DejaVu Sans Mono for PowerLine:bold:pixelsize=14
-urxvt*italicFont:	xft:Bitstream Vera Sans Mono Nerd Font:italic:autohint=true:pixelsize=14
-urxvt*boldItalicFont:	xft:Bitstream Vera Sans Mono Nerd Font:bold:autohint=true:pixelsize=14
+urxvt*font:		xft:Ubuntu Mono Nerd Font:size=13, \
+			xft:Inconsolata Nerd Font Mono:size=13, \
+			xft:DejaVuSansMono Nerd Font:size=13, \
+			xft:DroidSansMono Nerd Font:size=13, \
+			xft:FuraMono Nerd Font:size=13, \
+			xft:RobotMono Nerd Font:size=13, \
+			xft:Ubuntu Mono derivative Powerline:size=13, \
+			xft:DejaVu Sans Mono for Powerline:size=13, \
+			xft:Noto Sans Mono:size=13, \
+			xft:Monospace:style=Medium:antialias=false
+!! urxvt*boldFont:		xft:Ubuntu Mono derivative Powerline Bold:size=13
+!! urxvt*italicFont:	xft:Ubuntu Mono derivative Powerline Italic:size=13
+!! urxvt*boldItalicFont:	xft:Ubuntu Mono derivative Powerline Bold Italic:size=13
 !! urxvt*letterSpace:	-1
 urxvt*borderColor:	#000033
 urxvt*internalBorder:	1
@@ -35,6 +53,7 @@ urxvt*foreground:	White
 urxvt*colorUL:		Yellow
 urxvt*underlineColor:	Yellow
 
-urxvt*perl-ext-common: 	default,matcher
+urxvt*perl-ext-common: 	default,matcher,url-select
 urxvt*url-launcher:	/usr/bin/xdg-open
 urxvt*matcher.button:	1
+URxvt.keysym.M-u: perl:url-select:select_next
