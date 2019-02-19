@@ -3,7 +3,7 @@
 # i3 config file (v4)
 #
 # i3-gaps
-hide_edge_borders both
+# hide_edge_borders both
 for_window [class="^.*"] border pixel 0
 gaps inner 5
 gaps outer 5
@@ -45,7 +45,7 @@ mode $displayMode {
 # System Mode
 set $systemMode "[R]eboot, [S]hutdown, or [E]xit?"
 
-bindsym $mod+Shift+e mode $systemMode
+bindsym $mod+Mod1+q mode $systemMode
 
 mode $systemMode {
 	bindsym s exec --no-startup-id sudo shutdown -h now
@@ -148,6 +148,8 @@ bindsym $mod+w exec --no-startup-id $browser
 bindsym $mod+c exec --no-startup-id $calculator
 bindsym $mod+e exec --no-startup-id $email
 bindsym $mod+t exec --no-startup-id remmina -c ~/.remmina/TPI_RDS_ACCT.remmina
+bindsym $mod+Shift+o exec --no-startup-id remmina -c ~/.remmina/TPI-DBSVR01.remmina
+bindsym $mod+Shift+d exec --no-startup-id remmina -c ~/.remmina/TPI-DC01.remmina
 bindsym $modShift+t exec --no-startup-id $rdp
 bindsym $mod+m exec --no-startup-id $musicplayer
 
@@ -198,7 +200,7 @@ for_window [class="Nemo"] move workspace $ws6; workspace $ws6
 for_window [class="Spotify"] move workspace $ws10; workspace $ws10
 for_window [class="Hexchat"] move workspace $ws3; workspace $ws3
 for_window [class="discord"] move workspace $ws9; workspace $ws9
-for_window [class="Wine"] move workspace $ws8; workspace $ws8
+for_window [class="Wine"] move workspace $ws9; workspace $ws9
 for_window [class="jetbrains-pycharm-ce"] move workspace $ws5; workspace $ws5
 
 # Floating apps
@@ -224,7 +226,7 @@ for_window [instance="Wine"] move position 10 10
 # Start workspaces on certain displays (if they exist)
 workspace $ws4 output primary  # stay on primary
 workspace $ws3 output DP1-1  # email on the left
-workspace $ws8 output DP1-1 # games on the left
+# workspace $ws8 output DP1-1 # games on the left
 workspace $ws9 output DP1-1 # chats on the left
 workspace $ws2 output DP1-2  # browser on the right
 
@@ -263,12 +265,39 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Nord theme colors
+set $nord0   #2E3440
+set $nord1   #3B4252
+set $nord2   #434C5E
+set $nord3   #4C566A
+set $nord4   #D8DEE9
+set $nord5   #E5E9F0
+set $nord6   #ECEFF4
+set $nord7   #8FBCBB
+set $nord8   #88C0D0
+set $nord9   #81A1C1
+set $nord10  #5E81AC
+set $nord11  #BF616A
+set $nord12  #D08770
+set $nord13  #EBCB8B
+set $nord14  #A3BE8C
+set $nord15  #B48EAD
 
-set $bg-color 	         #2f343f
-set $inactive-bg-color   #2f343f
-set $text-color          #f3f4f5
-set $inactive-text-color #676E7D
-set $urgent-bg-color     #E53935
+# "Nord"-ed Theme
+set $bg-color			#2e3440
+set $inactive-bg-color		#3b4252
+set $text-color			#e5e9f0
+set $inactive-text-color	#81a1c1
+set $urgent-bg-color		#bf616a
+
+
+
+# My Original Theme
+# set $bg-color 	         #2f343f
+# set $inactive-bg-color   #2f343f
+# set $text-color          #f3f4f5
+# set $inactive-text-color #676E7D
+# set $urgent-bg-color     #E53935
 
 # window colors
 #                       border              background         text                 indicator
@@ -283,10 +312,10 @@ bar {
 	tray_output primary
 	font pango:Ubuntu Mono Nerd Font 10
 	colors {
-		background $bg-color
+		background $nord0
 	    	separator #757575
 		#                  border             background         text
-		focused_workspace  $bg-color          $bg-color          $text-color
+		focused_workspace  $bg-color	      $bg-color		 $text-color
 		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
 		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
 	}
@@ -297,7 +326,7 @@ bar {
 ### Programs to run on startup
 
 # Set display profile
-exec_always --no-startup-id xrandr --output VIRTUAL1 --off --output eDP1 --primary --mode 1366x768 --pos 1920x0 --rotate normal --output DP1 --off --output HDMI2 --off --output HDMI1 --off --output DP1-3 --off --output DP1-2 --mode 1920x1080 --pos 3286x0 --rotate normal --output DP1-1 --mode 1920x1080 --pos 0x0 --rotate normal --output DP2 --off
+# exec_always --no-startup-id xrandr --output VIRTUAL1 --off --output eDP1 --primary --mode 1366x768 --pos 1920x0 --rotate normal --output DP1 --off --output HDMI2 --off --output HDMI1 --off --output DP1-3 --off --output DP1-2 --mode 1920x1080 --pos 3286x0 --rotate normal --output DP1-1 --mode 1920x1080 --pos 0x0 --rotate normal --output DP2 --off
 # Set background image
 exec_always --no-startup-id feh --bg-scale $HOME/.wall.png
 # Hide inactive mouse
@@ -309,4 +338,5 @@ exec_always --no-startup-id i3-msg workspace $ws1
 # Applets
 exec --no-startup-id nm-applet
 exec --no-startup-id blueberry-tray
-
+# Restart i3 (cleans up resolution/wallpaper issues
+exec --no-startup-id i3-msg restart

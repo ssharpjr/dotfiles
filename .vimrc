@@ -19,11 +19,17 @@ Plugin 'nvie/vim-flake8'
 Plugin 'othree/html5.vim'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'othree/xml.vim'
-Plugin 'JamshedVesuna/vim-markdown-preview'
 " Other Syntax Plugins
+Plugin 'nelstrom/vim-markdown-folding'
+Plugin 'JamshedVesuna/vim-markdown-preview'
+Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'mboughaba/i3config.vim'
 " Color Theme Plugins
+Plugin 'arcticicestudio/nord-vim'
 Plugin 'morhetz/gruvbox'
+" Prose Plugins
+Plugin 'junegunn/goyo.vim'
+Plugin 'junegunn/limelight.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -31,14 +37,18 @@ filetype plugin indent on    " required
 
 " Color Theme Settings
 set background=dark
-colorscheme gruvbox
-let g:gruvbox_termcolors=256
-let g:gruvbox_contrast_dark='hard'
-let g:gruvbox_bold='1'
-let g:gruvbox_underline='1'
-let g:airline_theme='gruvbox'
+colorscheme nord
+let g:airline_theme='nord'
 set laststatus=2
 let g:airline_powerline_fonts = 1
+
+" Limelight
+let g:limelight_conceal_ctermfg = 'gray'
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
+
+" Disable automatic commenting on newline
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Relative numbers
 set number relativenumber
@@ -52,8 +62,20 @@ set splitbelow
 set splitright
 set clipboard=unnamedplus
 
+" Copy/Paste
+" vnoremap <C-c> "+y
+" map <C-v> "+p
+
+
 " REMAPS
 let mapleader = ","  " Leader is comma
+let localleader = '\\'  " LocalLeader is \
+
+" Folding
+nnoremap <Space> za
+
+" jk is escape
+inoremap jk <esc>
 
 " Shortcut to Edit .vmirc
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
@@ -61,14 +83,29 @@ nnoremap <leader>ev :vsp $MYVIMRC<CR>
 " Execute python
 nnoremap <F9> <Esc>:w<CR>:!clear;python %<CR> 
 
-" jk is escape
-inoremap jk <esc>
+" Spellcheck
+map <leader>sc :setlocal spell! spelllang=en_us<CR>
 
-" Markdown Preview
+" LaTeX
+let g:livepreview_previewer = 'zathura'
+" let g:livepreview_cursorhold_recompile = 0
+map <leader>ll :LLPStartPreview<CR>
+" LaTeX word count
+map <F3> :w !detex \| wc -w<CR>
+" Paragraph navigation
+noremap j gj
+noremap k gk
+
+
+" Markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+if has("autocmd")
+  filetype plugin indent on
+endif
 let vim_markdown_preview_hotkey='<C-m>'
 let vim_markdown_preview_github=1
-let vim_markdown_preview_browser='Google Chrome'
 let vim_markdown_preview_toggle=1
+let vim_markdown_preview_use_xdg_open=1
 
 " split navigations
 set splitright splitbelow
@@ -76,6 +113,12 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" Navigating with guides
+inoremap <leader><leader> <Esc>/<++><Enter>"_c41
+vnoremap <leader><leader> <Esc>/<++><Enter>"_c41
+map <leader><leader> <Esc>/<++><Enter>"_c41
+
 
 " Python with Virtualenv Support
 py << EOF
