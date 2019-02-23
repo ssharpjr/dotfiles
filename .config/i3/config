@@ -202,6 +202,7 @@ for_window [class="Hexchat"] move workspace $ws3; workspace $ws3
 for_window [class="discord"] move workspace $ws9; workspace $ws9
 for_window [class="Wine"] move workspace $ws9; workspace $ws9
 for_window [class="jetbrains-pycharm-ce"] move workspace $ws5; workspace $ws5
+for_window [class="nel"] move workspace $ws8; workspace $ws8
 
 # Floating apps
 # for_window [class="Evolution"] floating enable
@@ -325,10 +326,6 @@ bar {
 
 ### Programs to run on startup
 
-# Set display profile
-# exec_always --no-startup-id xrandr --output VIRTUAL1 --off --output eDP1 --primary --mode 1366x768 --pos 1920x0 --rotate normal --output DP1 --off --output HDMI2 --off --output HDMI1 --off --output DP1-3 --off --output DP1-2 --mode 1920x1080 --pos 3286x0 --rotate normal --output DP1-1 --mode 1920x1080 --pos 0x0 --rotate normal --output DP2 --off
-# Set background image
-exec_always --no-startup-id feh --bg-scale $HOME/.wall.png
 # Hide inactive mouse
 exec_always --no-startup-id unclutter -b
 # Compton
@@ -338,5 +335,7 @@ exec_always --no-startup-id i3-msg workspace $ws1
 # Applets
 exec --no-startup-id nm-applet
 exec --no-startup-id blueberry-tray
-# Restart i3 (cleans up resolution/wallpaper issues
-exec --no-startup-id i3-msg restart
+# Set background image
+exec_always --no-startup-id feh --bg-scale $HOME/.wall.png
+# Restart i3 (cleans up resolution/wallpaper issues)
+# exec --no-startup-id i3-msg restart

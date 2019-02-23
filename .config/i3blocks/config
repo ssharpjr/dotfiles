@@ -32,5 +32,5 @@ label=BATT
 interval=30
 
 [time]
-command=date '+%a, %b %d %Y  %H:%M'
+command=date '+%a, %b %d %Y  <b>%H:%M</b>'; [[ -z "${BLOCK_BUTTON}" ]] || gsimplecal &
 interval=5
