@@ -140,6 +140,9 @@ export WORKON_HOME=~/.virtualenvs
 source /usr/bin/virtualenvwrapper.sh
 
 
+# Directories
+export WRITEDIR=~/Dropbox/Writing
+
 # Oracle Instantclient
 # export ORACLE_HOME="/usr/lib/oracle/11.2/client64"
 # export TNS_ADMIN="$ORACLE_HOME/network/admin"

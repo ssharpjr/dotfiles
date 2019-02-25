@@ -22,7 +22,8 @@ Plugin 'othree/xml.vim'
 " Other Syntax Plugins
 Plugin 'nelstrom/vim-markdown-folding'
 Plugin 'JamshedVesuna/vim-markdown-preview'
-Plugin 'xuhdev/vim-latex-live-preview'
+Plugin 'lervag/vimtex'
+" Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'mboughaba/i3config.vim'
 " Color Theme Plugins
 Plugin 'arcticicestudio/nord-vim'
@@ -62,11 +63,6 @@ set splitbelow
 set splitright
 set clipboard=unnamedplus
 
-" Copy/Paste
-" vnoremap <C-c> "+y
-" map <C-v> "+p
-
-
 " REMAPS
 let mapleader = ","  " Leader is comma
 let localleader = '\\'  " LocalLeader is \
@@ -87,15 +83,14 @@ nnoremap <F9> <Esc>:w<CR>:!clear;python %<CR>
 map <leader>sc :setlocal spell! spelllang=en_us<CR>
 
 " LaTeX
-let g:livepreview_previewer = 'zathura'
+" let g:livepreview_previewer = 'zathura'
 " let g:livepreview_cursorhold_recompile = 0
-map <leader>ll :LLPStartPreview<CR>
+" map <leader>ll :LLPStartPreview<CR>
 " LaTeX word count
 map <F3> :w !detex \| wc -w<CR>
 " Paragraph navigation
 noremap j gj
 noremap k gk
-
 
 " Markdown
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
@@ -118,17 +113,6 @@ nnoremap <C-H> <C-W><C-H>
 inoremap <leader><leader> <Esc>/<++><Enter>"_c41
 vnoremap <leader><leader> <Esc>/<++><Enter>"_c41
 map <leader><leader> <Esc>/<++><Enter>"_c41
-
-
-" Python with Virtualenv Support
-py << EOF
-import os
-import sys
-if 'VIRTUAL_ENV' in os.environ:
-    project_base_dir = os.environ['VIRTUAL_ENV']
-    activate = os.path.join(project_base_dir, 'bin/activate')
-    execfile(activate, dict(__file__=activate))
-EOF
 
 " Backup Settings
 set backup
