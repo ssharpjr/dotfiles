@@ -141,6 +141,7 @@ source /usr/bin/virtualenvwrapper.sh
 
 
 # Directories
+export RYZOMDIR=~/.local/share/Ryzom
 export WRITEDIR=~/Dropbox/Writing
 
 # Oracle Instantclient
