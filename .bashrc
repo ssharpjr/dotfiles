@@ -95,10 +95,14 @@ alias YT="youtube-viewer"
 # Configs to edit
 alias evimrc="vim ~/.vimrc"
 alias ei3config="vim ~/.config/i3/config"
+alias ei3bconfig="vim ~/.config/i3blocks/config"
 alias exresources="vim ~/.Xresources"
 
 # Configs bare repo
 alias config='/usr/bin/git --git-dir=/home/ssharp/.cfg/ --work-tree=/home/ssharp'
+
+# Directory aliases
+alias gowrite="cd $WRITEDIR"
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -109,19 +113,8 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-# enable programmable completion features (you don't need to enable
-# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-# sources /etc/bash.bashrc).
-if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-  fi
-fi
-
 # Gruvbox color palette
-source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
+# source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
 
 # Prompt
 # export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"

@@ -43,10 +43,11 @@ let g:airline_theme='nord'
 set laststatus=2
 let g:airline_powerline_fonts = 1
 
-" Limelight
+" Goyo/Limelight
 let g:limelight_conceal_ctermfg = 'gray'
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
+map <localleader>g :Goyo<CR>:<Esc><Esc>
 
 " Disable automatic commenting on newline
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
@@ -83,9 +84,6 @@ nnoremap <F9> <Esc>:w<CR>:!clear;python %<CR>
 map <leader>sc :setlocal spell! spelllang=en_us<CR>
 
 " LaTeX
-" let g:livepreview_previewer = 'zathura'
-" let g:livepreview_cursorhold_recompile = 0
-" map <leader>ll :LLPStartPreview<CR>
 " LaTeX word count
 map <F3> :w !detex \| wc -w<CR>
 " Paragraph navigation

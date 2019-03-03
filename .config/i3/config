@@ -20,7 +20,7 @@ set $term urxvt
 set $filebrowser nemo
 set $calculator gnome-calculator
 set $browser google-chrome-stable
-set $email GTK_THEME=Adwaita evolution
+set $email GTK_THEME=Nordic-Polar evolution
 set $rdp remmina
 set $musicplayer clementine
 set $ide pycharm
@@ -28,6 +28,9 @@ set $ide pycharm
 # Set font
 font pango:Ubuntu Mono Nerd Font 8
 
+
+# Refresh Network Manager
+bindsym $mod+<F9> $netrefresh
 
 # Set display mode
 set $displayMode "Set display mode [w]ork [l]aptop"
@@ -128,14 +131,16 @@ bindsym $mod+Shift+z gaps outer current minus 5
 
 # Media Hot Keys
 # Increase volume
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6) 
 # Decrease volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6) 
+
 # Mute volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle && volnoti-show -m
 # Screen brightness
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(xbacklight -get | cut -d '.' -f 1)
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(xbacklight -get | cut -d '.' -f 1)
+
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause

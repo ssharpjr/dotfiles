@@ -7,7 +7,7 @@ markup=pango
 [cpu_usage]
 command=~/.config/i3blocks/cpu_usage/cpu_usage
 label=CPU
-interval=10
+interval=5
 min_width=CPU 100.00%
 
 [memory]
