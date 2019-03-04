@@ -197,7 +197,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 
 # Assign apps to workspaces
 for_window [class="Google-chrome"] move workspace $ws2; workspace $ws2
-for_window [class="qutebrowser"] move workspace $ws2; workspace $ws2
+# for_window [class="qutebrowser"] move workspace $ws2; workspace $ws2
 for_window [class="Firefox"] move workspace $ws2; workspace $ws2
 for_window [class="Evolution"] move workspace $ws3; workspace $ws3
 for_window [class="org.remmina.Remmina"] move workspace $ws4; workspace $ws4
