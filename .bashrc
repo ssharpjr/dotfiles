@@ -87,23 +87,6 @@ alias l='ls -CF'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 
-# Youtube
-alias yt="youtube-dl --add-metadata -i"  # Download video link
-alias yta="yt -x -f bestaudio/best"  # Download audio only
-alias YT="youtube-viewer"
-
-# Configs to edit
-alias evimrc="vim ~/.vimrc"
-alias ei3config="vim ~/.config/i3/config"
-alias ei3bconfig="vim ~/.config/i3blocks/config"
-alias exresources="vim ~/.Xresources"
-
-# Configs bare repo
-alias config='/usr/bin/git --git-dir=/home/ssharp/.cfg/ --work-tree=/home/ssharp'
-
-# Directory aliases
-alias gowrite="cd $WRITEDIR"
-
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
