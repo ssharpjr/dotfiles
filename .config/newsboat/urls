@@ -66,6 +66,8 @@ https://sourceforge.net/mirror/tor-browser/activity/feed "~SOURCEFORGE: Tor Brow
 -------------------------
 -------ARCHLINUX---------
 -------------------------
+https://www.archlinux.org/feeds/news/ "~ARCH: Latest News"
+https://security.archlinux.org/advisory/feed.atom "~ARCH: Security Advisories"
 https://www.archlinux.org/feeds/packages/added/ "~ARCH: Packages Added"
 https://www.archlinux.org/feeds/packages/removed/ "~ARCH: Packages Removed"
 https://aur.archlinux.org/rss/ "~ARCH: Packages Added (AUR)"

@@ -38,7 +38,18 @@ urxvt*foreground:	White
 urxvt*colorUL:		Yellow
 urxvt*underlineColor:	Yellow
 
-urxvt*perl-ext-common: 	default,matcher,url-select
+!! Extensions:
+urxvt*perl-ext-common: 	default,matcher,url-select,keyboard-select,resize-font
+!! matcher
 urxvt*url-launcher:	/usr/bin/xdg-open
 urxvt*matcher.button:	1
+!! url-select
 URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: true
+!! keyboard-select
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+!! resize-font
+URxvt.resize-font.smaller: C-j
+URxvt.resize-font.bigger: C-k
+

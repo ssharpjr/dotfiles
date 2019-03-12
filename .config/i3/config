@@ -125,6 +125,14 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 
+# Scratchpad
+for_window [instance="dropdown"] floating enable
+for_window [instance="dropdown"] resize set 625 400
+for_window [instance="dropdown"] move scratchpad
+for_window [instance="dropdown"] border pixel 5
+exec --no-startup-id urxvt -name dropdown -bg [90]black -fg white -fn "xft:Ubuntu Mono Nerd Font:size=13" +sb -e tmux &
+bindsym $mod+u [instance="dropdown"] scratchpad show; [instance="dropdown"] move position center
+
 # Resize gaps
 bindsym $mod+z gaps outer current plus 5
 bindsym $mod+Shift+z gaps outer current minus 5
@@ -211,6 +219,7 @@ for_window [class="jetbrains-pycharm-ce"] move workspace $ws5; workspace $ws5
 for_window [class="nel"] move workspace $ws8; workspace $ws8
 for_window [class="manuskript"] move workspace $ws7; workspace $ws7
 for_window [class="TeXstudio"] move workspace $ws7; workspace $ws7
+for_window [class="VirtualBox Machine"] move workspace $ws5; workspace $ws5
 
 # Floating apps
 # for_window [class="Evolution"] floating enable
@@ -231,6 +240,7 @@ for_window [class="org.remmina.Remmina"] fullscreen disable
 for_window [class="Wine"] floating enable
 for_window [class="Wine"] move position 10 10
 for_window [instance="Wine"] move position 10 10
+for_window [class="VirtualBox Manager"] floating enable
 
 # Start workspaces on certain displays (if they exist)
 workspace $ws4 output primary  # stay on primary
@@ -345,5 +355,5 @@ exec --no-startup-id nm-applet
 exec --no-startup-id blueberry-tray
 # Set background image
 exec_always --no-startup-id feh --bg-scale $HOME/.wall.png
-# Restart i3 (cleans up resolution/wallpaper issues)
-# exec --no-startup-id i3-msg restart
+# Other programs
+exec --no-startup-id dropbox &

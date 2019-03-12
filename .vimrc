@@ -20,7 +20,7 @@ Plugin 'othree/html5.vim'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'othree/xml.vim'
 " Other Syntax Plugins
-Plugin 'nelstrom/vim-markdown-folding'
+" Plugin 'nelstrom/vim-markdown-folding'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'lervag/vimtex'
 " Plugin 'xuhdev/vim-latex-live-preview'
@@ -69,10 +69,20 @@ let mapleader = ","  " Leader is comma
 let localleader = '\\'  " LocalLeader is \
 
 " Folding
+let g:vim_markdown_folding_disabled=1
 nnoremap <Space> za
 
 " jk is escape
 inoremap jk <esc>
+
+" Quick Insert Mode Commands
+inoremap II <Esc>I
+inoremap AA <Esc>A
+inoremap OO <Esc>o
+inoremap CC <Esc>C
+inoremap SS <Esc>S
+inoremap DD <Esc>dd
+inoremap UU <Esc>u
 
 " Shortcut to Edit .vmirc
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
