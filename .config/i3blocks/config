@@ -4,6 +4,16 @@ command=~/.config/i3blocks/$BLOCK_NAME
 separator_block_width=15
 markup=pango
 
+[arch-update]
+command=~/.config/i3blocks/arch-update/arch-update -q
+interval=3600
+markup=pango
+
+[aur-update]
+command=~/.config/i3blocks/aur-update/aur-update
+interval=3600
+markup=pango
+
 [cpu_usage]
 command=~/.config/i3blocks/cpu_usage/cpu_usage
 label=CPU
@@ -34,3 +44,6 @@ interval=30
 [time]
 command=date '+%a, %b %d %Y  <b>%H:%M</b>'; [[ -z "${BLOCK_BUTTON}" ]] || gsimplecal &
 interval=5
+
+
+

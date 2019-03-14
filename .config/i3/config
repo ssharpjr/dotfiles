@@ -30,11 +30,13 @@ font pango:Ubuntu Mono Nerd Font 8
 
 
 # Refresh Network Manager
+#_#MOD+<F9>,Refresh Network
 bindsym $mod+<F9> $netrefresh
 
 # Set display mode
 set $displayMode "Set display mode [w]ork [l]aptop"
 
+#_#MOD+x,Display Mode
 bindsym $mod+x mode $displayMode
 
 mode $displayMode {
@@ -48,6 +50,7 @@ mode $displayMode {
 # System Mode
 set $systemMode "[R]eboot, [S]hutdown, or [E]xit?"
 
+#_#MOD+Alt+q,Shutdown System
 bindsym $mod+Mod1+q mode $systemMode
 
 mode $systemMode {
@@ -61,38 +64,59 @@ mode $systemMode {
 floating_modifier $mod
 
 # start a terminal
+#_#MOD+Return,Open Terminal
 #bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Return exec urxvt
 
 # kill focused window
+#_#MOD+q,Kill Focused Window
+#_#MOD+Shift+q,Kill Focused Window
 bindsym $mod+q			[con_id="__focused__" instance="^(?!dropdown_).*$"] kill
 bindsym $mod+Shift+q		[con_id="__focused__" instance="^(?!dropdown_).*$"] kill
 
 # Lock screen (Mod1=Alt)
+#_#Control+Alt+l,Lock Screen
 bindsym Control+Mod1+l exec --no-startup-id i3lock -e -t -i /home/ssharp/.wall.png
 
 # start dmenu (a program launcher)
+#_#MOD+d,DMenu
 bindsym $mod+d exec dmenu_run
 
 # change focus
+#_#MOD+h,Focus Left
+#_#MOD+j,Focus Down
+#_#MOD+k,Focus Up
+#_#MOD+l,Focus Right
 bindsym $mod+h focus left
 bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
+#_#MOD+Left,Focus Left
+#_#MOD+Down,Focus Down
+#_#MOD+Up,Focus Up
+#_#MOD+Right,Focus Right
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
+#_#MOD+Shift+h,Move Focused Window Left
+#_#MOD+Shift+j,Move Focused Window Down
+#_#MOD+Shift+k,Move Focused Window Up
+#_#MOD+Shift+l,Move Focused Window Right
 bindsym $mod+Shift+h move left
 bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
+#_#MOD+Shift+Left,Move Focused Window Left
+#_#MOD+Shift+Down,Move Focused Window Down
+#_#MOD+Shift+Up,Move Focused Window Up
+#_#MOD+Shift+Right,Move Focused Window Right
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -102,9 +126,11 @@ bindsym $mod+Shift+Right move right
 # bindsym $mod+Shift+v split h
 
 # split in vertical orientation
+#_#MOD+v,Toggle Split
 bindsym $mod+v split toggle
 
 # enter fullscreen mode for the focused container
+#_#MOD+f,Toggle Fullscreen
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
@@ -113,16 +139,20 @@ bindsym $mod+f fullscreen toggle
 # bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
+#_#MOD+Shift+Space,Toggle Floating
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
+#_#MOD+Space,Toggle Focus Between Tiling and Floating
 bindsym $mod+space focus mode_toggle
 
 # focus the parent container
+#_#MOD+a,Focus Parent Container
 bindsym $mod+a focus parent
 
 # focus the child container
-#bindsym $mod+d focus child
+#_#MOD+Shift+a,Focus Child Container
+bindsym $mod+Shift+a focus child
 
 
 # Scratchpad
@@ -131,9 +161,12 @@ for_window [instance="dropdown"] resize set 625 400
 for_window [instance="dropdown"] move scratchpad
 for_window [instance="dropdown"] border pixel 5
 exec --no-startup-id urxvt -name dropdown -bg [90]black -fg white -fn "xft:Ubuntu Mono Nerd Font:size=13" +sb -e tmux &
+#_#MOD+u,Show Scratchpad
 bindsym $mod+u [instance="dropdown"] scratchpad show; [instance="dropdown"] move position center
 
 # Resize gaps
+#_#MOD+z,Increase Gap Size
+#_#MOD+Shift+z,Decrease Gap Size
 bindsym $mod+z gaps outer current plus 5
 bindsym $mod+Shift+z gaps outer current minus 5
 
@@ -156,6 +189,15 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # App Hot Keys
+#_#MOD+n,Launch File Browser
+#_#MOD+w,Launch Web Browser
+#_#MOD+c,Launch Calculator
+#_#MOD+e, Launch Email Client
+#_#MOD+t, Launch RDP Client (TPI-RDS)
+#_#MOD+Shift+o,Launch RDP Client (TPI-DBSVR01)
+#_#MOD+Shift+d,Launch RDP Client (TPI-DC01)
+#_#MOD+Shift+t,Launch RDP Client
+#_#MOD+m,Launch Music Player
 bindsym $mod+n exec --no-startup-id $filebrowser
 bindsym $mod+w exec --no-startup-id $browser
 bindsym $mod+c exec --no-startup-id $calculator
@@ -251,8 +293,10 @@ workspace $ws2 output DP1-2  # browser on the right
 
 
 # reload the configuration file
+#_#MOD+Shift+c,Reload i3 Configuration File
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+#_#MOD+Shift+r,Reload i3
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 # bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
@@ -282,6 +326,7 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
+#_#MOD+r,Resize Floating Window
 bindsym $mod+r mode "resize"
 
 # Nord theme colors
@@ -312,7 +357,7 @@ set $urgent-bg-color		#bf616a
 
 
 # My Original Theme
-# set $bg-color 	         #2f343f
+# set $bg-color 	   #2f343f
 # set $inactive-bg-color   #2f343f
 # set $text-color          #f3f4f5
 # set $inactive-text-color #676E7D
@@ -344,6 +389,8 @@ bar {
 
 ### Programs to run on startup
 
+# Set Display
+exec --no-startup-id /home/ssharp/.config/scripts/set_display.sh
 # Hide inactive mouse
 exec_always --no-startup-id unclutter -b
 # Compton

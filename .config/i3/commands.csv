@@ -1,0 +1,45 @@
+Control+Alt+l,Lock Screen
+MOD+<F9>,Refresh Network
+MOD+Alt+q,Shutdown System
+MOD+Down,Focus Down
+MOD+Left,Focus Left
+MOD+Return,Open Terminal
+MOD+Right,Focus Right
+MOD+Shift+Down,Move Focused Window Down
+MOD+Shift+Left,Move Focused Window Left
+MOD+Shift+Right,Move Focused Window Right
+MOD+Shift+Space,Toggle Floating
+MOD+Shift+Up,Move Focused Window Up
+MOD+Shift+a,Focus Child Container
+MOD+Shift+c,Reload i3 Configuration File
+MOD+Shift+d,Launch RDP Client (TPI-DC01)
+MOD+Shift+h,Move Focused Window Left
+MOD+Shift+j,Move Focused Window Down
+MOD+Shift+k,Move Focused Window Up
+MOD+Shift+l,Move Focused Window Right
+MOD+Shift+o,Launch RDP Client (TPI-DBSVR01)
+MOD+Shift+q,Kill Focused Window
+MOD+Shift+r,Reload i3
+MOD+Shift+t,Launch RDP Client
+MOD+Shift+z,Decrease Gap Size
+MOD+Space,Toggle Focus Between Tiling and Floating
+MOD+Up,Focus Up
+MOD+a,Focus Parent Container
+MOD+c,Launch Calculator
+MOD+d,DMenu
+MOD+e,Launch Email Client
+MOD+f,Toggle Fullscreen
+MOD+h,Focus Left
+MOD+j,Focus Down
+MOD+k,Focus Up
+MOD+l,Focus Right
+MOD+m,Launch Music Player
+MOD+n,Launch File Browser
+MOD+q,Kill Focused Window
+MOD+r,Resize Floating Window
+MOD+t,Launch RDP Client (TPI-RDS)
+MOD+u,Show Scratchpad
+MOD+v,Toggle Split
+MOD+w,Launch Web Browser
+MOD+x,Display Mode
+MOD+z,Increase Gap Size
