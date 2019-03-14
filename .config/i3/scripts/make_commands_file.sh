@@ -5,5 +5,6 @@ I3COMMANDSFILE="$HOME/.config/i3/commands.csv"
 
 
 echo Reading $I3CONFIGFILE ...
-cat $I3CONFIGFILE | grep "#_#" | cut -d '#' -f 3 > $I3COMMANDSFILE 
+echo "Shortcut,Command" > $I3COMMANDSFILE
+cat $I3CONFIGFILE | grep "#_#" | cut -d '#' -f 3 >> $I3COMMANDSFILE 
 echo Created/Updated $I3COMMANDSFILE
