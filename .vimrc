@@ -36,6 +36,12 @@ Plugin 'junegunn/limelight.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+" Nord Color Theme Overrides
+augroup nord-overrides
+  autocmd!
+  autocmd ColorScheme nord highlight Comment ctermfg=8
+augroup END
+
 " Color Theme Settings
 set background=dark
 colorscheme nord
@@ -163,5 +169,11 @@ augroup configgroup
     autocmd BufEnter *.sh setlocal tabstop=2
     autocmd BufEnter *.sh setlocal shiftwidth=2
     autocmd BufEnter *.sh setlocal softtabstop=2
+    autocmd BufEnter *.txt setlocal wrap
+    autocmd BufEnter *.txt setlocal linebreak
+    autocmd BufEnter *.md setlocal wrap
+    autocmd BufEnter *.md setlocal linebreak
+    autocmd BufEnter *.tex setlocal wrap
+    autocmd BufEnter *.tex setlocal linebreak
 augroup END
 
