@@ -8,18 +8,25 @@
 # for ssh logins, install and configure the libpam-umask package.
 #umask 022
 
-# if running bash
+# Environment Variables
+export EDITOR="vim"
+export VISUAL="vim"
+export TERMINAL="urxvt"
+export BROWSER="google-chrome"
+export READER="zathura"
+# export FILE="ranger"
+
+# Source ~/.bashrc
 if [ -n "$BASH_VERSION" ]; then
-    # include .bashrc if it exists
-    if [ -f "$HOME/.bashrc" ]; then
-	. "$HOME/.bashrc"
-    fi
+  if [ -f "$HOME/.bashrc" ]; then
+    . "$HOME/.bashrc"
+  fi
 fi
 
-# set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/bin" ] ; then
-    PATH="$HOME/bin:$PATH"
+# Set PATH
+if [ -d "$HOME/bin" ]; then
+  PATH="$HOME/bin:$PATH"
 fi
 
-# Start X on login
-[ "$(tty)" = "/dev/tty1" ] && ! pgrep -x cinnamon >/dev/null && exec startx
+# Switch escape and caps if tty:
+sudo -n loadkeys ~/.config/scripts/ttymaps.kmap 2>/dev/null

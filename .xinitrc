@@ -15,5 +15,5 @@ volnoti
 # exec i3
 exec i3
 
-# Switch Escape and CAPS
-sudo -n loadkeys ~/.config/scripts/ttymaps.kmap 2>/dev/null
+# Replace "busy" cursor
+xsetroot -cursor_name left_ptr
