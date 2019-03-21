@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# Weather blocket
+
+
+case $BLOCK_BUTTON in
+	1) "$TERMINAL" -e ~/bin/weather_report.sh ;;
+	3) pgrep -x dunst > /dev/null && notify-send "<b>🌈 Weather module:</b>
+- Click for wttr.in forecast." ;;
+esac
+
+curl -Ss 'https://wttr.in/30813?0&T&Q' | cut -c 16- | head -2 | xargs echo
+

@@ -21,7 +21,8 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'othree/xml.vim'
 " Other Syntax Plugins
 " Plugin 'nelstrom/vim-markdown-folding'
-Plugin 'JamshedVesuna/vim-markdown-preview'
+Plugin 'suan/vim-instant-markdown.git'
+" Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'lervag/vimtex'
 " Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'mboughaba/i3config.vim'
@@ -111,6 +112,11 @@ autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 if has("autocmd")
   filetype plugin indent on
 endif
+" vim-instant-markdown (:InstantMarkdownPreview)
+let g:instant_markdown_slow = 1
+let g:instant_markdown_autostart = 0
+map <localleader>md :InstantMarkdownPreview<CR>
+" vim-markdown-preview (C-m)
 let vim_markdown_preview_hotkey='<C-m>'
 let vim_markdown_preview_github=1
 let vim_markdown_preview_toggle=1

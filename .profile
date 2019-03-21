@@ -14,7 +14,7 @@ export VISUAL="vim"
 export TERMINAL="urxvt"
 export BROWSER="google-chrome"
 export READER="zathura"
-# export FILE="ranger"
+export FILE="vifm"
 
 # Source ~/.bashrc
 if [ -n "$BASH_VERSION" ]; then
@@ -28,5 +28,8 @@ if [ -d "$HOME/bin" ]; then
   PATH="$HOME/bin:$PATH"
 fi
 
+# Start X if i3 is not already running.
+[ "$(tty)" = "/dev/tty1" ] && ! pgrep -x i3 > /dev/null && exec startx
+
 # Switch escape and caps if tty:
-sudo -n loadkeys ~/.config/scripts/ttymaps.kmap 2>/dev/null
+# sudo -n loadkeys ~/.config/scripts/ttymaps.kmap 2>/dev/null

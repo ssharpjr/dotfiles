@@ -8,6 +8,9 @@ case $- in
       *) return;;
 esac
 
+# Set vim mode in bash
+set -o vi
+
 
 # Variables
 export VISUAL=vim

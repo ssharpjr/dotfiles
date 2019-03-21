@@ -1,44 +1,48 @@
 # i3blocks config file
 
-command=~/.config/i3blocks/$BLOCK_NAME
+command=~/.config/i3blocks/scripts/$BLOCK_NAME
 separator_block_width=15
 markup=pango
 
+[news]
+label=📰
+interval=3600
+signal=6
+
 [arch-update]
-command=~/.config/i3blocks/arch-update/arch-update -q
 interval=3600
 markup=pango
 
 [aur-update]
-command=~/.config/i3blocks/aur-update/aur-update
 interval=3600
 markup=pango
 
-[cpu_usage]
-command=~/.config/i3blocks/cpu_usage/cpu_usage
-label=CPU
-interval=5
-min_width=CPU 100.00%
-
-[memory]
-command=~/.config/i3blocks/memory/memory
-label=MEM
-instance=mem
-interval=30
-
-[ip]
-command=ip add | grep dynamic | awk '{print "IP:" $2}'
-interval=once
-color=#91e78b
+# [ip]
+# command=ip add | grep dynamic | awk '{print "IP:" $2}'
+# interval=once
+# color=#91e78b
 
 [weather]
-command=curl -Ss 'https://wttr.in/30813?0&T&Q' | cut -c 16- | head -2 | xargs echo
+# command=curl -Ss 'https://wttr.in/30813?0&T&Q' | cut -c 16- | head -2 | xargs echo
 interval=3600
 color=#A4C2F4
 
+[cpu]
+label=💻
+interval=5
+
+[memory]
+label=🧠
+instance=mem
+interval=30
+
+[volume]
+interval=once
+signal=10
+
 [battery]
-command=~/.config/i3blocks/battery/battery
-label=BATT
+command=~/.config/i3blocks/scripts/battery BAT0
+# label=BATT
 interval=30
 
 [time]

@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Print current average CPU usage
+
+case $BLOCK_BUTTON in
+	1) notify-send "<b>🖥 CPU hogs</b>:
+$(ps axch -o cmd:15,%cpu --sort=-%cpu | head)" ;;
+	3) notify-send "<b>🖥 CPU module:</b>
+- Shows CPU usage and temperature.
+- Click to show intensive processes.
+- % is of single core." ;;
+esac
+
+cpu_usage="$((100-$(mpstat 1 1 | awk '/^Average:/ {print $12}'| cut -d '.' -f1)))"
+cpu_temp="$(sensors | awk '/Core 0/ {print $3}')"
+
+echo $cpu_usage% $cpu_temp

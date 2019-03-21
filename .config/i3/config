@@ -391,7 +391,7 @@ bar {
 ### Programs to run on startup
 
 # Set Display
-exec --no-startup-id /home/ssharp/.config/scripts/set_display.sh
+exec --no-startup-id /home/ssharp/.config/scripts/set_display.sh &
 # Hide inactive mouse
 exec_always --no-startup-id unclutter -b
 # Compton
@@ -399,8 +399,8 @@ exec_always --no-startup-id compton -b
 # Move back to Workspace 1
 exec_always --no-startup-id i3-msg workspace $ws1
 # Applets
-exec --no-startup-id nm-applet
-exec --no-startup-id blueberry-tray
+exec --no-startup-id nm-applet &
+exec --no-startup-id blueberry-tray &
 # Set background image
 exec_always --no-startup-id feh --bg-scale $HOME/.wall.png
 # Other programs
