@@ -7,6 +7,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Plugins
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
@@ -46,9 +48,14 @@ augroup END
 " Color Theme Settings
 set background=dark
 colorscheme nord
+" Airline
 let g:airline_theme='nord'
 set laststatus=2
 let g:airline_powerline_fonts = 1
+" Enable the list of buffers
+let g:airline#extensions#tabline#enabled = 1
+" Show just the filename
+let g:airline#extensions#tabline#fnamemod = ':t'
 
 " Goyo/Limelight
 let g:limelight_conceal_ctermfg = 'gray'
@@ -74,6 +81,30 @@ set clipboard=unnamedplus
 " REMAPS
 let mapleader = ","  " Leader is comma
 let localleader = '\\'  " LocalLeader is \
+
+" Buffers and Windows
+set hidden
+nmap <leader>T :enew<CR>
+nmap <leader>l :bnext<CR>
+nmap <leader>h :bprevious<CR>
+nmap <leader>bq :bp <BAR> bd #<CR>
+nmap <leader>bl :ls<CR>
+" CtrlP
+let g:ctrlp_working_path_mode = 'r'
+nmap <leader>p :CtrlP<CR>
+nmap <leader>bb :CtrlPBuffer<CR>
+nmap <leader>bm :CtrlPMixed<CR>
+nmap <leader>bs :CtrlPMRU<CR>
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site)$',
+  \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg)$',
+\}
+" Buffergator
+let g:buffergator_viewport_split_policy = 'R'
+let g:buffergator_suppress_keymaps = 1
+nmap <leader>jj :BuffergatorMruCyclePrev<CR>
+nmap <leader>kk :BuffergatorMruCycleNext<CR>
+nmap <leader>bl :BuffergatorOpen<CR>
 
 " Folding
 let g:vim_markdown_folding_disabled=1

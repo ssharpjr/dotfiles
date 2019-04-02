@@ -1,7 +1,13 @@
 # Bash Aliases
+
+# Editors
+alias v="vim"
+alias e="vim"
+
 # Youtube
 alias yt="youtube-dl --add-metadata -i"  # Download video link
-alias yta="yt -x -f bestaudio/best"  # Download audio only
+alias yta="yt -x --audio-format mp3  --embed-thumbnail"  # Download audio only
+alias ytapl="yt -x --audio-format mp3  --embed-thumbnail --write-description --download-archive archive.txt"  # Download playlist
 alias YT="youtube-viewer"
 
 # Configs to edit

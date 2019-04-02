@@ -12,7 +12,7 @@
 export EDITOR="vim"
 export VISUAL="vim"
 export TERMINAL="urxvt"
-export BROWSER="google-chrome"
+export MYBROWSER="google-chrome"
 export READER="zathura"
 export FILE="vifm"
 
@@ -27,6 +27,9 @@ fi
 if [ -d "$HOME/bin" ]; then
   PATH="$HOME/bin:$PATH"
 fi
+
+# Start mpd
+[ ! -s ~/.config/mpd/pid ] && mpd
 
 # Start X if i3 is not already running.
 [ "$(tty)" = "/dev/tty1" ] && ! pgrep -x i3 > /dev/null && exec startx
