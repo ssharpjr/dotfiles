@@ -80,7 +80,7 @@ bindsym Control+Mod1+l exec --no-startup-id i3lock -e -t -i /home/ssharp/.wall.p
 
 # start dmenu (a program launcher)
 #_#MOD+d,DMenu
-bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec dmenu_run -i
 
 # change focus
 #_#MOD+h,Focus Left

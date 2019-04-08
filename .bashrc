@@ -135,3 +135,4 @@ export WRITEDIR=~/Dropbox/Writing
 
 # PATH=$PATH:/home/ssharp/dev/rpi/kernel-dev/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
 # PATH=$PATH:/home/ssharp/dev/rpi/kernel-dev/rpf/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
+

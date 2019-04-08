@@ -88,7 +88,7 @@ nmap <leader>T :enew<CR>
 nmap <leader>l :bnext<CR>
 nmap <leader>h :bprevious<CR>
 nmap <leader>bq :bp <BAR> bd #<CR>
-nmap <leader>bl :ls<CR>
+" nmap <leader>bl :ls<CR>
 " CtrlP
 let g:ctrlp_working_path_mode = 'r'
 nmap <leader>p :CtrlP<CR>
@@ -96,7 +96,7 @@ nmap <leader>bb :CtrlPBuffer<CR>
 nmap <leader>bm :CtrlPMixed<CR>
 nmap <leader>bs :CtrlPMRU<CR>
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site)$',
+  \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site$',
   \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg)$',
 \}
 " Buffergator
@@ -208,9 +208,12 @@ augroup configgroup
     autocmd BufEnter *.sh setlocal softtabstop=2
     autocmd BufEnter *.txt setlocal wrap
     autocmd BufEnter *.txt setlocal linebreak
+    autocmd BufEnter *.txt setlocal spell spelllang=en_us
     autocmd BufEnter *.md setlocal wrap
     autocmd BufEnter *.md setlocal linebreak
+    autocmd BufEnter *.md setlocal spell spelllang=en_us
     autocmd BufEnter *.tex setlocal wrap
     autocmd BufEnter *.tex setlocal linebreak
+    autocmd BufEnter *.tex setlocal spell spelllang=en_us
 augroup END
 

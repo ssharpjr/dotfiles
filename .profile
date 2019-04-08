@@ -28,6 +28,11 @@ if [ -d "$HOME/bin" ]; then
   PATH="$HOME/bin:$PATH"
 fi
 
+# Add directories to PATH
+if [ -f ~/.bash_paths ]; then
+  . ~/.bash_paths
+fi
+
 # Start mpd
 [ ! -s ~/.config/mpd/pid ] && mpd
 
