@@ -12,8 +12,9 @@ numlockx &
 # OSD
 volnoti
 
+# Replace "busy" cursor
+xsetroot -cursor_name left_ptr
+
 # exec i3
 exec i3
 
-# Replace "busy" cursor
-xsetroot -cursor_name left_ptr

@@ -14609,3 +14609,65 @@ Apr 07 17:56 : exception: RTIOThread could not get realtime scheduling, continui
 Apr 07 17:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Apr 07 21:47 : client: [0] opened from 127.0.0.1:39080
 Apr 07 21:48 : client: [0] closed
+Apr 07 23:07 : player: played "YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Dark Fantasy Music-sOpZchrovvE.mp3"
+Apr 08 09:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 08 09:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 08 10:39 : client: [0] opened from 127.0.0.1:50738
+Apr 08 10:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 08 11:41 : player: played "YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Steampunk and Futuristic Music-_-fkM4K_26U.mp3"
+Apr 08 12:10 : client: [0] closed
+Apr 08 12:10 : client: [1] opened from 127.0.0.1:34400
+Apr 08 12:13 : client: [1] closed
+Apr 08 12:13 : client: [2] opened from 127.0.0.1:34816
+Apr 08 12:20 : player: played "YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Dark Fantasy Music-sOpZchrovvE.mp3"
+Apr 08 12:21 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Illusions and Smoke-U0yUBkFDEG0.mp3"
+Apr 08 13:48 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Illusions and Smoke-U0yUBkFDEG0.mp3"
+Apr 08 13:51 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Lampar the Steampunk Planet-sy3AUqT47pw.mp3"
+Apr 08 13:55 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Morioch the Elder (animated)-Z3PhPgpPznA.mp3"
+Apr 08 13:59 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow Empire-dCUSa83Vei0.mp3"
+Apr 08 14:06 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow King-eTyFRjCJaWg.mp3"
+Apr 08 14:11 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Underground City-1uUTXJEtG5k.mp3"
+Apr 08 14:15 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Zorah the Elder-6PZNJ_s7Ayg.mp3"
+Apr 08 14:18 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Battle in the Sky-cXk_inWxU1s.mp3"
+Apr 08 14:22 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Sky Pirates-UZQ9KgH6Z9M.mp3"
+Apr 08 14:27 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Steampunk Spies-3T-tSEwHw4k.mp3"
+Apr 08 14:30 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Futuristic City Music - Steam City-RURgvx0nVxA.mp3"
+Apr 08 14:33 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Council of the Steampunk Nobles-iDDc3WTBmsE.mp3"
+Apr 08 14:36 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Darkmor the Pirate-WVCsqjZkNzg.mp3"
+Apr 08 14:40 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dawn of Invention-LTM79-q3Ku0.mp3"
+Apr 08 14:44 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deep Sea Voyage-amV8Fm_LLQo.mp3"
+Apr 08 14:48 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deeplamp Town-z2GyJu4_1qk.mp3"
+Apr 08 14:52 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dwarven Factory-UEIpEaolZd0.mp3"
+Apr 08 14:55 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Floating Village-KACj5QqDjjs.mp3"
+Apr 08 14:58 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Gears and Cogs-Gfg2ZTQrQ0o.mp3"
+Apr 08 15:02 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Hot Air Balloons-IhYEDdjTqmM.mp3"
+Apr 08 15:06 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Sky Cadet Academy-ejHuZywrW_Y.mp3"
+Apr 08 15:10 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Adventure-K3uxxpsbVgA.mp3"
+Apr 08 15:15 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Airships-Wi5FhFEY3mM.mp3"
+Apr 08 15:20 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Mechanics-ZDNc1b3l-kI.mp3"
+Apr 08 15:23 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Fairies-Qp7WN2xlfiY.mp3"
+Apr 08 16:59 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Lady-qqy3GUQdHxE.mp3"
+Apr 08 20:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 08 20:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 08 23:16 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Lady-qqy3GUQdHxE.mp3"
+Apr 09 08:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 08:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 08:33 : client: [0] opened from 127.0.0.1:34464
+Apr 09 08:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 08:38 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Lady-qqy3GUQdHxE.mp3"
+Apr 09 08:41 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Gentleman-zWKOoDEnJbs.mp3"
+Apr 09 08:45 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Inventor-ycUWXDudIWQ.mp3"
+Apr 09 08:48 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Resistance-CImKHj4Q3ew.mp3"
+Apr 09 08:52 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Sky Captain-E2We_LFLHpQ.mp3"
+Apr 09 08:55 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Steam Town-MuRZn5CZ-24.mp3"
+Apr 09 08:58 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Time Machine-d89zr6SDrZM.mp3"
+Apr 09 09:02 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Techno Music - Sky Ships-YzN7PZWit-4.mp3"
+Apr 09 09:03 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Illusions and Smoke-U0yUBkFDEG0.mp3"
+Apr 09 12:02 : player: played "YT/Odysseus/Darksynth/Ghosts - A Cyberpunk Mix-UkMFNx3WRbM.mp3"
+Apr 09 15:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 15:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 17:15 : player: played "YT/Odysseus/Darksynth/Ghosts - A Cyberpunk Mix-UkMFNx3WRbM.mp3"
+Apr 09 17:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 17:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 17:20 : client: [0] opened from 127.0.0.1:59762
+Apr 09 17:21 : client: [0] closed
