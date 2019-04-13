@@ -205,6 +205,7 @@ bindsym $mod+e exec --no-startup-id $email
 bindsym $mod+t exec --no-startup-id remmina -c ~/.remmina/TPI_RDS_ACCT.remmina
 bindsym $mod+Shift+o exec --no-startup-id remmina -c ~/.remmina/TPI-DBSVR01.remmina
 bindsym $mod+Shift+d exec --no-startup-id remmina -c ~/.remmina/TPI-DC01.remmina
+bindsym $mod+Shift+e exec --no-startup-id remmina -c ~/.remmina/TPI-EX2008R2.remmina
 bindsym $modShift+t exec --no-startup-id $rdp
 bindsym $mod+m exec --no-startup-id $musicplayer
 
@@ -285,6 +286,7 @@ for_window [instance="Wine"] move position 10 10
 for_window [class="VirtualBox Manager"] floating enable
 
 # Start workspaces on certain displays (if they exist)
+workspace $ws1 output primary  # stay on primary
 workspace $ws4 output primary  # stay on primary
 workspace $ws3 output DP1-1  # email on the left
 # workspace $ws8 output DP1-1 # games on the left
@@ -390,18 +392,17 @@ bar {
 
 ### Programs to run on startup
 
-# Set Display
-exec --no-startup-id /home/ssharp/.config/scripts/set_display.sh &
 # Hide inactive mouse
-exec_always --no-startup-id unclutter -b
+exec --no-startup-id unclutter -b
 # Compton
-exec_always --no-startup-id compton -b
+exec --no-startup-id compton -b
 # Move back to Workspace 1
-exec_always --no-startup-id i3-msg workspace $ws1
+exec --no-startup-id i3-msg workspace $ws1
 # Applets
-exec --no-startup-id nm-applet &
-exec --no-startup-id blueberry-tray &
+exec --no-startup-id nm-applet
+exec --no-startup-id blueberry-tray
+exec --no-startup-id redshift-gtk
 # Set background image
-exec_always --no-startup-id feh --bg-scale $HOME/.wall.png
+exec --no-startup-id feh --bg-scale $HOME/.wall.png
 # Other programs
-exec --no-startup-id dropbox &
+exec --no-startup-id dropbox

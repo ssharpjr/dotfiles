@@ -33,11 +33,12 @@ if [ -f ~/.bash_paths ]; then
   . ~/.bash_paths
 fi
 
+# Switch escape and caps if tty:
+sudo -n loadkeys ~/.config/scripts/ttymaps.kmap
+
 # Start mpd
 [ ! -s ~/.config/mpd/pid ] && mpd
 
 # Start X if i3 is not already running.
 [ "$(tty)" = "/dev/tty1" ] && ! pgrep -x i3 > /dev/null && exec startx
 
-# Switch escape and caps if tty:
-# sudo -n loadkeys ~/.config/scripts/ttymaps.kmap 2>/dev/null

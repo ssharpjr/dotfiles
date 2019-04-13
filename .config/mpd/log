@@ -14671,3 +14671,813 @@ Apr 09 17:19 : exception: RTIOThread could not get realtime scheduling, continui
 Apr 09 17:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Apr 09 17:20 : client: [0] opened from 127.0.0.1:59762
 Apr 09 17:21 : client: [0] closed
+Apr 09 21:41 : client: [1] opened from 127.0.0.1:60742
+Apr 09 21:41 : player: played "YT/Odysseus/Darksynth/Ghosts - A Cyberpunk Mix-UkMFNx3WRbM.mp3"
+Apr 09 21:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 21:45 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Illusions and Smoke-U0yUBkFDEG0.mp3"
+Apr 09 21:49 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Lampar the Steampunk Planet-sy3AUqT47pw.mp3"
+Apr 09 21:53 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Morioch the Elder (animated)-Z3PhPgpPznA.mp3"
+Apr 09 21:57 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow Empire-dCUSa83Vei0.mp3"
+Apr 09 22:01 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow King-eTyFRjCJaWg.mp3"
+Apr 09 22:25 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Underground City-1uUTXJEtG5k.mp3"
+Apr 09 22:29 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Zorah the Elder-6PZNJ_s7Ayg.mp3"
+Apr 09 22:33 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Battle in the Sky-cXk_inWxU1s.mp3"
+Apr 09 22:37 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Sky Pirates-UZQ9KgH6Z9M.mp3"
+Apr 09 22:41 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Steampunk Spies-3T-tSEwHw4k.mp3"
+Apr 09 22:44 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Futuristic City Music - Steam City-RURgvx0nVxA.mp3"
+Apr 09 22:48 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Council of the Steampunk Nobles-iDDc3WTBmsE.mp3"
+Apr 09 22:51 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Darkmor the Pirate-WVCsqjZkNzg.mp3"
+Apr 09 23:12 : client: [1] closed
+Apr 09 23:20 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dawn of Invention-LTM79-q3Ku0.mp3"
+Apr 09 23:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 23:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 23:39 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dawn of Invention-LTM79-q3Ku0.mp3"
+Apr 10 08:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 08:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 08:11 : client: [0] opened from 127.0.0.1:56184
+Apr 10 10:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 10:16 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dawn of Invention-LTM79-q3Ku0.mp3"
+Apr 10 10:20 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deep Sea Voyage-amV8Fm_LLQo.mp3"
+Apr 10 10:24 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deeplamp Town-z2GyJu4_1qk.mp3"
+Apr 10 10:28 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dwarven Factory-UEIpEaolZd0.mp3"
+Apr 10 10:31 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Floating Village-KACj5QqDjjs.mp3"
+Apr 10 10:34 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Gears and Cogs-Gfg2ZTQrQ0o.mp3"
+Apr 10 10:38 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Hot Air Balloons-IhYEDdjTqmM.mp3"
+Apr 10 10:42 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Sky Cadet Academy-ejHuZywrW_Y.mp3"
+Apr 10 10:47 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Adventure-K3uxxpsbVgA.mp3"
+Apr 10 10:51 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Airships-Wi5FhFEY3mM.mp3"
+Apr 10 10:56 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Mechanics-ZDNc1b3l-kI.mp3"
+Apr 10 13:27 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Fairies-Qp7WN2xlfiY.mp3"
+Apr 10 13:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 13:36 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 14:30 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Fairies-Qp7WN2xlfiY.mp3"
+Apr 10 14:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 14:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 15:07 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Fairies-Qp7WN2xlfiY.mp3"
+Apr 10 15:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 15:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 16:58 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Fairies-Qp7WN2xlfiY.mp3"
+Apr 10 16:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 16:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 16:59 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Fairies-Qp7WN2xlfiY.mp3"
+Apr 10 19:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 19:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 11 15:18 : client: [0] opened from 127.0.0.1:47762
+Apr 11 15:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 11 15:22 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Fairies-Qp7WN2xlfiY.mp3"
+Apr 11 15:27 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Lady-qqy3GUQdHxE.mp3"
+Apr 11 15:30 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Gentleman-zWKOoDEnJbs.mp3"
+Apr 11 15:34 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Inventor-ycUWXDudIWQ.mp3"
+Apr 11 15:38 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Resistance-CImKHj4Q3ew.mp3"
+Apr 11 15:41 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Sky Captain-E2We_LFLHpQ.mp3"
+Apr 11 15:44 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Steam Town-MuRZn5CZ-24.mp3"
+Apr 11 15:48 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Time Machine-d89zr6SDrZM.mp3"
+Apr 11 15:52 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Techno Music - Sky Ships-YzN7PZWit-4.mp3"
+Apr 11 15:56 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Illusions and Smoke-U0yUBkFDEG0.mp3"
+Apr 11 15:59 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Lampar the Steampunk Planet-sy3AUqT47pw.mp3"
+Apr 11 16:03 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Morioch the Elder (animated)-Z3PhPgpPznA.mp3"
+Apr 11 16:07 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow Empire-dCUSa83Vei0.mp3"
+Apr 11 16:11 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow King-eTyFRjCJaWg.mp3"
+Apr 11 16:13 : client: [0] closed
+Apr 12 07:29 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Underground City-1uUTXJEtG5k.mp3"
+Apr 12 08:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 12 08:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Epic Japanese Music & Battle Music-TWSKFy6ULL0.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Epic Dwarf Music-FxchcNLWpH4.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Christmas Music & Winter Fairytale Music-cXzITryOG3g.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Medieval Instrumental Music  - Medieval Life-DEeAN471boQ.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Tropical, Caribbean, and Hawaiian Music-pz1BosPBGlo.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Mystery Music-f5B6EQkg0F8.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Scottish Music and Celtic Music-oMgQ7x2T9Yg.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Elf Music-6tI-NibonNo.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Spooky Music-R9-E-c1ONV0.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Beautiful Anime Piano Music-nwh_AU3CvVQ.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Medieval Instrumental Music - Medieval Camelot-LgtRqwfJGbI.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Forest Music & Fantasy Music-U2_x4svbX_o.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Dark Waltz Music & Masquerade Music-t3ORBn4YLw0.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Halloween Music--EZ517Ls_FE.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Greek Mythology Music-R-t66icl1YA.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Dark Fantasy Music-sOpZchrovvE.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Irish Music _ Halflings & Hobbits-MEYI1Vw3Idc.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Prehistoric Music-cV-p2DYK7Gc.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Epic Instrumental Music-9-5s9-Tvxdw.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Dark Space Music-MbCTw8bMG-I.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Ancient Egyptian Music-GI6dOS5ncFc.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Happy Music Instrumental-_2LKHwQ-j2M.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Dark Winter Music & Gothic Music-lPUTddT8APc.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Spooky Music & Magical Music-MfwOJWDj18k.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Gothic Music Instrumental-jYU6dPE84h8.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Vampire Music-c55abobePnE.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Creepy Circus & Carnival Music-Jr9JVhr4R5Q.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Fairy Music-O22TbAiLpjI.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Beautiful Japanese Instrumental Music-lyieFu7BnHE.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Dungeons & Dragons Music-m_8QMAChwtg.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Halloween Music and Dark Autumn Music-3qd7V1epoDM.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/3 Hours of Egyptian Music & Arabian Music-blGoTO7hHHY.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Medieval Music - Knights of the Round Table-I6TcyIUGXQU.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Japanese Spa Music & Zen Music-hOW_UqfdAY4.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Beautiful Mermaid Music-jkVFQQ7C8GM.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/3 Hours of Medieval Music & RPG Music-c-To5-DZfLI.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Jungle Music and Tribal Music-URxC75G3nJI.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Steampunk and Futuristic Music-_-fkM4K_26U.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/3 Hours of Celtic Music-zGkpWhbbNfY.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Chinese Festival Music-U4FDAU_hER0.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/4 Hours of Asian Spa Music-uMo9gTGVd-c.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Forest Music-xHP2GgxYddY.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Dark Winter Music & Medieval Fantasy Music-6Y2WSKU2Nig.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Seasons Music (12 Months & Holidays)-d7g9kewXvlY.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of RPG Towns and Villages Music-xu2pESvXcmM.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Epic Chinese Music & Beautiful Chinese Music-2rcckLnrAbg.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Beautiful Fantasy Music-khBb058m9dI.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Dark Lullaby Music & Spooky Doll Music-LvwyevIoE4E.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Dark Mystery Music-H5vEXKAHSlE.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Spooky Carnival Music-AmSyvXkhmXs.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Dark Music-vKZjcoryA2E.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of RPG Music-vUN_puxFydk.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Celtic Music-CbFeVf6-Pfk.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Creepy Carnival Music & Circus Music-H8s7IAayn3Y.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/5 Hours of Christmas Music & Winter Music-IYtrPWA5a9U.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Medieval and Fantasy Inn Music-VnwD8zsGl2Y.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Irish Music-GmYOSoVfi-A.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Relaxing Chinese Music-H2Pvd3zKyTc.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Medieval RPG Music & Game Music-KYA8XGxSHSM.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of African Folk Music Instrumental _ Marimba, Kalimba, & Drums-9b81mWYIyTo.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Russian Folk Music and Slavic Music-PlD84j7DcJU.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Christmas Music & Fantasy Music-34Zk2E2iZ8U.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Forest Elf Music & Dark Elf Music-asyvA7XjZnw.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Arabian Music and Egyptian Music-f4izWydINP8.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Chinese Music-s8-YhCYSG9s.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Beautiful Instrumental Music--vuvA0HEJds.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Steampunk Music-Ze2NiBA-YLA.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Roman Music-j_ki9tw9rUQ.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Fairytale Music-ahZ2bbhY4jo.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of World Hybrid Music-RpImq06Tk3M.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Celtic Tribal Music & Fantasy Music-LgYnsNGRSy4.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Happy Music-gUCcI-7wlCM.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Ancient Civilizations Music and World Music-TpA17Oy0nK8.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Medieval Music - Medieval Times-HQMiLezKPNY.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Mermaid Music-KE20r9WSM8g.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Halloween Music & Spooky Music-Vq6A9z0C3wk.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of World Instrumental Music-NZX8gLJlGa0.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/5 Hours of Halloween Music and Spooky Music-_X3RZzmnL2M.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Asian Music Instrumental-YLbrci545YU.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Arabian Music and Middle Eastern Music-kpJIt4_DW6U.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of European Folk Music-pojy5d7lwtY.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Old Western Music & Cowboy Music-dDJQ-jqHFm0.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Creepy Doll Music-6VKYzTu2v3k.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Winter Music-RmtykgzHolM.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Beautiful Fairy Music-a34vTj6-ok0.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Viking Music & Norse Music-pm7QtSXNcno.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Native American Music-H-J-3zb5qTo.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Chinese Music & Japanese Music-Ov5lG2FJ-Pk.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Wild Western Music-hUXf1TDEuFM.mp3
+Apr 12 15:08 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Epic Pirate Music & Pirate Accordion Music-uCfu_Yh77D4.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Noble Quarters-ygq2pdhBu-o.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Lamorak-Qx-2931Dm5U.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Royal Lands-qwN4g5lNUG0.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Knights of Blackhall-AO862NUM3CY.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Medieval Travelers-3wQ-mWK85yY.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Renaissance Music - Medieval Faire-xxYU_k8-Fb4.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Dark Dungeon-LVTWlwNNt4c.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Celtic Music Instrumental - Lady of the Lake-2oclswdoCy8.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Dragon's Peak-RFijL5xqGf0.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Timber Town-uzFSc_78UY4.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Royal Castle-z2V4Rn8mHIE.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Waltz Music - The Royal Ball--5L2UwOzk-A.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Black Wolf's Inn-LtDMBtjyq9A.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Kay-Zzsd6C5V5Ik.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Gareth-O3wtEUT4oTo.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Gawain's Inn-IV4z3gIbIQ8.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Silverdawn Village-jt5rFBZDCc4.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Troubadour-KZ6ykg0TYug.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Czech Medieval Music - Czech Castle-rND8mDngUss.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Fantasy Medieval Music - Sir Morien-eQ82Tnmv6kU.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Bors the Younger-negNZKLf9cg.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Fantasy Music - Medieval Whispers-N0EdtGhQyww.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Agravain-W5L5WEBHEqM.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Fantasy Medieval Music - Sir Palamedes-AVxwywx5wWI.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/World Fusion Music - World Minstrels-YPjYrRffoUU.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Warrior's Heart Inn-hgrRYM-uWhY.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Medieval Princess-qDp3yul1grE.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Red Dragon's Inn-pWqV3mWNcQM.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Celtic Music - Minstrel of the Misty Woods-TBpHO1SFjCI.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Dark Celtic Music - Morgan Le Fay-5NCzyyVa3gk.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Medieval Realm-k7ggXnkS0hw.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Lancelot-skiGszZUXEU.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Happy Medieval Music - Court Jester-pAy6BfwfSOQ.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Medieval Market-46kFG7JwhDI.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Epic Medieval Music - Knights of the Realm-BFUxqbNY4Mo.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - White Falcon's Inn-JPH3ZqqxtFQ.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sword in the Stone-VAu_no-uT-o.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Beautiful Medieval Music - The Beauteous Maiden-BSkEofsiuQ4.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Inn Music - Seaside Tavern-qklByQJWyLk.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Riverbard Tavern-Eqbr1hIOKvw.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Kitchen Hearth-d2aBafpXRIw.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Traveler's Inn-Bez5VjTvT0A.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Bedivere-vLixhw9Y1s4.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Lantern's Lodge-pNjOf4WqgSY.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Elyan the White-KZ39JItRzY0.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Fantasy Music - Claystone Ruins-9PkSyMVyPeQ.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Merlin's Study-UoH9M1JQNoo.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Knights of the Round Table-Pf9hFlljpIk.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Chancellor---AsFcmaJos.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Fantasy Music - Blue Alpine Village-my8lI8PZf04.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Medieval Festival-oiOjIaoVPVY.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Bridgewell-C2jtvr0W-Ls.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Blacksmith's Forge-jhlncTqYdZ4.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Holy Grail Music - Quest for the Holy Grail-5y0stqyAivo.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Gregorian Chant Music - Monks of the Monastery-YMxY21UJR-8.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - King Arthur-sxd7G429nD0.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Gregorian Chant Music - Monks of the Dark Abbey-yBHg9T9j4qU.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Gawain-xifn82EqYNk.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Celtic Tavern Music - Two Moon's Inn-cIYXyfi5bzA.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Hooded Rogue Inn-EmYjMUfIHqI.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Celtic Music Instrumental - Avalon-3IvcaCiwrLI.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Royal Scribe-nDqlINXPkoc.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Galahad-hPcFTkwa75g.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Minstrel Music - English Bard-fAohiRL1_nI.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Ironshield Inn-h-KDEmuJsIw.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Lucan-m_eZteSYXDo.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Glowing Ember's Inn-2MozkVrpJTE.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Black Knight-JsNDOkjDia0.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Lionel-lbO0GY0F_6k.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Wild Boar's Inn-t2rs-OyJ-Q8.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Folk Music - Mountain Storm-DnV7XqTzPe4.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Oldwood Village-zXU0v35EWKM.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Dragon Music - Dragon Cliffs-xpveVmL3X4g.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Dagonet-OqkStIJHVfY.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Beautiful Medieval Music - Bridge of the Ancients-v3XezHkIS3w.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Dark Celtic Music - Sir Mordred-lGF1uHVIk1Q.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Celtic Instrumental Music - Darkwood Forest-U6ugBjgTjes.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Arthur Pendragon-L8wjR2wj9ks.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Weaver's Town-iKsdO6_Xs-U.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Village of Emerdale-fqTFZPn5xkM.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Fantasy Music - Sanctuary of Winter-ZGOYchPtWtk.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Medieval Waltz-MJumvQvAr2s.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Tristan-Ia26msaMeHE.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Innkeeper-UtI-uf-VXG0.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Queen Guinevere-B6BHc6aFQsA.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Noble Oak Manor-CwZberjSDiw.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Excalibur-jT23HQabjaQ.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Court Minstrel-rCYyx8b13cA.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Young Squire-sIfLefWKE1I.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Percival-CAT0BBlSXMY.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Cobblestone Village-jZ7a1yPaJh0.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Mistgate-Wql4nZkqG0g.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Castle Music - King Arthur's Court-UON27Kydqsw.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Folk Music - Camelot-_YQpacAuhX8.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Minstrel Music - Castle Bard-JP_TUk88O_s.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Battle Music - Dragon's Lair-1RBj-Yc4okY.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Stonecrest Village-jDZgFn_7Nvs.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Medieval England-hCkr_6-vfaI.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Dark Medieval Music - Castle of Ruins-xFqonixibUU.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Minstrel Music - Minstrels of Windsong-ujZyTmIeYs0.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Instrumental Music - Uther Pendragon-A9nJJPjFBz8.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Medieval Village-pdpnb7-lew0.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Lady Morgana-GwjzL-X200c.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Fantasy Music - The Old Bridge-tUi4_w57Au0.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Old Cobbler's Inn--llB_06m7p4.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Hector de Maris-TgijmXZpg6I.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Brown Fox Inn-d3KdtAJn7tI.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Happy Medieval Music - King's Banquet-Ax-vsT3DyXc.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Wandering Bard-EyXgMXNkdf0.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Medieval Castle-X8xZ4S-3lH0.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Wizard Music - Merlin the Wizard-hhHKPTT1dyA.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Haunted Ferryman-8AbxCmIw4U0.mp3
+Apr 12 15:09 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Forester's Hut-69AlA-i1hIU.mp3
+Apr 12 15:11 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Court Minstrel-rCYyx8b13cA.webm
+Apr 12 15:11 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Court Minstrel-rCYyx8b13cA.mp3
+Apr 12 15:13 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Court Minstrel-rCYyx8b13cA.mp3
+Apr 12 15:14 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Court Minstrel-rCYyx8b13cA.webm
+Apr 12 15:14 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Minstrel Music - Castle Bard-JP_TUk88O_s.webm
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Court Minstrel-rCYyx8b13cA.mp3
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Minstrel Music - Castle Bard-JP_TUk88O_s.mp3
+Apr 12 15:14 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Minstrel Music - Castle Bard-JP_TUk88O_s.webm
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Troubadour-KZ6ykg0TYug.mp3
+Apr 12 15:14 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Wandering Bard-EyXgMXNkdf0.webm
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Minstrel Music - Castle Bard-JP_TUk88O_s.mp3
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Wandering Bard-EyXgMXNkdf0.mp3
+Apr 12 15:14 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Wandering Bard-EyXgMXNkdf0.webm
+Apr 12 15:14 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Minstrel Music - Minstrels of Windsong-ujZyTmIeYs0.webm
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Minstrel Music - Minstrels of Windsong-ujZyTmIeYs0.mp3
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Wandering Bard-EyXgMXNkdf0.mp3
+Apr 12 15:14 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Minstrel Music - Minstrels of Windsong-ujZyTmIeYs0.webm
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Celtic Music - Minstrel of the Misty Woods-TBpHO1SFjCI.mp3
+Apr 12 15:14 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Celtic Music - Minstrel of the Misty Woods-TBpHO1SFjCI.webm
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Minstrel Music - Minstrels of Windsong-ujZyTmIeYs0.mp3
+Apr 12 15:14 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Celtic Music - Minstrel of the Misty Woods-TBpHO1SFjCI.webm
+Apr 12 15:14 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Innkeeper-UtI-uf-VXG0.webm
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Celtic Music - Minstrel of the Misty Woods-TBpHO1SFjCI.mp3
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Innkeeper-UtI-uf-VXG0.mp3
+Apr 12 15:14 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Innkeeper-UtI-uf-VXG0.webm
+Apr 12 15:14 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Glowing Ember's Inn-2MozkVrpJTE.webm
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Glowing Ember's Inn-2MozkVrpJTE.mp3
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Innkeeper-UtI-uf-VXG0.mp3
+Apr 12 15:14 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Glowing Ember's Inn-2MozkVrpJTE.webm
+Apr 12 15:14 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - White Falcon's Inn-JPH3ZqqxtFQ.webm
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - White Falcon's Inn-JPH3ZqqxtFQ.mp3
+Apr 12 15:14 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Glowing Ember's Inn-2MozkVrpJTE.mp3
+Apr 12 15:15 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - White Falcon's Inn-JPH3ZqqxtFQ.webm
+Apr 12 15:15 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Old Cobbler's Inn--llB_06m7p4.webm
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - White Falcon's Inn-JPH3ZqqxtFQ.mp3
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Old Cobbler's Inn--llB_06m7p4.mp3
+Apr 12 15:15 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Old Cobbler's Inn--llB_06m7p4.webm
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Riverbard Tavern-Eqbr1hIOKvw.mp3
+Apr 12 15:15 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Riverbard Tavern-Eqbr1hIOKvw.webm
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Old Cobbler's Inn--llB_06m7p4.mp3
+Apr 12 15:15 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Riverbard Tavern-Eqbr1hIOKvw.webm
+Apr 12 15:15 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Black Wolf's Inn-LtDMBtjyq9A.webm
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Black Wolf's Inn-LtDMBtjyq9A.mp3
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Riverbard Tavern-Eqbr1hIOKvw.mp3
+Apr 12 15:15 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Black Wolf's Inn-LtDMBtjyq9A.webm
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Black Wolf's Inn-LtDMBtjyq9A.mp3
+Apr 12 15:15 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Brown Fox Inn-d3KdtAJn7tI.webm
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Brown Fox Inn-d3KdtAJn7tI.mp3
+Apr 12 15:15 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Brown Fox Inn-d3KdtAJn7tI.webm
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Wild Boar's Inn-t2rs-OyJ-Q8.mp3
+Apr 12 15:15 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Wild Boar's Inn-t2rs-OyJ-Q8.webm
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Brown Fox Inn-d3KdtAJn7tI.mp3
+Apr 12 15:15 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Wild Boar's Inn-t2rs-OyJ-Q8.webm
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Ironshield Inn-h-KDEmuJsIw.mp3
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Wild Boar's Inn-t2rs-OyJ-Q8.mp3
+Apr 12 15:15 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Ironshield Inn-h-KDEmuJsIw.webm
+Apr 12 15:15 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Ironshield Inn-h-KDEmuJsIw.webm
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Traveler's Inn-Bez5VjTvT0A.mp3
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Ironshield Inn-h-KDEmuJsIw.mp3
+Apr 12 15:15 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Traveler's Inn-Bez5VjTvT0A.webm
+Apr 12 15:15 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Traveler's Inn-Bez5VjTvT0A.webm
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Warrior's Heart Inn-hgrRYM-uWhY.mp3
+Apr 12 15:15 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Warrior's Heart Inn-hgrRYM-uWhY.webm
+Apr 12 15:15 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Traveler's Inn-Bez5VjTvT0A.mp3
+Apr 12 15:16 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Warrior's Heart Inn-hgrRYM-uWhY.webm
+Apr 12 15:16 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Gawain's Inn-IV4z3gIbIQ8.mp3
+Apr 12 15:16 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Warrior's Heart Inn-hgrRYM-uWhY.mp3
+Apr 12 15:16 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Red Dragon's Inn-pWqV3mWNcQM.mp3
+Apr 12 15:16 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Red Dragon's Inn-pWqV3mWNcQM.webm
+Apr 12 15:16 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Red Dragon's Inn-pWqV3mWNcQM.webm
+Apr 12 15:16 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Red Dragon's Inn-pWqV3mWNcQM.mp3
+Apr 12 15:16 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Hooded Rogue Inn-EmYjMUfIHqI.webm
+Apr 12 15:16 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Hooded Rogue Inn-EmYjMUfIHqI.mp3
+Apr 12 15:16 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Hooded Rogue Inn-EmYjMUfIHqI.webm
+Apr 12 15:16 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Inn Music - Seaside Tavern-qklByQJWyLk.mp3
+Apr 12 15:16 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Tavern Music - Hooded Rogue Inn-EmYjMUfIHqI.mp3
+Apr 12 15:16 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Inn Music - Seaside Tavern-qklByQJWyLk.webm
+Apr 12 15:16 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Inn Music - Seaside Tavern-qklByQJWyLk.webm
+Apr 12 15:16 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Inn Music - Seaside Tavern-qklByQJWyLk.mp3
+Apr 12 15:16 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Dragon Music - Dragon Cliffs-xpveVmL3X4g.webm
+Apr 12 15:16 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Dragon Music - Dragon Cliffs-xpveVmL3X4g.mp3
+Apr 12 15:16 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Dragon Music - Dragon Cliffs-xpveVmL3X4g.webm
+Apr 12 15:16 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Dragon Music - Dragon Cliffs-xpveVmL3X4g.mp3
+Apr 12 15:16 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Battle Music - Dragon's Lair-1RBj-Yc4okY.webm
+Apr 12 15:16 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Battle Music - Dragon's Lair-1RBj-Yc4okY.mp3
+Apr 12 15:17 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Battle Music - Dragon's Lair-1RBj-Yc4okY.webm
+Apr 12 15:17 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Dragon's Peak-RFijL5xqGf0.mp3
+Apr 12 15:17 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Celtic Instrumental Music - Darkwood Forest-U6ugBjgTjes.mp3
+Apr 12 15:17 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Battle Music - Dragon's Lair-1RBj-Yc4okY.mp3
+Apr 12 15:17 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Celtic Instrumental Music - Darkwood Forest-U6ugBjgTjes.webm
+Apr 12 15:17 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Celtic Instrumental Music - Darkwood Forest-U6ugBjgTjes.webm
+Apr 12 15:17 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Fantasy Music - The Old Bridge-tUi4_w57Au0.webm
+Apr 12 15:17 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Beautiful Medieval Music - Bridge of the Ancients-v3XezHkIS3w.mp3
+Apr 12 15:17 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Celtic Instrumental Music - Darkwood Forest-U6ugBjgTjes.mp3
+Apr 12 15:17 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Fantasy Music - The Old Bridge-tUi4_w57Au0.mp3
+Apr 12 15:17 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Fantasy Music - The Old Bridge-tUi4_w57Au0.webm
+Apr 12 15:17 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Celtic Music Instrumental - Avalon-3IvcaCiwrLI.mp3
+Apr 12 15:17 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Celtic Music Instrumental - Avalon-3IvcaCiwrLI.webm
+Apr 12 15:17 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Fantasy Music - The Old Bridge-tUi4_w57Au0.mp3
+Apr 12 15:17 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Celtic Music Instrumental - Avalon-3IvcaCiwrLI.webm
+Apr 12 15:17 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Celtic Music Instrumental - Avalon-3IvcaCiwrLI.mp3
+Apr 12 15:17 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Royal Scribe-nDqlINXPkoc.mp3
+Apr 12 15:17 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Royal Scribe-nDqlINXPkoc.webm
+Apr 12 15:17 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Royal Scribe-nDqlINXPkoc.webm
+Apr 12 15:17 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Royal Scribe-nDqlINXPkoc.mp3
+Apr 12 15:17 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Wizard Music - Merlin the Wizard-hhHKPTT1dyA.webm
+Apr 12 15:17 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Wizard Music - Merlin the Wizard-hhHKPTT1dyA.mp3
+Apr 12 15:18 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Wizard Music - Merlin the Wizard-hhHKPTT1dyA.webm
+Apr 12 15:18 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Dark Celtic Music - Morgan Le Fay-5NCzyyVa3gk.webm
+Apr 12 15:18 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Dark Celtic Music - Morgan Le Fay-5NCzyyVa3gk.mp3
+Apr 12 15:18 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Merlin's Study-UoH9M1JQNoo.mp3
+Apr 12 15:18 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Black Knight-JsNDOkjDia0.mp3
+Apr 12 15:18 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Dark Celtic Music - Sir Mordred-lGF1uHVIk1Q.mp3
+Apr 12 15:18 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Wizard Music - Merlin the Wizard-hhHKPTT1dyA.mp3
+Apr 12 15:18 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Dark Celtic Music - Morgan Le Fay-5NCzyyVa3gk.webm
+Apr 12 15:18 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Celtic Music Instrumental - Lady of the Lake-2oclswdoCy8.mp3
+Apr 12 15:18 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Medieval Princess-qDp3yul1grE.mp3
+Apr 12 15:18 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Dark Celtic Music - Morgan Le Fay-5NCzyyVa3gk.mp3
+Apr 12 15:18 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Castle Music - King Arthur's Court-UON27Kydqsw.webm
+Apr 12 15:18 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - King Arthur-sxd7G429nD0.mp3
+Apr 12 15:18 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Queen Guinevere-B6BHc6aFQsA.mp3
+Apr 12 15:18 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Castle Music - King Arthur's Court-UON27Kydqsw.mp3
+Apr 12 15:18 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Instrumental Music - Uther Pendragon-A9nJJPjFBz8.mp3
+Apr 12 15:18 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Lady Morgana-GwjzL-X200c.mp3
+Apr 12 15:19 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Castle Music - King Arthur's Court-UON27Kydqsw.webm
+Apr 12 15:19 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Folk Music - Camelot-_YQpacAuhX8.webm
+Apr 12 15:19 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Castle Music - King Arthur's Court-UON27Kydqsw.mp3
+Apr 12 15:19 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Folk Music - Camelot-_YQpacAuhX8.mp3
+Apr 12 15:19 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Happy Medieval Music - King's Banquet-Ax-vsT3DyXc.mp3
+Apr 12 15:19 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Folk Music - Camelot-_YQpacAuhX8.webm
+Apr 12 15:19 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Chancellor---AsFcmaJos.mp3
+Apr 12 15:19 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Forester's Hut-69AlA-i1hIU.webm
+Apr 12 15:19 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Young Squire-sIfLefWKE1I.mp3
+Apr 12 15:19 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Folk Music - Camelot-_YQpacAuhX8.mp3
+Apr 12 15:19 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Forester's Hut-69AlA-i1hIU.mp3
+Apr 12 15:19 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Forester's Hut-69AlA-i1hIU.webm
+Apr 12 15:19 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Silverdawn Village-jt5rFBZDCc4.mp3
+Apr 12 15:19 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Silverdawn Village-jt5rFBZDCc4.webm
+Apr 12 15:19 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Forester's Hut-69AlA-i1hIU.mp3
+Apr 12 15:19 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Silverdawn Village-jt5rFBZDCc4.webm
+Apr 12 15:19 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Knights of Blackhall-AO862NUM3CY.mp3
+Apr 12 15:19 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Silverdawn Village-jt5rFBZDCc4.mp3
+Apr 12 15:19 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Knights of Blackhall-AO862NUM3CY.webm
+Apr 12 15:20 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Knights of Blackhall-AO862NUM3CY.webm
+Apr 12 15:20 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Knights of Blackhall-AO862NUM3CY.mp3
+Apr 12 15:20 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Lancelot-skiGszZUXEU.mp3
+Apr 12 15:20 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Arthur Pendragon-L8wjR2wj9ks.mp3
+Apr 12 15:20 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Lancelot-skiGszZUXEU.webm
+Apr 12 15:20 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Lancelot-skiGszZUXEU.webm
+Apr 12 15:20 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Lamorak-Qx-2931Dm5U.mp3
+Apr 12 15:20 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Kay-Zzsd6C5V5Ik.mp3
+Apr 12 15:20 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Gareth-O3wtEUT4oTo.mp3
+Apr 12 15:20 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Lancelot-skiGszZUXEU.mp3
+Apr 12 15:20 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Gareth-O3wtEUT4oTo.webm
+Apr 12 15:20 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Lucan-m_eZteSYXDo.mp3
+Apr 12 15:20 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Tristan-Ia26msaMeHE.mp3
+Apr 12 15:22 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Gareth-O3wtEUT4oTo.webm
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Gareth-O3wtEUT4oTo.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Fantasy Medieval Music - Sir Morien-eQ82Tnmv6kU.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Bors the Younger-negNZKLf9cg.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Agravain-W5L5WEBHEqM.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Fantasy Medieval Music - Sir Palamedes-AVxwywx5wWI.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Epic Medieval Music - Knights of the Realm-BFUxqbNY4Mo.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Bedivere-vLixhw9Y1s4.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Elyan the White-KZ39JItRzY0.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Knights of the Round Table-Pf9hFlljpIk.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Holy Grail Music - Quest for the Holy Grail-5y0stqyAivo.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Gawain-xifn82EqYNk.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Galahad-hPcFTkwa75g.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Lionel-lbO0GY0F_6k.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Dagonet-OqkStIJHVfY.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Excalibur-jT23HQabjaQ.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Percival-CAT0BBlSXMY.mp3
+Apr 12 15:22 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sir Hector de Maris-TgijmXZpg6I.mp3
+Apr 12 15:22 : update: added YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Excalibur-jT23HQabjaQ.webm
+Apr 12 15:26 : update: removing YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Excalibur-jT23HQabjaQ.webm
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Noble Quarters-ygq2pdhBu-o.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Royal Lands-qwN4g5lNUG0.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Medieval Travelers-3wQ-mWK85yY.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Renaissance Music - Medieval Faire-xxYU_k8-Fb4.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Dark Dungeon-LVTWlwNNt4c.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Timber Town-uzFSc_78UY4.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Royal Castle-z2V4Rn8mHIE.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Waltz Music - The Royal Ball--5L2UwOzk-A.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Czech Medieval Music - Czech Castle-rND8mDngUss.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Fantasy Music - Medieval Whispers-N0EdtGhQyww.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/World Fusion Music - World Minstrels-YPjYrRffoUU.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - The Medieval Realm-k7ggXnkS0hw.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Happy Medieval Music - Court Jester-pAy6BfwfSOQ.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Medieval Market-46kFG7JwhDI.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Sword in the Stone-VAu_no-uT-o.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Beautiful Medieval Music - The Beauteous Maiden-BSkEofsiuQ4.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Kitchen Hearth-d2aBafpXRIw.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Lantern's Lodge-pNjOf4WqgSY.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Fantasy Music - Claystone Ruins-9PkSyMVyPeQ.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Fantasy Music - Blue Alpine Village-my8lI8PZf04.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Medieval Festival-oiOjIaoVPVY.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Bridgewell-C2jtvr0W-Ls.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Blacksmith's Forge-jhlncTqYdZ4.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Gregorian Chant Music - Monks of the Monastery-YMxY21UJR-8.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Gregorian Chant Music - Monks of the Dark Abbey-yBHg9T9j4qU.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Celtic Tavern Music - Two Moon's Inn-cIYXyfi5bzA.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Minstrel Music - English Bard-fAohiRL1_nI.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Folk Music - Mountain Storm-DnV7XqTzPe4.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Oldwood Village-zXU0v35EWKM.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Weaver's Town-iKsdO6_Xs-U.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Village of Emerdale-fqTFZPn5xkM.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Fantasy Music - Sanctuary of Winter-ZGOYchPtWtk.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Medieval Waltz-MJumvQvAr2s.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Noble Oak Manor-CwZberjSDiw.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Excalibur-jT23HQabjaQ.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Cobblestone Village-jZ7a1yPaJh0.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Mistgate-Wql4nZkqG0g.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Stonecrest Village-jDZgFn_7Nvs.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Medieval England-hCkr_6-vfaI.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Dark Medieval Music - Castle of Ruins-xFqonixibUU.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music Instrumental - Medieval Village-pdpnb7-lew0.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Medieval Castle-X8xZ4S-3lH0.mp3
+Apr 12 15:26 : update: updating YT/Derek&BrandonFiechter/MedievalMusic/Medieval Music - Haunted Ferryman-8AbxCmIw4U0.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Resistance-CImKHj4Q3ew.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Steam Town-MuRZn5CZ-24.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Morioch the Elder (animated)-Z3PhPgpPznA.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Sky Captain-E2We_LFLHpQ.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Hot Air Balloons-IhYEDdjTqmM.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Adventure-K3uxxpsbVgA.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow Empire-dCUSa83Vei0.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dawn of Invention-LTM79-q3Ku0.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Steampunk Spies-3T-tSEwHw4k.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Techno Music - Sky Ships-YzN7PZWit-4.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Airships-Wi5FhFEY3mM.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Futuristic City Music - Steam City-RURgvx0nVxA.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Sky Pirates-UZQ9KgH6Z9M.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Gentleman-zWKOoDEnJbs.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Lampar the Steampunk Planet-sy3AUqT47pw.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Inventor-ycUWXDudIWQ.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dwarven Factory-UEIpEaolZd0.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Sky Cadet Academy-ejHuZywrW_Y.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Lady-qqy3GUQdHxE.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Underground City-1uUTXJEtG5k.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Mechanics-ZDNc1b3l-kI.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deeplamp Town-z2GyJu4_1qk.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Darkmor the Pirate-WVCsqjZkNzg.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Illusions and Smoke-U0yUBkFDEG0.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Floating Village-KACj5QqDjjs.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Fairies-Qp7WN2xlfiY.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Time Machine-d89zr6SDrZM.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Battle in the Sky-cXk_inWxU1s.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Council of the Steampunk Nobles-iDDc3WTBmsE.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Zorah the Elder-6PZNJ_s7Ayg.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deep Sea Voyage-amV8Fm_LLQo.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Gears and Cogs-Gfg2ZTQrQ0o.mp3
+Apr 12 15:44 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow King-eTyFRjCJaWg.mp3
+Apr 12 15:46 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deeplamp Town-z2GyJu4_1qk.mp3
+Apr 12 15:46 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Illusions and Smoke-U0yUBkFDEG0.mp3
+Apr 12 15:46 : update: added YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deeplamp Town-z2GyJu4_1qk.webm
+Apr 12 15:46 : update: removing YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deeplamp Town-z2GyJu4_1qk.webm
+Apr 12 15:46 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Underground City-1uUTXJEtG5k.mp3
+Apr 12 15:46 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deeplamp Town-z2GyJu4_1qk.mp3
+Apr 12 15:46 : update: added YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Underground City-1uUTXJEtG5k.webm
+Apr 12 15:46 : update: removing YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Underground City-1uUTXJEtG5k.webm
+Apr 12 15:46 : update: added YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow Empire-dCUSa83Vei0.webm
+Apr 12 15:46 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow Empire-dCUSa83Vei0.mp3
+Apr 12 15:46 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Lampar the Steampunk Planet-sy3AUqT47pw.mp3
+Apr 12 15:46 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Underground City-1uUTXJEtG5k.mp3
+Apr 12 15:46 : update: removing YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow Empire-dCUSa83Vei0.webm
+Apr 12 15:46 : update: added YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Morioch the Elder (animated)-Z3PhPgpPznA.webm
+Apr 12 15:46 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Morioch the Elder (animated)-Z3PhPgpPznA.mp3
+Apr 12 15:46 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow Empire-dCUSa83Vei0.mp3
+Apr 12 15:46 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Zorah the Elder-6PZNJ_s7Ayg.mp3
+Apr 12 15:46 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow King-eTyFRjCJaWg.mp3
+Apr 12 15:47 : update: removing YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Morioch the Elder (animated)-Z3PhPgpPznA.webm
+Apr 12 15:47 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Morioch the Elder (animated)-Z3PhPgpPznA.mp3
+Apr 12 15:47 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dwarven Factory-UEIpEaolZd0.mp3
+Apr 12 15:47 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Lady-qqy3GUQdHxE.mp3
+Apr 12 15:47 : update: added YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Lady-qqy3GUQdHxE.webm
+Apr 12 15:47 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Council of the Steampunk Nobles-iDDc3WTBmsE.mp3
+Apr 12 15:47 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Gears and Cogs-Gfg2ZTQrQ0o.mp3
+Apr 12 15:47 : update: removing YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Lady-qqy3GUQdHxE.webm
+Apr 12 15:47 : update: added YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deep Sea Voyage-amV8Fm_LLQo.webm
+Apr 12 15:47 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Gentleman-zWKOoDEnJbs.mp3
+Apr 12 15:47 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Inventor-ycUWXDudIWQ.mp3
+Apr 12 15:47 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Lady-qqy3GUQdHxE.mp3
+Apr 12 15:47 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Darkmor the Pirate-WVCsqjZkNzg.mp3
+Apr 12 15:47 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deep Sea Voyage-amV8Fm_LLQo.mp3
+Apr 12 15:48 : update: removing YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deep Sea Voyage-amV8Fm_LLQo.webm
+Apr 12 15:48 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Steam Town-MuRZn5CZ-24.mp3
+Apr 12 15:48 : update: added YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Fairies-Qp7WN2xlfiY.webm
+Apr 12 15:48 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Fairies-Qp7WN2xlfiY.mp3
+Apr 12 15:48 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Time Machine-d89zr6SDrZM.mp3
+Apr 12 15:48 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deep Sea Voyage-amV8Fm_LLQo.mp3
+Apr 12 15:48 : update: removing YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Fairies-Qp7WN2xlfiY.webm
+Apr 12 15:48 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Sky Captain-E2We_LFLHpQ.mp3
+Apr 12 15:48 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Techno Music - Sky Ships-YzN7PZWit-4.mp3
+Apr 12 15:48 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Sky Pirates-UZQ9KgH6Z9M.mp3
+Apr 12 15:48 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Sky Cadet Academy-ejHuZywrW_Y.mp3
+Apr 12 15:48 : update: added YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Sky Cadet Academy-ejHuZywrW_Y.webm
+Apr 12 15:48 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Fairies-Qp7WN2xlfiY.mp3
+Apr 12 15:49 : update: removing YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Sky Cadet Academy-ejHuZywrW_Y.webm
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Resistance-CImKHj4Q3ew.mp3
+Apr 12 15:49 : update: added YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Hot Air Balloons-IhYEDdjTqmM.webm
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Hot Air Balloons-IhYEDdjTqmM.mp3
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dawn of Invention-LTM79-q3Ku0.mp3
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Sky Cadet Academy-ejHuZywrW_Y.mp3
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Floating Village-KACj5QqDjjs.mp3
+Apr 12 15:49 : update: removing YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Hot Air Balloons-IhYEDdjTqmM.webm
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Hot Air Balloons-IhYEDdjTqmM.mp3
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Adventure-K3uxxpsbVgA.mp3
+Apr 12 15:49 : update: added YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Adventure-K3uxxpsbVgA.webm
+Apr 12 15:49 : update: removing YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Adventure-K3uxxpsbVgA.webm
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Adventure-K3uxxpsbVgA.mp3
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Airships-Wi5FhFEY3mM.mp3
+Apr 12 15:49 : update: added YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Airships-Wi5FhFEY3mM.webm
+Apr 12 15:49 : update: removing YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Airships-Wi5FhFEY3mM.webm
+Apr 12 15:49 : update: added YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Mechanics-ZDNc1b3l-kI.webm
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Airships-Wi5FhFEY3mM.mp3
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Mechanics-ZDNc1b3l-kI.mp3
+Apr 12 15:49 : update: removing YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Mechanics-ZDNc1b3l-kI.webm
+Apr 12 15:49 : update: added YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Steampunk Spies-3T-tSEwHw4k.webm
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Steampunk Spies-3T-tSEwHw4k.mp3
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Futuristic City Music - Steam City-RURgvx0nVxA.mp3
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Mechanics-ZDNc1b3l-kI.mp3
+Apr 12 15:49 : update: removing YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Steampunk Spies-3T-tSEwHw4k.webm
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Steampunk Spies-3T-tSEwHw4k.mp3
+Apr 12 15:49 : update: updating YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Battle in the Sky-cXk_inWxU1s.mp3
+Apr 12 15:53 : update: added YT/Derek&BrandonFiechter/MusicCompilations/MAGICAL Music - Elves, Fairies & Merfolk-VeTw_okfb_8.mp3
+Apr 12 15:53 : update: added YT/Derek&BrandonFiechter/MusicCompilations/MAGICAL Music - Elves, Fairies & Merfolk-VeTw_okfb_8.webm
+Apr 12 15:55 : update: removing YT/Derek&BrandonFiechter/MusicCompilations/MAGICAL Music - Elves, Fairies & Merfolk-VeTw_okfb_8.webm
+Apr 12 15:55 : update: updating YT/Derek&BrandonFiechter/MusicCompilations/MAGICAL Music - Elves, Fairies & Merfolk-VeTw_okfb_8.mp3
+Apr 12 16:19 : client: [0] opened from 127.0.0.1:51962
+Apr 12 16:19 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Underground City-1uUTXJEtG5k.mp3"
+Apr 12 16:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 12 16:20 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Illusions and Smoke-U0yUBkFDEG0.mp3"
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Fantasy Music - Earth Elemental-4EF2bkVJGEI.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Epic Fantasy Music - Smaug the Dragon-3pf70HL5eso.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Epic Fantasy Music - Watcher in the Water-Cf2oxMomdfc.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Ancient Greek Music - Medusa's Lair-oZtIFYHrgX4.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Fantasy Music - Goblin Tinker-eu-E54J0xcU.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Fantasy Music - Lava Golems-3U6zepQ8T84.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Fantasy Music - Night Goblins-MZf8tkdKM6w.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Epic Battle Music - Uruk-Hai-2nmn1AkRsbE.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Dark Celtic Music - Lamia's Lair-soS29eC1TtM.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Celtic Tavern Music - Forest Imps Inn-o4HS6MzIiD0.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Viking Battle Music - Frost Giants-0ogNiidt6QA.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Epic Fantasy Music - Goblin Town-T8OKRxb7AtU.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Dark Tavern Music - Goblin King's Tavern-yjFayZFFBDg.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Dark Fantasy Music - Ringwraiths-LAlyJp7Ae10.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Dark Music Instrumental - Legend of the Dark Lord-bWLwiBDSE0I.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Dark Fantasy Music - Venomlock burrow (animated)-U1U7jjuxlis.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Fantasy Music - Mountain Giants-dGXB4X09uGk.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Creepy Spider Music - Shelob's Lair-IlZVMwSbzpk.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Fantasy Battle Music - Goblin Raid-3bRN__YwhXU.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Dark Fantasy Music - Cave Troll-FlheW2OUlUo.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Fantasy Rpg Music - Troll Bridge-D-5f_ZfFWRc.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Epic Fantasy Music - Fire Elemental-z051Hoow0vo.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Orc Battle Music - Orc Warriors-2FyMiLGBKT0.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Dark Fantasy Music - Cave Goblins--BCDJMs_AuQ.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Ancient Greek Music - Medusa's Lair-oZtIFYHrgX4.webm
+Apr 12 16:21 : update: removing YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Ancient Greek Music - Medusa's Lair-oZtIFYHrgX4.webm
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Epic World Music - Ninja Mummies-gazkKFuuq5M.mp3
+Apr 12 16:21 : update: updating YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Ancient Greek Music - Medusa's Lair-oZtIFYHrgX4.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Medieval Dragon Music - Dragon Cliffs-xpveVmL3X4g.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Medieval Battle Music - Dragon's Lair-1RBj-Yc4okY.webm
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Dark Egyptian Music - The Mummy Awakens--fyxw6nmbG0.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Creepy Egyptian Music - Mummy's Tomb-vY3o1XhIAAE.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Medieval Battle Music - Dragon's Lair-1RBj-Yc4okY.mp3
+Apr 12 16:21 : update: removing YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Medieval Battle Music - Dragon's Lair-1RBj-Yc4okY.webm
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Fantasy Music - Dragonland-3g8m_zjBh4U.mp3
+Apr 12 16:21 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Fantasy Music - Dragonland-3g8m_zjBh4U.webm
+Apr 12 16:21 : update: updating YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Medieval Battle Music - Dragon's Lair-1RBj-Yc4okY.mp3
+Apr 12 16:22 : update: removing YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Fantasy Music - Dragonland-3g8m_zjBh4U.webm
+Apr 12 16:22 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Gothic Music - Raven Princess-yrQtxbONYJo.mp3
+Apr 12 16:22 : update: updating YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Fantasy Music - Dragonland-3g8m_zjBh4U.mp3
+Apr 12 16:22 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Music Instrumental - Swamp Witch-FlEEmmbVDkk.mp3
+Apr 12 16:22 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Gothic Music - Queen of Shadows-yFRGUXopxyM.mp3
+Apr 12 16:22 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Music - Pumpkin King-CU1mtNRf1J4.webm
+Apr 12 16:22 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Epic Pirate Music - Davy Jones-dU7OP4ZanGA.mp3
+Apr 12 16:22 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Music - Pumpkin King-CU1mtNRf1J4.mp3
+Apr 12 16:22 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Music - Autumn Witch-IhN_v17YdjQ.mp3
+Apr 12 16:22 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Music - Witch's Brew-YSsKFjYh-f8.mp3
+Apr 12 16:23 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Wolf Music Instrumental - Full Moon-K8WfvE36kBg.mp3
+Apr 12 16:23 : update: removing YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Music - Pumpkin King-CU1mtNRf1J4.webm
+Apr 12 16:23 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Music - Creepy Scarecrows-lVCQp7X8LUM.mp3
+Apr 12 16:23 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Music - Night of the Werewolf-FOSOcDvbcyc.mp3
+Apr 12 16:23 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Gothic Music - Gargoyle Cathedral-XMUQJM4EJ6g.mp3
+Apr 12 16:23 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Vampire Music - Vampire Bite-r1OsYYgnaiI.webm
+Apr 12 16:23 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Vampire Music - Transylvania-ZYuS4COuNSE.mp3
+Apr 12 16:23 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Music - Werewolf Castle-33KEW9XiMb8.mp3
+Apr 12 16:23 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Vampire Music - Vampire Bite-r1OsYYgnaiI.mp3
+Apr 12 16:23 : update: updating YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Music - Pumpkin King-CU1mtNRf1J4.mp3
+Apr 12 16:23 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Epic Vampire Music - Lost in Dracula's Lair-pPllF_qjzKk.mp3
+Apr 12 16:23 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Scary Music  - Pumpkin Scare-yPpacM7kzTg.mp3
+Apr 12 16:23 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Music - Werewolf Pirates-K5cEE73pE3c.mp3
+Apr 12 16:25 : update: removing YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Vampire Music - Vampire Bite-r1OsYYgnaiI.webm
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Celtic Music - Will-O'-Wisps-Q_EDH0GcN_w.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Vampire Music - Vampires of Ice--D7JlpAOQ6w.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Instrumental Music - Phantom Manor-uF5xRMI9yGc.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Vampire Music - Count Dracula-EvKaFm3OF-0.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Vampire Music - Vampire Wings-LcptfN9Ry64.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/SCARY Music - Frankenstein's Monster-obw7x5tx-x4.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Scary Music - Skeleton Graveyard-L6Z2hkd4uhQ.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Music - Vampire Dwarves-M145WVshUnQ.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Spooky Music - Shadow Specters-e1H9W5uraZE.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Creepy Music - Skeleton Hut-Gg26sxVG03I.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Fantasy Music - Haunted Coal Mines-VCpg4CbgY1U.mp3
+Apr 12 16:25 : update: updating YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Vampire Music - Vampire Bite-r1OsYYgnaiI.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Music - The Grim Reaper-WdOhq46tBMM.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Halloween Music - The Headless Horseman-73nNdtAVOBI.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Baroque Music - Ring of the Immortals-FBz6sMSumHU.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Celtic Music - Will-O'-Wisps-Q_EDH0GcN_w.webm
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Creepy Music - Dark Jester-bznQ6l_Hk1s.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Vampire Music - Lady in Red-Pc50wl8Wiz4.mp3
+Apr 12 16:25 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Spooky Music Instrumental - Spooky Ghosts-v6TTIuc_CW4.mp3
+Apr 12 16:26 : update: removing YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Celtic Music - Will-O'-Wisps-Q_EDH0GcN_w.webm
+Apr 12 16:26 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Gothic Winter Music - Snowmen of Darkthorn Town-pnPWKQlLXsA.mp3
+Apr 12 16:26 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Fantasy Music - Frostbite Caverns-1f3O6fshTQ4.mp3
+Apr 12 16:26 : update: updating YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Celtic Music - Will-O'-Wisps-Q_EDH0GcN_w.mp3
+Apr 12 16:26 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Celtic Music - Shadow Wisps-pwRaKVRByF0.mp3
+Apr 12 16:26 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Greek Fantasy Music - Cave of the Harpies-X8rGgLAN5FM.mp3
+Apr 12 16:26 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Spooky Cave Music - Cave Gremlins-8EI4f_yG3r4.mp3
+Apr 12 16:26 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Dark Cave Music - Trickster Imps-w94ZB0VJUp4.mp3
+Apr 12 16:26 : update: added YT/Derek&BrandonFiechter/DarkFantasyCreaturesMusic/Fantasy Music - Wisps of the Whispering Wetlands-IagIdxSGH4c.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Music - Gnome Prince-TmMimomjyeE.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Winter Music - Snow Unicorns-LZX81LxUdbw.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Beautiful Fantasy Music - Nymphs of the Floating Isles-Raxae9Aai-I.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Celtic Tribal Music - Dryad's Tree-ezVHtg6XXVo.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Beautiful Fantasy Music - Sylphs of Cloud Canopy-xY2iBEq5IRg.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Angel Instrumental Music - Angel Feathers-KTms715whE4.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Beautiful Unicorn Music - Legend of the Unicorns-h_a__AtNcbg.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Celtic Angel Music - Angel Wings-rwvtDI8pY5o.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Magical Unicorn Music - Unicorns of Silverpath-zJPWHeZrz4Y.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Beautiful Angel Music - Christmas Angels-7d0ov4QG1js.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Beautiful Fairytale Music - Sky World--gsg81zvR-4.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Music - Gnome Prince-TmMimomjyeE.webm
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Angel Music Instrumental - Angel of Life-jRqRwcn7V0c.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Celtic Tribal Music - Tribal Dryads-sGC3n9PiBQ4.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Celtic Instrumental Music - Wings of Pegasus-A-Jc1UgvKb0.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Beautiful Fantasy Music - Cloud Kingdom-vstBKadQM20.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Music - Wind Elemental-3v4cPC0Gkdo.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Music - Unicorn Valley-53Gyps8Z3cg.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Beautiful Fantasy Music - Woodland Nymph-msoVywy5zjs.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Celtic Forest Music - Dryad Forest-Jjsyr4MZ6GQ.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Music - Hollow Woodlands-pLoFCWDqHgU.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Tribal Fantasy Music - Dryad Princess-FVKUVwvYsfk.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Tribal Music Instrumental - Tribe of Avaren-TRVAh2NO324.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Beautiful Fairytale Music - Damsel of Sunlight-5s9-kJ2kX8Y.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Angelic Music - Angelic Guardian-Mp8eye-OPP4.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Magical Fantasy Music - Unicorns of the Lonely Woods-_pQwRRN_UuI.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Beautiful Fantasy Music - Waltz of the Forest Nymphs-X6t1O7JdPps.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Beautiful Fairytale Music - Sky Sylph-ra_ZCgD2EaQ.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Celtic Tribal Music - Moss Maidens-dXnKegx9uHE.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Machu Picchu-lcwytLutoNk.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Inca Empire-zNS2kyMbtFs.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Lost World-HheDL72UbbM.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Jungle Music - Land of the Dinosaurs-cSqdu7Qlz7k.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Mayan Pyramids-QYUdwh2nTWs.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Dark Jungle Music - Jurassic World-3UZVPb-c5b8.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Mayan Village-tla1G82GAAQ.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Dark Jungle Music - Jurassic World-3UZVPb-c5b8.webm
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Epic Jungle Music - Aztec Empire-GT-BfcIves8.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Ancient Dinosaur Music - Behemoth-tExfBVWyRLk.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Aztec Jungle-WbWYdDCh6GI.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Dark Jungle Music - Aztec Temple--hTOcatCIBQ.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Dark Ancient Music - Pterodactyl Flight-Xyz6OmC9f5A.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Epic Prehistoric Music - T-Rex Trouble-M5HfJpI9m50.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Dinosaur Music - Stegosaurus Valley-CCi66KSpJoA.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Beautiful Tribal Music - Dinosaur Valley-vOV-VY1ZzFg.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Inca King-5nxc8sIM7-0.mp3
+Apr 12 16:31 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Dark Jungle Music - King of the Dinosaurs-Aeii0mJzqYc.mp3
+Apr 12 16:34 : update: removing YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Music - Gnome Prince-TmMimomjyeE.webm
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Russian Folk Music - Tale of the Firebird-shGyQsu0URk.mp3
+Apr 12 16:34 : update: updating YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Music - Gnome Prince-TmMimomjyeE.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Epic Chinese Music - Chinese Dragon-T8SaaNlkNW4.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Epic Slavic Music - Alkonost-dacq9aM7WsY.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Adventure Music - Centaurs of Jagged Rock-9Vxrhoudi5w.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Egyptian Music - Desert Phoenix-t41Vgrobbe8.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Christmas Fantasy Music - Gnomes of Wintergreen Valley-7Q-akZk8RfU.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Music - Forest Centaurs-7j5aGmxguFQ.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Slavic Folk Music - Forest Vila-wJA0fsA6t0o.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Music - Fire Foxes (animated)-IgM5dgXiRRM.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Beautiful Japanese Music - Kitsune Girl-EuXsyVRYJP4.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Beautiful Winter Music - Frost Maiden-VlfGd4287T8.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Celtic Tribal Music - Village of the Living Trees-mNOG1xOwmy0.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Music - Dance of the Forest Fauns-5IH2CHlo61s.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Music - Ice Kitsune (animated)-usSah3uPU5M.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Ancient Egyptian Music - Desert Sphinx-WYdRNiOLc38.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Japanese Fantasy Music - Sea Tribe-Txxf6ff0fqM.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Celtic Tribal Music - Queen of the Tree Nymphs-i-Dea-k9XCA.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Epic Battle Music - Werecat Princess-WaSQw16hfSg.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Adventure Music - Centaurs of Night-fYNF1gcw5PY.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Epic Adventure Music - Centaur War-LhIhSAG2wd0.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Music - Nature Elemental-ZiciYQqoU7o.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Fantasy Music - Guardians of the Merfolk-osSQO8oSMto.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Cheerful Happy Music - Gnome Cottage-6ogxxKzZ5Ss.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Asian Fantasy Music - River Kitsune-wmLXaKF2Pqg.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Winter Music Instrumental - Snow Gnomes-yynw9DS5scY.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Beautiful Japanese Music - Kitsune Woods-DY0lGrBcvto.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Slavic Folk Music - Woodland Leshy-yIaz_pmL2yw.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Epic Music Instrumental - Gryphon Riders-Z1s3cIJDup0.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/FantasyCreaturesMusic/Celtic Tribal Music - Treefolk-l7_IV0SJUP8.mp3
+Apr 12 16:34 : update: removing YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Dark Jungle Music - Jurassic World-3UZVPb-c5b8.webm
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Amazon Warriors-ZhArIZ5mS6o.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Jungle Girl-mPqjYLSuQf4.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Fountain of Youth-JXLBJey5lOc.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Epic Jungle Music - Jaws of the Jaguar-jU1Wa674dH8.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Amazon Princess-Uj5H4vJoCOw.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Dark Prehistoric Music - Paleontologist-iYL-DCMoYpY.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Prehistoric Music - Hunters and Gatherers-pgBg93eQWEA.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Ancient Music - Ice Age-twMYqzI7MKs.mp3
+Apr 12 16:34 : update: updating YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Dark Jungle Music - Jurassic World-3UZVPb-c5b8.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Dark Jungle Music - Jungle Temple-rowMpgRi3ME.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Misty Rainforest-jwWMcOcplKk.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Ancient Music - Stone Age-I6U2eiaqVRQ.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Jungle Music - Jungle Mermaids-q2A8HFQ0wSM.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Tribe of the Lost Rainforest-ueWaxwrb4Qg.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Tribal Village--pqzeeN2z2w.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Celtic Tribal Music - Forest Gathering-O4NpqTBZhZM.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Jungle Festival-aIWxJImer3g.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Prehistoric Music - Dinosaur Kingdom-ksNrMyk1Eac.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Dark Rainforest-UD0S3VLK_fY.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Dark Jungle Music - Prehistoric Jungle-keDB_F2yXBc.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Ancient Music - Cavemen-j5xo5yGX3UY.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Epic Ancient Music - Flintrock-Q9hcBGGPpgE.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Ancient Music - Cave Paintings-TUgD9WBiZw4.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Dark Prehistoric Music - Volcano of Doom 🌋-5OA2EqsxKF4.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Exotic Jungle-5lqkFY5wTgM.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Epic Tribal Music - Volcano Lands-6biIUaU-CUE.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Ancient Music - Saber-toothed Tigers-I89JuVuhi1k.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Beautiful Jungle Music - Amazon Rainforest-ZwIFSFpHgdc.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Jungle Music Instrumental - Jungle Tribe-VQrj7PuOEcY.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Tribal Jungle Music - Forgotten Tribe-vFf86Hvzo2k.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Epic Jungle Music - The Legend of El Dorado-yz_TqhPTnoA.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Ancient Music - Woolly Mammoths-k_ED7rt6lo0.mp3
+Apr 12 16:34 : update: added YT/Derek&BrandonFiechter/JungleMusic&AncientMusic/Beautiful Jungle Music - Jungle Princess-lOkY2pB_dfs.mp3
+Apr 12 17:02 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Illusions and Smoke-U0yUBkFDEG0.mp3"
+Apr 12 19:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 12 19:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
