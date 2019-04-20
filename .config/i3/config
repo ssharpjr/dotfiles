@@ -219,7 +219,7 @@ set $ws5 "5: DEV"
 set $ws6 "6: FILE"
 set $ws7 "7: WRITING"
 set $ws8 "8: GAMES"
-set $ws9 "9: CHAT"
+set $ws9 "9: MISC"
 set $ws10 "10: MEDIA"
 
 # switch to workspace
@@ -263,6 +263,8 @@ for_window [class="nel"] move workspace $ws8; workspace $ws8
 for_window [class="manuskript"] move workspace $ws7; workspace $ws7
 for_window [class="TeXstudio"] move workspace $ws7; workspace $ws7
 for_window [class="VirtualBox Machine"] move workspace $ws5; workspace $ws5
+for_window [class="Ghb"] move workspace $ws10; workspace $ws10
+for_window [class="vlc"] move workspace $ws10; workspace $ws10
 
 # Floating apps
 # for_window [class="Evolution"] floating enable
@@ -280,9 +282,9 @@ for_window [class="Blueberry.py"] floating enable
 for_window [class="Blueberry.py"] move position center
 for_window [class="org.remmina.Remmina"] fullscreen enable
 for_window [class="org.remmina.Remmina"] fullscreen disable
-for_window [class="Wine"] floating enable
-for_window [class="Wine"] move position 10 10
-for_window [instance="Wine"] move position 10 10
+# for_window [class="Wine"] floating enable
+# for_window [class="Wine"] move position 10 10
+# for_window [instance="Wine"] move position 10 10
 for_window [class="VirtualBox Manager"] floating enable
 
 # Start workspaces on certain displays (if they exist)
@@ -391,7 +393,10 @@ bar {
 
 
 ### Programs to run on startup
-
+# Replace "busy" cursor
+exec --no-startup-id xsetroot -cursor_name left_ptr
+# Dunst notifications
+exec --no-startup-id dunst
 # Hide inactive mouse
 exec --no-startup-id unclutter -b
 # Compton

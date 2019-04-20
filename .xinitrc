@@ -17,7 +17,7 @@ numlockx &
 volnoti
 
 # Replace "busy" cursor
-xsetroot -cursor_name left_ptr
+# xsetroot -cursor_name left_ptr
 
 # Set Caps Lock to Escape
 setxkbmap -option caps:escape

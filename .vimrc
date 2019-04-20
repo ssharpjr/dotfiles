@@ -134,9 +134,13 @@ map <leader>sc :setlocal spell! spelllang=en_us<CR>
 " LaTeX
 " LaTeX word count
 map <F3> :w !detex \| wc -w<CR>
+
 " Paragraph navigation
 noremap j gj
 noremap k gk
+" Replace all double spaces with single spaces
+" noremap <localleader>ss :s/ \{2,}/ /g<CR>
+noremap <localleader>ss :g/ \+/s// /g<CR>
 
 " Markdown
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
