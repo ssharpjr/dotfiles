@@ -131,6 +131,9 @@ nnoremap <F9> <Esc>:w<CR>:!clear;python %<CR>
 " Spellcheck
 map <leader>sc :setlocal spell! spelllang=en_us<CR>
 
+" Toggle indentations
+nnoremap <F8> :setl noai nocin nosi inde=<CR>
+
 " LaTeX
 " LaTeX word count
 map <F3> :w !detex \| wc -w<CR>
@@ -219,5 +222,6 @@ augroup configgroup
     autocmd BufEnter *.tex setlocal wrap
     autocmd BufEnter *.tex setlocal linebreak
     autocmd BufEnter *.tex setlocal spell spelllang=en_us
+    autocmd BufEnter *.tex setlocal noai nocin nosi inde=
 augroup END
 

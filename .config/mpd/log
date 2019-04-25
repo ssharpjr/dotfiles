@@ -15567,3 +15567,453 @@ Apr 19 19:42 : exception: OutputThread could not get realtime scheduling, contin
 Apr 19 20:49 : player: played "YT/JimTV/Programming _ Coding _ Hacking music vol.17 (INFINITY)-UoPpxj77Vi0.mp3"
 Apr 20 11:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Apr 20 11:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 21 00:32 : player: played "YT/JimTV/Programming _ Coding _ Hacking music vol.17 (INFINITY)-UoPpxj77Vi0.mp3"
+Apr 21 19:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 21 19:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 21 23:50 : player: played "YT/JimTV/Programming _ Coding _ Hacking music vol.17 (INFINITY)-UoPpxj77Vi0.mp3"
+Apr 22 08:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 22 08:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 22 08:33 : client: [0] opened from 127.0.0.1:54966
+Apr 22 08:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 22 08:34 : player: played "YT/JimTV/Programming _ Coding _ Hacking music vol.17 (INFINITY)-UoPpxj77Vi0.mp3"
+Apr 22 08:36 : player: played "YT/JimTV/Programming _ Coding _ Hacking music vol.17 (INFINITY)-UoPpxj77Vi0.mp3"
+Apr 22 08:37 : player: played "YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of African Folk Music Instrumental _ Marimba, Kalimba, & Drums-9b81mWYIyTo.mp3"
+Apr 22 08:37 : player: played "YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of African Folk Music Instrumental _ Marimba, Kalimba, & Drums-9b81mWYIyTo.mp3"
+Apr 22 09:31 : player: played "YT/Derek&BrandonFiechter/MusicCompilations/1 Hour of Ancient Civilizations Music and World Music-TpA17Oy0nK8.mp3"
+Apr 22 09:34 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Illusions and Smoke-U0yUBkFDEG0.mp3"
+Apr 22 09:38 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Lampar the Steampunk Planet-sy3AUqT47pw.mp3"
+Apr 22 09:42 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Morioch the Elder (animated)-Z3PhPgpPznA.mp3"
+Apr 22 09:46 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow Empire-dCUSa83Vei0.mp3"
+Apr 22 09:50 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow King-eTyFRjCJaWg.mp3"
+Apr 22 09:54 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Underground City-1uUTXJEtG5k.mp3"
+Apr 22 09:58 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Zorah the Elder-6PZNJ_s7Ayg.mp3"
+Apr 22 10:02 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Battle in the Sky-cXk_inWxU1s.mp3"
+Apr 22 10:06 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Sky Pirates-UZQ9KgH6Z9M.mp3"
+Apr 22 10:10 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Steampunk Spies-3T-tSEwHw4k.mp3"
+Apr 22 10:13 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Futuristic City Music - Steam City-RURgvx0nVxA.mp3"
+Apr 22 10:17 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Council of the Steampunk Nobles-iDDc3WTBmsE.mp3"
+Apr 22 15:48 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Darkmor the Pirate-WVCsqjZkNzg.mp3"
+Apr 23 08:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 23 08:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 23 09:20 : client: [0] opened from 127.0.0.1:46400
+Apr 23 09:20 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Darkmor the Pirate-WVCsqjZkNzg.mp3"
+Apr 23 09:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 23 09:23 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Illusions and Smoke-U0yUBkFDEG0.mp3"
+Apr 23 09:27 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Lampar the Steampunk Planet-sy3AUqT47pw.mp3"
+Apr 23 09:31 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Morioch the Elder (animated)-Z3PhPgpPznA.mp3"
+Apr 23 09:35 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow Empire-dCUSa83Vei0.mp3"
+Apr 23 09:39 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow King-eTyFRjCJaWg.mp3"
+Apr 23 09:43 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Underground City-1uUTXJEtG5k.mp3"
+Apr 23 09:47 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Zorah the Elder-6PZNJ_s7Ayg.mp3"
+Apr 23 11:03 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Battle in the Sky-cXk_inWxU1s.mp3"
+Apr 23 11:07 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Sky Pirates-UZQ9KgH6Z9M.mp3"
+Apr 23 11:12 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Steampunk Spies-3T-tSEwHw4k.mp3"
+Apr 23 16:52 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Futuristic City Music - Steam City-RURgvx0nVxA.mp3"
+Apr 23 17:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 23 17:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 23 23:26 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Futuristic City Music - Steam City-RURgvx0nVxA.mp3"
+Apr 24 08:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 24 08:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 24 10:24 : update: updating YT/Odysseus/Cyberpunk Mixes/2077 - A Cyberpunk Mix-NbBcBJHiBgY.mp3
+Apr 24 10:24 : update: updating YT/Odysseus/Cyberpunk Mixes/Hyperdrive - A Cyberpunk Mix-QAUnDw9qAsI.mp3
+Apr 24 10:24 : update: updating YT/Odysseus/Cyberpunk Mixes/Turbo Kid - A Synthwave Mix-Qr_UbzqpaI4.mp3
+Apr 24 10:24 : update: updating YT/Odysseus/Cyberpunk Mixes/Outrun - A Cyberpunk Mix-DGkzmd66oaY.mp3
+Apr 24 10:24 : update: updating YT/Odysseus/Cyberpunk Mixes/Solaris - A Cyberpunk Mix-hHxDXjhNA_8.mp3
+Apr 24 10:24 : update: updating YT/Odysseus/Cyberpunk Mixes/Bleed - A Cyberpunk Mix-4g7wqFjGf4s.mp3
+Apr 24 10:24 : update: updating YT/Odysseus/Cyberpunk Mixes/Lust - A Darksynth Mix-BBS19XhW1_U.mp3
+Apr 24 10:24 : update: updating YT/Odysseus/Cyberpunk Mixes/Horizon - A Cyberpunk Mix--bWsa22VdHI.mp3
+Apr 24 10:24 : update: updating YT/Odysseus/Cyberpunk Mixes/Ghosts - A Cyberpunk Mix-UkMFNx3WRbM.mp3
+Apr 24 10:24 : update: added YT/Odysseus/Cyberpunk Mixes/Neo Tokyo - Cyberpunk Mix-7JqKRqOmzi0.webm
+Apr 24 10:24 : update: added YT/Odysseus/Cyberpunk Mixes/Neo Tokyo - Cyberpunk Mix-7JqKRqOmzi0.mp3
+Apr 24 10:25 : update: removing YT/Odysseus/Cyberpunk Mixes/Neo Tokyo - Cyberpunk Mix-7JqKRqOmzi0.webm
+Apr 24 10:25 : update: updating YT/Odysseus/Cyberpunk Mixes/Neo Tokyo - Cyberpunk Mix-7JqKRqOmzi0.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.19 (EASY THOUGHTS)-0V7X9fa0wco.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.22 (CYBER SOUL)-rrwjymZMLdM.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.16 (CONNECTION LOST)-l9nh1l8ZIJQ.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.2 (BRUTAL)-FS8XtrLqIxw.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.24 (TEST MODE)-ka4KN2KEGmI.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.6 (SERVERS)-fKvk3tpHrdA.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.8 (CONNECTING)-IpV9FCBnW20.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.17 (INFINITY)-UoPpxj77Vi0.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.13 (AFTER REPAIR)-46VPN677cLI.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.1-kHCn5h4_dh0.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.5 (HARDWARE)-TndfgYerRYY.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.14 (CYBORG PRODUCTION)-09j1wYdNfVQ.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.15 (HIDDEN SERVICE)-1-_tyTJHgB8.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.7 (CYBORG CAN NOT DIE)-do7Jl_4_d5w.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.20 (UNDER THE DEEP)-rr0gvSS1OzE.mp3
+Apr 24 10:26 : update: updating YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.18 (ANONYMOUS HEADQUARTERS)-Z-VfaG9ZN_U.mp3
+Apr 24 10:27 : update: added YT/Odysseus/Chillwave Mixes/Waves - A Chillwave Mix-kwLTw8F8yN8.webm
+Apr 24 10:27 : update: added YT/Odysseus/Chillwave Mixes/Waves - A Chillwave Mix-kwLTw8F8yN8.mp3
+Apr 24 10:27 : update: updating YT/Odysseus/Chillwave Mixes/Waves - A Chillwave Mix-kwLTw8F8yN8.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.13 (AFTER REPAIR)-46VPN677cLI.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.1-kHCn5h4_dh0.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Waves - A Chillwave Mix-kwLTw8F8yN8.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.8 (CONNECTING)-IpV9FCBnW20.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.7 (CYBORG CAN NOT DIE)-do7Jl_4_d5w.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.6 (SERVERS)-fKvk3tpHrdA.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.5 (HARDWARE)-TndfgYerRYY.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.24 (TEST MODE)-ka4KN2KEGmI.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.22 (CYBER SOUL)-rrwjymZMLdM.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.20 (UNDER THE DEEP)-rr0gvSS1OzE.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.2 (BRUTAL)-FS8XtrLqIxw.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.19 (EASY THOUGHTS)-0V7X9fa0wco.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.18 (ANONYMOUS HEADQUARTERS)-Z-VfaG9ZN_U.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.17 (INFINITY)-UoPpxj77Vi0.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.16 (CONNECTION LOST)-l9nh1l8ZIJQ.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.15 (HIDDEN SERVICE)-1-_tyTJHgB8.mp3
+Apr 24 10:28 : update: removing YT/Odysseus/Chillwave Mixes/Programming _ Coding _ Hacking music vol.14 (CYBORG PRODUCTION)-09j1wYdNfVQ.mp3
+Apr 24 10:28 : update: added YT/Odysseus/Chillwave Mixes/Waves - A Chillwave Mix-kwLTw8F8yN8.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Darksynth/Tachyon - A Darksynth Mix-zWz_OnTbpzw.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Darksynth/Oblivion - A Darksynth Mix-GPVwvwt0P1o.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Darksynth/Ghosts - A Cyberpunk Mix-UkMFNx3WRbM.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Synthwave Mixes/2077 - A Cyberpunk Mix-NbBcBJHiBgY.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Synthwave Mixes/Dawnbreaker - A Synthwave Mix-XjuIardSvvc.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Synthwave Mixes/Cybercity - A Synthwave Mix-dgCnYsDTiXU.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Synthwave Mixes/Turbo Kid - A Synthwave Mix-Qr_UbzqpaI4.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Synthwave Mixes/Blade - A Synthwave Mix-O0gdKb65FbI.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Synthwave Mixes/Spaceman - A Chillwave Mix-0WfU2w-qB5I.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Synthwave Mixes/Arrival - A Synthwave Mix-gXlwCEU_4t8.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Synthwave Mixes/Ethereal - A Synthwave Mix-sN9OxR-JTn4.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Synthwave Mixes/Cyberscape - A Synthwave Mix-hIPgqCKMUkY.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Synthwave Mixes/Stargate - A Synthwave Mix-eCKkuNsKZl0.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Synthwave Mixes/Nova - Best of Synthwave--00d_EXjhtM.mp3
+Apr 24 10:29 : update: updating YT/Odysseus/Synthwave Mixes/Future Girl - A Synthwave Mix-xbmP8qFBHOg.mp3
+Apr 24 10:30 : update: removing YT/Odysseus/Chillwave Mixes/Waves - A Chillwave Mix-kwLTw8F8yN8.webm
+Apr 24 10:30 : update: updating YT/Odysseus/Chillwave Mixes/Waves - A Chillwave Mix-kwLTw8F8yN8.mp3
+Apr 24 10:30 : update: added YT/Odysseus/Chillwave Mixes/Night Drive - A Chillwave Mix-emNgfuw8vlA.webm
+Apr 24 10:30 : update: added YT/Odysseus/Chillwave Mixes/Night Drive - A Chillwave Mix-emNgfuw8vlA.mp3
+Apr 24 10:31 : update: removing YT/ERB/Abe Lincoln VS Chuck Norris Epic Rap Battles of History #3-zj2Zf9tlg2Y.mp3
+Apr 24 10:31 : update: removing YT/ERB/Bob Ross vs Pablo Picasso - Epic Rap Battles of History-WGN5xaQkFk0.mp3
+Apr 24 10:31 : update: removing YT/ERB/Blackbeard vs Al Capone. Epic Rap Battles of History-yf9gulYfUh4.mp3
+Apr 24 10:31 : update: removing YT/ERB/Billy Mays vs Ben Franklin.  Epic Rap Battles of History #10-TAaE7sJahiw.mp3
+Apr 24 10:31 : update: removing YT/ERB/Batman vs Sherlock Holmes. Epic Rap Battles of History-17CLlZuiBkQ.mp3
+Apr 24 10:31 : update: removing YT/ERB/Barack Obama vs Mitt Romney. Epic Rap Battles Of History-dX_1B0w7Hzc.mp3
+Apr 24 10:31 : update: removing YT/ERB/Babe Ruth vs Lance Armstrong. Epic Rap Battles of History.-YtO-6Xg3g2M.mp3
+Apr 24 10:31 : update: removing YT/ERB/Ash Ketchum vs Charles Darwin. Epic Rap Battles of History.-EC7H99-7wxk.mp3
+Apr 24 10:31 : update: removing YT/ERB/Artists vs TMNT. Epic Rap Battles of History-6HZ5V9rT96M.mp3
+Apr 24 10:31 : update: removing YT/ERB/Alexander the Great vs Ivan the Terrible. Epic Rap Battles of History-NVbH1BVXywY.mp3
+Apr 24 10:31 : update: removing YT/ERB/Adam vs Eve. Epic Rap Battles of History-liLU2tEz7KY.mp3
+Apr 24 10:31 : update: removing YT/ERB/Hitler vs Vader 2.  Epic Rap Battles of History-CeLrlmV9A-s.mp3
+Apr 24 10:31 : update: removing YT/ERB/Gordon Ramsay vs Julia Child. Epic Rap Battles of History-99-n42Xb6NQ.mp3
+Apr 24 10:31 : update: removing YT/ERB/Goku vs Superman.  Epic Rap Battles of History-0MW9Nrg_kZU.mp3
+Apr 24 10:31 : update: removing YT/ERB/Ghostbusters vs Mythbusters. Epic Rap Battles of History-w0pnTm-KK9k.mp3
+Apr 24 10:31 : update: removing YT/ERB/George Washington vs William Wallace. Epic Rap Battles of History-dl7CLaZFG1c.mp3
+Apr 24 10:31 : update: removing YT/ERB/Genghis Khan vs Easter Bunny.  Epic Rap Battles of History #8-WA4tLCGcTG4.mp3
+Apr 24 10:31 : update: removing YT/ERB/Gandhi vs Martin Luther King Jr. Epic Rap Battles of History--6G6CZT7h4k.mp3
+Apr 24 10:31 : update: removing YT/ERB/Gandalf vs Dumbledore.  Epic Rap Battles of History #11-ZIMoQHpvFQQ.mp3
+Apr 24 10:31 : update: removing YT/ERB/Frederick Douglass vs Thomas Jefferson.  Epic Rap Battles of History-O-ZblMfZpuw.mp3
+Apr 24 10:31 : update: removing YT/ERB/Frank Sinatra vs Freddie Mercury. Epic Rap Battles of History-K5a_v0MP_Fk.mp3
+Apr 24 10:31 : update: removing YT/ERB/Epic Rap Battles of History 1 - John Lennon V Bill O'Reilly-YHRxv-40WMU.mp3
+Apr 24 10:31 : update: removing YT/ERB/Elon Musk vs Mark Zuckerberg - Epic Rap Battles of History.-a2GVxYfKSxA.mp3
+Apr 24 10:31 : update: removing YT/ERB/Einstein vs Stephen Hawking -Epic Rap Battles of History #7-zn7-fVtT16k.mp3
+Apr 24 10:31 : update: removing YT/ERB/Eastern Philosophers vs Western Philosophers. Epic Rap Battles of History-0N_RO-jL-90.mp3
+Apr 24 10:31 : update: removing YT/ERB/Dr Seuss VS Shakespeare.  Epic Rap Battles of History #12-l3w2MTXBebg.mp3
+Apr 24 10:31 : update: removing YT/ERB/Donald Trump vs Hillary Clinton. Epic Rap Battles of History-Kbryz0mxuMY.mp3
+Apr 24 10:31 : update: removing YT/ERB/Donald Trump vs Ebenezer Scrooge. Epic Rap Battles of History-cP6VqB4klpQ.mp3
+Apr 24 10:31 : update: removing YT/ERB/Doc Brown vs Doctor Who. Epic Rap Battles of History-xDj7gvc_dsA.mp3
+Apr 24 10:31 : update: removing YT/ERB/Deadpool vs Boba Fett. Epic Rap Battles of History-g708PmJAbuI.mp3
+Apr 24 10:31 : update: removing YT/ERB/David Copperfield vs Harry Houdini. Epic Rap Battles of History-rVTwgQ76l-g.mp3
+Apr 24 10:31 : update: removing YT/ERB/Darth Vader vs Hitler.   Epic Rap Battles of History 2-AFA-rOls8YA.mp3
+Apr 24 10:31 : update: removing YT/ERB/Columbus vs Captain Kirk.  Epic Rap Battles of History #14-xBzoBgfm55w.mp3
+Apr 24 10:31 : update: removing YT/ERB/Cleopatra VS Marilyn Monroe. Epic Rap Battles of History-vICX-6dMOuA.mp3
+Apr 24 10:31 : update: removing YT/ERB/Bruce Lee vs Clint Eastwood. Epic Rap Battles of History-eHCyaJS4Cbs.mp3
+Apr 24 10:31 : update: removing YT/ERB/Bruce Banner vs Bruce Jenner. Epic Rap Battles of History-810FWtKnH-o.mp3
+Apr 24 10:31 : update: removing YT/ERB/Zeus vs Thor. Epic Rap Battles of History.-i_xFOmYxKYw.mp3
+Apr 24 10:31 : update: removing YT/ERB/Wonder Woman vs Stevie Wonder. Epic Rap Battles of History-T7jL0NJ98Nc.mp3
+Apr 24 10:31 : update: removing YT/ERB/Tony Hawk vs Wayne Gretzky. Epic Rap Battles of History-goMYHB2Grvg.mp3
+Apr 24 10:31 : update: removing YT/ERB/Theodore Roosevelt vs Winston Churchill. Epic Rap Battles of History-owTPZQQAVyQ.mp3
+Apr 24 10:31 : update: removing YT/ERB/Terminator vs Robocop.  Epic Rap Battles of History-Jmqa99Ar1Hs.mp3
+Apr 24 10:31 : update: removing YT/ERB/Steven Spielberg vs Alfred Hitchcock. Epic Rap Battles of History-_wYtG7aQTHA.mp3
+Apr 24 10:31 : update: removing YT/ERB/Steve Jobs vs Bill Gates. Epic Rap Battles of History-njos57IJf-0.mp3
+Apr 24 10:31 : update: removing YT/ERB/Stephen King vs Edgar Allan Poe. Epic Rap Battles of History.-56R3hU-fWZY.mp3
+Apr 24 10:31 : update: removing YT/ERB/Sir Isaac Newton vs Bill Nye. Epic Rap Battles of History-8yis7GzlXNM.mp3
+Apr 24 10:31 : update: removing YT/ERB/Shaka Zulu vs Julius Caesar. Epic Rap Battles of History-oOm_2dGzqp0.mp3
+Apr 24 10:31 : update: removing YT/ERB/Sarah Palin VS Lady Gaga - Epic Rap Battles of History 4-mhTd4_Ids80.mp3
+Apr 24 10:31 : update: removing YT/ERB/Romeo and Juliet vs Bonnie and Clyde. Epic Rap Battles of History-NV7xJ73_eeM.mp3
+Apr 24 10:31 : update: removing YT/ERB/Rick Grimes vs Walter White.  Epic Rap Battles of History-krQHQvtIr6w.mp3
+Apr 24 10:31 : update: removing YT/ERB/Rasputin vs Stalin. Epic Rap Battles of History-ZT2z0nrsQ8o.mp3
+Apr 24 10:31 : update: removing YT/ERB/Oprah vs Ellen.  Epic Rap Battles of History-NIsa-vfXV6Q.mp3
+Apr 24 10:31 : update: removing YT/ERB/Nikola Tesla vs Thomas Edison. Epic Rap Battles of History-gJ1Mz7kGVf0.mp3
+Apr 24 10:31 : update: removing YT/ERB/Nice Peter vs EpicLLOYD. Epic Rap Battles of History-IVJVCoHDAXs.mp3
+Apr 24 10:31 : update: removing YT/ERB/Nice Peter vs EpicLLOYD 2. Epic Rap Battles of History-0mbGUld2w-s.mp3
+Apr 24 10:31 : update: removing YT/ERB/Napoleon vs Napoleon.  Epic Rap Battles of History #9-AeNYDwbm9qw.mp3
+Apr 24 10:31 : update: removing YT/ERB/Mr T vs Mr Rogers. Epic Rap Battles of History #13-7ZsKqbt3gQ0.mp3
+Apr 24 10:31 : update: removing YT/ERB/Mozart vs Skrillex. Epic Rap Battles of History-_6Au0xCg3PI.mp3
+Apr 24 10:31 : update: removing YT/ERB/Moses vs Santa Claus. Epic Rap Battles of History-0kRAKXFrYQ4.mp3
+Apr 24 10:31 : update: removing YT/ERB/Miley Cyrus vs Joan of Arc. Epic Rap Battles of History-UQx1sqPHTrk.mp3
+Apr 24 10:31 : update: removing YT/ERB/Michael Jordan vs Muhammad Ali. Epic Rap Battles of History-N_uOtAkEf6U.mp3
+Apr 24 10:31 : update: removing YT/ERB/Michael Jackson VS Elvis Presley. Epic Rap Battles of History-0M0RbaPxq2k.mp3
+Apr 24 10:31 : update: removing YT/ERB/Master Chief vs Leonidas. Epic Rap Battles of History-mgVwv0ZuPhM.mp3
+Apr 24 10:31 : update: removing YT/ERB/Mario Bros vs Wright Bros. Epic Rap Battles of History.-1_hKLfTKU5Y.mp3
+Apr 24 10:31 : update: removing YT/ERB/Lewis and Clark vs Bill and Ted. Epic Rap Battles of History-ll0v-CNCUwE.mp3
+Apr 24 10:31 : update: removing YT/ERB/Justin Bieber vs Beethoven -Epic Rap Battles of History #6-UcTLJ692F70.mp3
+Apr 24 10:31 : update: removing YT/ERB/Jim Henson vs Stan Lee.  Epic Rap Battles of History-PXBJIZ1NXFU.mp3
+Apr 24 10:31 : update: removing YT/ERB/James Bond vs Austin Powers. Epic Rap Battles of History-Iy7xDGi5lp4.mp3
+Apr 24 10:31 : update: removing YT/ERB/Jack the Ripper vs Hannibal Lecter. Epic Rap Battles of History-KfkR5o_bcSg.mp3
+Apr 24 10:31 : update: removing YT/ERB/J. R. R. Tolkien vs George R. R. Martin. Epic Rap Battles of History-XAAp_luluo0.mp3
+Apr 24 10:31 : update: removing YT/ERB/Hulk Hogan and Macho Man VS Kim Jong-il - Epic Rap Battles of History 5-7rE0-ek6MZA.mp3
+Apr 24 10:31 : update: removing YT/ERB/Hitler vs Vader 3. Epic Rap Battles of History-BpqNvskS_kM.mp3
+Apr 24 10:31 : update: added YT/ERB/Freddy Krueger vs Wolverine - Epic Rap Battles of History.-KdpG1iYkjuk.webm
+Apr 24 10:31 : update: added YT/ERB/Freddy Krueger vs Wolverine - Epic Rap Battles of History.-KdpG1iYkjuk.mp3
+Apr 24 10:31 : update: removing YT/ERB/Freddy Krueger vs Wolverine - Epic Rap Battles of History.-KdpG1iYkjuk.webm
+Apr 24 10:31 : update: added YT/ERB/Elon Musk vs Mark Zuckerberg. Epic Rap Battles of History-a2GVxYfKSxA.webm
+Apr 24 10:31 : update: updating YT/ERB/Freddy Krueger vs Wolverine - Epic Rap Battles of History.-KdpG1iYkjuk.mp3
+Apr 24 10:31 : update: added YT/ERB/Elon Musk vs Mark Zuckerberg. Epic Rap Battles of History-a2GVxYfKSxA.mp3
+Apr 24 10:31 : update: removing YT/ERB/Elon Musk vs Mark Zuckerberg. Epic Rap Battles of History-a2GVxYfKSxA.webm
+Apr 24 10:31 : update: added YT/ERB/Nice Peter vs EpicLLOYD 2. Epic Rap Battles of History-0mbGUld2w-s.webm
+Apr 24 10:31 : update: added YT/ERB/Nice Peter vs EpicLLOYD 2. Epic Rap Battles of History-0mbGUld2w-s.mp3
+Apr 24 10:31 : update: updating YT/ERB/Elon Musk vs Mark Zuckerberg. Epic Rap Battles of History-a2GVxYfKSxA.mp3
+Apr 24 10:32 : update: removing YT/Odysseus/Chillwave Mixes/Night Drive - A Chillwave Mix-emNgfuw8vlA.webm
+Apr 24 10:32 : update: added YT/Odysseus/Chillwave Mixes/Spaceman - A Chillwave Mix-0WfU2w-qB5I.mp3
+Apr 24 10:32 : update: updating YT/Odysseus/Chillwave Mixes/Night Drive - A Chillwave Mix-emNgfuw8vlA.mp3
+Apr 24 10:32 : update: added YT/Odysseus/Chillwave Mixes/Spaceman - A Chillwave Mix-0WfU2w-qB5I.webm
+Apr 24 10:32 : update: removing YT/ERB/Nice Peter vs EpicLLOYD 2. Epic Rap Battles of History-0mbGUld2w-s.webm
+Apr 24 10:32 : update: added YT/ERB/Tony Hawk vs Wayne Gretzky. Epic Rap Battles of History-goMYHB2Grvg.webm
+Apr 24 10:32 : update: added YT/ERB/Tony Hawk vs Wayne Gretzky. Epic Rap Battles of History-goMYHB2Grvg.mp3
+Apr 24 10:32 : update: added YT/ERB/Theodore Roosevelt vs Winston Churchill. Epic Rap Battles of History-owTPZQQAVyQ.mp3
+Apr 24 10:32 : update: updating YT/ERB/Nice Peter vs EpicLLOYD 2. Epic Rap Battles of History-0mbGUld2w-s.mp3
+Apr 24 10:32 : update: removing YT/ERB/Tony Hawk vs Wayne Gretzky. Epic Rap Battles of History-goMYHB2Grvg.webm
+Apr 24 10:32 : update: updating YT/ERB/Tony Hawk vs Wayne Gretzky. Epic Rap Battles of History-goMYHB2Grvg.mp3
+Apr 24 10:32 : update: added YT/ERB/Wonder Woman vs Stevie Wonder. Epic Rap Battles of History-T7jL0NJ98Nc.mp3
+Apr 24 10:32 : update: added YT/ERB/Wonder Woman vs Stevie Wonder. Epic Rap Battles of History-T7jL0NJ98Nc.webm
+Apr 24 10:32 : update: removing YT/ERB/Wonder Woman vs Stevie Wonder. Epic Rap Battles of History-T7jL0NJ98Nc.webm
+Apr 24 10:32 : update: added YT/ERB/Ash Ketchum vs Charles Darwin. Epic Rap Battles of History.-EC7H99-7wxk.mp3
+Apr 24 10:32 : update: added YT/ERB/Donald Trump vs Hillary Clinton. Epic Rap Battles of History-Kbryz0mxuMY.mp3
+Apr 24 10:32 : update: added YT/ERB/Donald Trump vs Hillary Clinton. Epic Rap Battles of History-Kbryz0mxuMY.webm
+Apr 24 10:32 : update: updating YT/ERB/Wonder Woman vs Stevie Wonder. Epic Rap Battles of History-T7jL0NJ98Nc.mp3
+Apr 24 10:32 : update: removing YT/ERB/Donald Trump vs Hillary Clinton. Epic Rap Battles of History-Kbryz0mxuMY.webm
+Apr 24 10:32 : update: updating YT/ERB/Donald Trump vs Hillary Clinton. Epic Rap Battles of History-Kbryz0mxuMY.mp3
+Apr 24 10:32 : update: added YT/ERB/Alexander the Great vs Ivan the Terrible. Epic Rap Battles of History-NVbH1BVXywY.webm
+Apr 24 10:32 : update: added YT/ERB/Alexander the Great vs Ivan the Terrible. Epic Rap Battles of History-NVbH1BVXywY.mp3
+Apr 24 10:32 : update: removing YT/ERB/Alexander the Great vs Ivan the Terrible. Epic Rap Battles of History-NVbH1BVXywY.webm
+Apr 24 10:32 : update: added YT/ERB/Bruce Banner vs Bruce Jenner. Epic Rap Battles of History-810FWtKnH-o.webm
+Apr 24 10:32 : update: updating YT/ERB/Alexander the Great vs Ivan the Terrible. Epic Rap Battles of History-NVbH1BVXywY.mp3
+Apr 24 10:32 : update: added YT/ERB/Bruce Banner vs Bruce Jenner. Epic Rap Battles of History-810FWtKnH-o.mp3
+Apr 24 10:32 : update: removing YT/ERB/Bruce Banner vs Bruce Jenner. Epic Rap Battles of History-810FWtKnH-o.webm
+Apr 24 10:32 : update: added YT/ERB/James Bond vs Austin Powers. Epic Rap Battles of History-Iy7xDGi5lp4.mp3
+Apr 24 10:32 : update: added YT/ERB/James Bond vs Austin Powers. Epic Rap Battles of History-Iy7xDGi5lp4.webm
+Apr 24 10:32 : update: updating YT/ERB/Bruce Banner vs Bruce Jenner. Epic Rap Battles of History-810FWtKnH-o.mp3
+Apr 24 10:33 : update: removing YT/ERB/James Bond vs Austin Powers. Epic Rap Battles of History-Iy7xDGi5lp4.webm
+Apr 24 10:33 : update: updating YT/ERB/James Bond vs Austin Powers. Epic Rap Battles of History-Iy7xDGi5lp4.mp3
+Apr 24 10:33 : update: added YT/ERB/Frederick Douglass vs Thomas Jefferson. Epic Rap Battles of History-O-ZblMfZpuw.mp3
+Apr 24 10:33 : update: added YT/ERB/Frederick Douglass vs Thomas Jefferson. Epic Rap Battles of History-O-ZblMfZpuw.webm
+Apr 24 10:33 : update: removing YT/ERB/Frederick Douglass vs Thomas Jefferson. Epic Rap Battles of History-O-ZblMfZpuw.webm
+Apr 24 10:33 : update: added YT/ERB/Gordon Ramsay vs Julia Child. Epic Rap Battles of History-99-n42Xb6NQ.webm
+Apr 24 10:33 : update: added YT/ERB/Gordon Ramsay vs Julia Child. Epic Rap Battles of History-99-n42Xb6NQ.mp3
+Apr 24 10:33 : update: updating YT/ERB/Frederick Douglass vs Thomas Jefferson. Epic Rap Battles of History-O-ZblMfZpuw.mp3
+Apr 24 10:33 : update: removing YT/ERB/Gordon Ramsay vs Julia Child. Epic Rap Battles of History-99-n42Xb6NQ.webm
+Apr 24 10:33 : update: added YT/ERB/J. R. R. Tolkien vs George R. R. Martin. Epic Rap Battles of History-XAAp_luluo0.mp3
+Apr 24 10:33 : update: updating YT/ERB/Gordon Ramsay vs Julia Child. Epic Rap Battles of History-99-n42Xb6NQ.mp3
+Apr 24 10:33 : update: added YT/ERB/Jim Henson vs Stan Lee. Epic Rap Battles of History-PXBJIZ1NXFU.webm
+Apr 24 10:33 : update: added YT/ERB/Deadpool vs Boba Fett. Epic Rap Battles of History-g708PmJAbuI.mp3
+Apr 24 10:33 : update: added YT/ERB/Jim Henson vs Stan Lee. Epic Rap Battles of History-PXBJIZ1NXFU.mp3
+Apr 24 10:33 : update: removing YT/Odysseus/Chillwave Mixes/Spaceman - A Chillwave Mix-0WfU2w-qB5I.webm
+Apr 24 10:33 : update: added YT/Odysseus/Chillwave Mixes/Cyberscape - A Synthwave Mix-hIPgqCKMUkY.webm
+Apr 24 10:33 : update: updating YT/Odysseus/Chillwave Mixes/Spaceman - A Chillwave Mix-0WfU2w-qB5I.mp3
+Apr 24 10:33 : update: added YT/Odysseus/Chillwave Mixes/Cyberscape - A Synthwave Mix-hIPgqCKMUkY.mp3
+Apr 24 10:34 : update: removing YT/ERB/Jim Henson vs Stan Lee. Epic Rap Battles of History-PXBJIZ1NXFU.webm
+Apr 24 10:34 : update: added YT/ERB/Shaka Zulu vs Julius Caesar. Epic Rap Battles of History-oOm_2dGzqp0.mp3
+Apr 24 10:34 : update: added YT/ERB/Eastern Philosophers vs Western Philosophers. Epic Rap Battles of History-0N_RO-jL-90.mp3
+Apr 24 10:34 : update: added YT/ERB/Eastern Philosophers vs Western Philosophers. Epic Rap Battles of History-0N_RO-jL-90.webm
+Apr 24 10:34 : update: updating YT/ERB/Jim Henson vs Stan Lee. Epic Rap Battles of History-PXBJIZ1NXFU.mp3
+Apr 24 10:34 : update: added YT/ERB/Terminator vs Robocop.  Epic Rap Battles of History-Jmqa99Ar1Hs.mp3
+Apr 24 10:34 : update: removing YT/ERB/Eastern Philosophers vs Western Philosophers. Epic Rap Battles of History-0N_RO-jL-90.webm
+Apr 24 10:34 : update: added YT/ERB/Lewis and Clark vs Bill and Ted. Epic Rap Battles of History-ll0v-CNCUwE.webm
+Apr 24 10:34 : update: added YT/ERB/Lewis and Clark vs Bill and Ted. Epic Rap Battles of History-ll0v-CNCUwE.mp3
+Apr 24 10:34 : update: updating YT/ERB/Eastern Philosophers vs Western Philosophers. Epic Rap Battles of History-0N_RO-jL-90.mp3
+Apr 24 10:34 : update: added YT/ERB/David Copperfield vs Harry Houdini. Epic Rap Battles of History-rVTwgQ76l-g.mp3
+Apr 24 10:34 : update: removing YT/ERB/Lewis and Clark vs Bill and Ted. Epic Rap Battles of History-ll0v-CNCUwE.webm
+Apr 24 10:34 : update: added YT/ERB/Steven Spielberg vs Alfred Hitchcock. Epic Rap Battles of History-_wYtG7aQTHA.mp3
+Apr 24 10:34 : update: added YT/ERB/Steven Spielberg vs Alfred Hitchcock. Epic Rap Battles of History-_wYtG7aQTHA.webm
+Apr 24 10:34 : update: updating YT/ERB/Lewis and Clark vs Bill and Ted. Epic Rap Battles of History-ll0v-CNCUwE.mp3
+Apr 24 10:34 : update: removing YT/ERB/Steven Spielberg vs Alfred Hitchcock. Epic Rap Battles of History-_wYtG7aQTHA.webm
+Apr 24 10:34 : update: updating YT/ERB/Steven Spielberg vs Alfred Hitchcock. Epic Rap Battles of History-_wYtG7aQTHA.mp3
+Apr 24 10:34 : update: added YT/ERB/Oprah Winfrey vs Ellen DeGeneres. Epic Rap Battles of History-NIsa-vfXV6Q.mp3
+Apr 24 10:34 : update: added YT/ERB/Oprah Winfrey vs Ellen DeGeneres. Epic Rap Battles of History-NIsa-vfXV6Q.webm
+Apr 24 10:34 : update: removing YT/ERB/Oprah Winfrey vs Ellen DeGeneres. Epic Rap Battles of History-NIsa-vfXV6Q.webm
+Apr 24 10:34 : update: added YT/ERB/Jack the Ripper vs Hannibal Lecter. Epic Rap Battles of History-KfkR5o_bcSg.webm
+Apr 24 10:34 : update: added YT/ERB/Jack the Ripper vs Hannibal Lecter. Epic Rap Battles of History-KfkR5o_bcSg.mp3
+Apr 24 10:34 : update: updating YT/ERB/Oprah Winfrey vs Ellen DeGeneres. Epic Rap Battles of History-NIsa-vfXV6Q.mp3
+Apr 24 10:35 : update: removing YT/ERB/Jack the Ripper vs Hannibal Lecter. Epic Rap Battles of History-KfkR5o_bcSg.webm
+Apr 24 10:35 : update: updating YT/ERB/Jack the Ripper vs Hannibal Lecter. Epic Rap Battles of History-KfkR5o_bcSg.mp3
+Apr 24 10:35 : update: added YT/ERB/Artists vs TMNT. Epic Rap Battles of History-6HZ5V9rT96M.mp3
+Apr 24 10:35 : update: added YT/ERB/George Washington vs William Wallace. Epic Rap Battles of History-dl7CLaZFG1c.webm
+Apr 24 10:35 : update: added YT/ERB/Romeo and Juliet vs Bonnie and Clyde. Epic Rap Battles of History-NV7xJ73_eeM.mp3
+Apr 24 10:35 : update: added YT/ERB/Ghostbusters vs Mythbusters. Epic Rap Battles of History-w0pnTm-KK9k.mp3
+Apr 24 10:35 : update: added YT/ERB/Zeus vs Thor. Epic Rap Battles of History.-i_xFOmYxKYw.mp3
+Apr 24 10:35 : update: added YT/ERB/George Washington vs William Wallace. Epic Rap Battles of History-dl7CLaZFG1c.mp3
+Apr 24 10:35 : update: removing YT/Odysseus/Chillwave Mixes/Cyberscape - A Synthwave Mix-hIPgqCKMUkY.webm
+Apr 24 10:35 : update: added YT/Odysseus/Chillwave Mixes/Beyond - A Chillwave Mix-vQzqTTaWefY.mp3
+Apr 24 10:35 : update: added YT/Odysseus/Chillwave Mixes/Beyond - A Chillwave Mix-vQzqTTaWefY.webm
+Apr 24 10:35 : update: updating YT/Odysseus/Chillwave Mixes/Cyberscape - A Synthwave Mix-hIPgqCKMUkY.mp3
+Apr 24 10:36 : update: removing YT/ERB/George Washington vs William Wallace. Epic Rap Battles of History-dl7CLaZFG1c.webm
+Apr 24 10:36 : update: added YT/ERB/Donald Trump vs Ebenezer Scrooge. Epic Rap Battles of History-cP6VqB4klpQ.mp3
+Apr 24 10:36 : update: added YT/ERB/Goku vs Superman. Epic Rap Battles of History-0MW9Nrg_kZU.mp3
+Apr 24 10:36 : update: added YT/ERB/Stephen King vs Edgar Allan Poe. Epic Rap Battles of History.-56R3hU-fWZY.mp3
+Apr 24 10:36 : update: added YT/ERB/Rick Grimes vs Walter White.  Epic Rap Battles of History-krQHQvtIr6w.mp3
+Apr 24 10:36 : update: updating YT/ERB/George Washington vs William Wallace. Epic Rap Battles of History-dl7CLaZFG1c.mp3
+Apr 24 10:36 : update: added YT/ERB/Sir Isaac Newton vs Bill Nye. Epic Rap Battles of History-8yis7GzlXNM.mp3
+Apr 24 10:36 : update: added YT/ERB/Donald Trump vs Ebenezer Scrooge. Epic Rap Battles of History-cP6VqB4klpQ.webm
+Apr 24 10:36 : update: removing YT/ERB/Donald Trump vs Ebenezer Scrooge. Epic Rap Battles of History-cP6VqB4klpQ.webm
+Apr 24 10:36 : update: added YT/ERB/Michael Jordan vs Muhammad Ali. Epic Rap Battles of History-N_uOtAkEf6U.mp3
+Apr 24 10:36 : update: updating YT/ERB/Donald Trump vs Ebenezer Scrooge. Epic Rap Battles of History-cP6VqB4klpQ.mp3
+Apr 24 10:36 : update: added YT/ERB/Bob Ross vs Pablo Picasso. Epic Rap Battles of History-WGN5xaQkFk0.mp3
+Apr 24 10:36 : update: added YT/ERB/Miley Cyrus vs Joan of Arc. Epic Rap Battles of History-UQx1sqPHTrk.webm
+Apr 24 10:36 : update: added YT/ERB/Miley Cyrus vs Joan of Arc. Epic Rap Battles of History-UQx1sqPHTrk.mp3
+Apr 24 10:36 : update: removing YT/ERB/Miley Cyrus vs Joan of Arc. Epic Rap Battles of History-UQx1sqPHTrk.webm
+Apr 24 10:36 : update: added YT/ERB/Blackbeard vs Al Capone. Epic Rap Battles of History-yf9gulYfUh4.mp3
+Apr 24 10:36 : update: added YT/ERB/Blackbeard vs Al Capone. Epic Rap Battles of History-yf9gulYfUh4.webm
+Apr 24 10:36 : update: updating YT/ERB/Miley Cyrus vs Joan of Arc. Epic Rap Battles of History-UQx1sqPHTrk.mp3
+Apr 24 10:37 : update: removing YT/ERB/Blackbeard vs Al Capone. Epic Rap Battles of History-yf9gulYfUh4.webm
+Apr 24 10:37 : update: added YT/ERB/Babe Ruth vs Lance Armstrong. Epic Rap Battles of History.-YtO-6Xg3g2M.mp3
+Apr 24 10:37 : update: updating YT/ERB/Blackbeard vs Al Capone. Epic Rap Battles of History-yf9gulYfUh4.mp3
+Apr 24 10:37 : update: added YT/ERB/Hitler vs Vader 3. Epic Rap Battles of History-BpqNvskS_kM.mp3
+Apr 24 10:37 : update: added YT/ERB/Nikola Tesla vs Thomas Edison. Epic Rap Battles of History-gJ1Mz7kGVf0.mp3
+Apr 24 10:37 : update: added YT/ERB/Rasputin vs Stalin. Epic Rap Battles of History-ZT2z0nrsQ8o.mp3
+Apr 24 10:37 : update: added YT/ERB/Nikola Tesla vs Thomas Edison. Epic Rap Battles of History-gJ1Mz7kGVf0.webm
+Apr 24 10:37 : update: added YT/ERB/Mozart vs Skrillex. Epic Rap Battles of History-_6Au0xCg3PI.mp3
+Apr 24 10:37 : update: removing YT/Odysseus/Chillwave Mixes/Beyond - A Chillwave Mix-vQzqTTaWefY.webm
+Apr 24 10:37 : update: added YT/Odysseus/Chillwave Mixes/Wavesurfer - A Chillwave Mix-Y89zD7t77YI.mp3
+Apr 24 10:37 : update: updating YT/Odysseus/Chillwave Mixes/Beyond - A Chillwave Mix-vQzqTTaWefY.mp3
+Apr 24 10:37 : update: added YT/Odysseus/Chillwave Mixes/Wavesurfer - A Chillwave Mix-Y89zD7t77YI.webm
+Apr 24 10:37 : update: removing YT/ERB/Nikola Tesla vs Thomas Edison. Epic Rap Battles of History-gJ1Mz7kGVf0.webm
+Apr 24 10:37 : update: added YT/ERB/Adam vs Eve. Epic Rap Battles of History-liLU2tEz7KY.mp3
+Apr 24 10:37 : update: updating YT/ERB/Nikola Tesla vs Thomas Edison. Epic Rap Battles of History-gJ1Mz7kGVf0.mp3
+Apr 24 10:37 : update: added YT/ERB/Gandhi vs Martin Luther King Jr. Epic Rap Battles of History--6G6CZT7h4k.mp3
+Apr 24 10:37 : update: added YT/ERB/Moses vs Santa Claus. Epic Rap Battles of History-0kRAKXFrYQ4.mp3
+Apr 24 10:37 : update: added YT/ERB/Batman vs Sherlock Holmes. Epic Rap Battles of History-17CLlZuiBkQ.webm
+Apr 24 10:37 : update: added YT/ERB/Batman vs Sherlock Holmes. Epic Rap Battles of History-17CLlZuiBkQ.mp3
+Apr 24 10:37 : update: removing YT/ERB/Batman vs Sherlock Holmes. Epic Rap Battles of History-17CLlZuiBkQ.webm
+Apr 24 10:37 : update: added YT/ERB/Bruce Lee vs Clint Eastwood. Epic Rap Battles of History-eHCyaJS4Cbs.mp3
+Apr 24 10:37 : update: added YT/ERB/Doc Brown vs Doctor Who. Epic Rap Battles of History-xDj7gvc_dsA.mp3
+Apr 24 10:37 : update: updating YT/ERB/Batman vs Sherlock Holmes. Epic Rap Battles of History-17CLlZuiBkQ.mp3
+Apr 24 10:37 : update: added YT/ERB/Doc Brown vs Doctor Who. Epic Rap Battles of History-xDj7gvc_dsA.webm
+Apr 24 10:37 : update: removing YT/ERB/Doc Brown vs Doctor Who. Epic Rap Battles of History-xDj7gvc_dsA.webm
+Apr 24 10:37 : update: added YT/ERB/Barack Obama vs Mitt Romney. Epic Rap Battles Of History-dX_1B0w7Hzc.webm
+Apr 24 10:37 : update: added YT/ERB/Barack Obama vs Mitt Romney. Epic Rap Battles Of History-dX_1B0w7Hzc.mp3
+Apr 24 10:37 : update: updating YT/ERB/Doc Brown vs Doctor Who. Epic Rap Battles of History-xDj7gvc_dsA.mp3
+Apr 24 10:38 : update: removing YT/ERB/Barack Obama vs Mitt Romney. Epic Rap Battles Of History-dX_1B0w7Hzc.webm
+Apr 24 10:38 : update: updating YT/ERB/Barack Obama vs Mitt Romney. Epic Rap Battles Of History-dX_1B0w7Hzc.mp3
+Apr 24 10:38 : update: added YT/ERB/Frank Sinatra vs Freddie Mercury. Epic Rap Battles of History-K5a_v0MP_Fk.mp3
+Apr 24 10:38 : update: added YT/ERB/Frank Sinatra vs Freddie Mercury. Epic Rap Battles of History-K5a_v0MP_Fk.webm
+Apr 24 10:38 : update: removing YT/Odysseus/Chillwave Mixes/Wavesurfer - A Chillwave Mix-Y89zD7t77YI.webm
+Apr 24 10:38 : update: updating YT/Odysseus/Chillwave Mixes/Wavesurfer - A Chillwave Mix-Y89zD7t77YI.mp3
+Apr 24 10:38 : update: added YT/Odysseus/Chillwave Mixes/Night City - A Chillwave Mix-pe5-h8MyddE.mp3
+Apr 24 10:38 : update: added YT/Odysseus/Chillwave Mixes/Night City - A Chillwave Mix-pe5-h8MyddE.webm
+Apr 24 10:38 : update: removing YT/ERB/Frank Sinatra vs Freddie Mercury. Epic Rap Battles of History-K5a_v0MP_Fk.webm
+Apr 24 10:38 : update: added YT/ERB/Michael Jackson VS Elvis Presley. Epic Rap Battles of History-0M0RbaPxq2k.mp3
+Apr 24 10:38 : update: updating YT/ERB/Frank Sinatra vs Freddie Mercury. Epic Rap Battles of History-K5a_v0MP_Fk.mp3
+Apr 24 10:38 : update: added YT/ERB/Master Chief vs Leonidas. Epic Rap Battles of History-mgVwv0ZuPhM.webm
+Apr 24 10:38 : update: added YT/ERB/Master Chief vs Leonidas. Epic Rap Battles of History-mgVwv0ZuPhM.mp3
+Apr 24 10:38 : update: added YT/ERB/Cleopatra vs Marilyn Monroe. Epic Rap Battles of History-vICX-6dMOuA.mp3
+Apr 24 10:38 : update: added YT/ERB/Steve Jobs vs Bill Gates. Epic Rap Battles of History-njos57IJf-0.mp3
+Apr 24 10:38 : update: added YT/ERB/Mario Bros vs Wright Bros. Epic Rap Battles of History.-1_hKLfTKU5Y.mp3
+Apr 24 10:38 : update: removing YT/ERB/Master Chief vs Leonidas. Epic Rap Battles of History-mgVwv0ZuPhM.webm
+Apr 24 10:38 : update: added YT/ERB/Hitler vs Vader 2.  Epic Rap Battles of History-CeLrlmV9A-s.mp3
+Apr 24 10:38 : update: added YT/ERB/Nice Peter vs EpicLLOYD. Epic Rap Battles of History-IVJVCoHDAXs.mp3
+Apr 24 10:38 : update: added YT/ERB/Nice Peter vs EpicLLOYD. Epic Rap Battles of History-IVJVCoHDAXs.webm
+Apr 24 10:38 : update: updating YT/ERB/Master Chief vs Leonidas. Epic Rap Battles of History-mgVwv0ZuPhM.mp3
+Apr 24 10:39 : update: removing YT/ERB/Nice Peter vs EpicLLOYD. Epic Rap Battles of History-IVJVCoHDAXs.webm
+Apr 24 10:39 : update: updating YT/ERB/Nice Peter vs EpicLLOYD. Epic Rap Battles of History-IVJVCoHDAXs.mp3
+Apr 24 10:39 : update: added YT/ERB/Christopher Columbus vs Captain Kirk. Epic Rap Battles of History-xBzoBgfm55w.mp3
+Apr 24 10:39 : update: added YT/ERB/Mr T vs Mr Rogers. Epic Rap Battles of History-7ZsKqbt3gQ0.webm
+Apr 24 10:39 : update: added YT/ERB/Mr T vs Mr Rogers. Epic Rap Battles of History-7ZsKqbt3gQ0.mp3
+Apr 24 10:39 : update: removing YT/ERB/Mr T vs Mr Rogers. Epic Rap Battles of History-7ZsKqbt3gQ0.webm
+Apr 24 10:39 : update: added YT/ERB/Dr Seuss VS Shakespeare.  Epic Rap Battles of History-l3w2MTXBebg.mp3
+Apr 24 10:39 : update: added YT/ERB/Dr Seuss VS Shakespeare.  Epic Rap Battles of History-l3w2MTXBebg.webm
+Apr 24 10:39 : update: updating YT/ERB/Mr T vs Mr Rogers. Epic Rap Battles of History-7ZsKqbt3gQ0.mp3
+Apr 24 10:40 : update: removing YT/ERB/Dr Seuss VS Shakespeare.  Epic Rap Battles of History-l3w2MTXBebg.webm
+Apr 24 10:40 : update: added YT/ERB/Darth Vader vs Hitler. Epic Rap Battles of History-AFA-rOls8YA.mp3
+Apr 24 10:40 : update: added YT/ERB/Sarah Palin VS Lady Gaga. Epic Rap Battles of History-mhTd4_Ids80.mp3
+Apr 24 10:40 : update: added YT/ERB/Billy Mays vs Ben Franklin.  Epic Rap Battles of History-TAaE7sJahiw.mp3
+Apr 24 10:40 : update: added YT/ERB/Hulk Hogan and Macho Man VS Kim Jong-il. Epic Rap Battles of History-7rE0-ek6MZA.mp3
+Apr 24 10:40 : update: added YT/ERB/Abe Lincoln vs Chuck Norris. Epic Rap Battles of History-zj2Zf9tlg2Y.mp3
+Apr 24 10:40 : update: added YT/ERB/Genghis Khan vs Easter Bunny.  Epic Rap Battles of History-WA4tLCGcTG4.mp3
+Apr 24 10:40 : update: added YT/ERB/Napoleon vs Napoleon. Epic Rap Battles of History-AeNYDwbm9qw.mp3
+Apr 24 10:40 : update: added YT/ERB/John Lennon V Bill O'Reilly. Epic Rap Battles of History-YHRxv-40WMU.mp3
+Apr 24 10:40 : update: added YT/ERB/Gandalf vs Dumbledore. Epic Rap Battles of History-ZIMoQHpvFQQ.mp3
+Apr 24 10:40 : update: added YT/ERB/Justin Bieber vs Beethoven. Epic Rap Battles of History-UcTLJ692F70.mp3
+Apr 24 10:40 : update: updating YT/ERB/Dr Seuss VS Shakespeare.  Epic Rap Battles of History-l3w2MTXBebg.mp3
+Apr 24 10:40 : update: added YT/ERB/Albert Einstein vs Stephen Hawking. Epic Rap Battles of History-zn7-fVtT16k.mp3
+Apr 24 10:40 : update: removing YT/Odysseus/Chillwave Mixes/Night City - A Chillwave Mix-pe5-h8MyddE.webm
+Apr 24 10:40 : update: updating YT/Odysseus/Chillwave Mixes/Night City - A Chillwave Mix-pe5-h8MyddE.mp3
+Apr 24 10:40 : update: added YT/Odysseus/Chillwave Mixes/Stargazer - A Chillwave Mix-J6G7uaNHH54.webm
+Apr 24 10:40 : update: added YT/Odysseus/Chillwave Mixes/Stargazer - A Chillwave Mix-J6G7uaNHH54.mp3
+Apr 24 10:40 : update: removing YT/Odysseus/Chillwave Mixes/Stargazer - A Chillwave Mix-J6G7uaNHH54.webm
+Apr 24 10:40 : update: updating YT/Odysseus/Chillwave Mixes/Stargazer - A Chillwave Mix-J6G7uaNHH54.mp3
+Apr 24 10:40 : update: added YT/Odysseus/Chillwave Mixes/Space Car - A Chillwave Mix-_2c5Hy24cu4.mp3
+Apr 24 10:40 : update: added YT/Odysseus/Chillwave Mixes/Space Car - A Chillwave Mix-_2c5Hy24cu4.webm
+Apr 24 10:41 : update: removing YT/Odysseus/Chillwave Mixes/Space Car - A Chillwave Mix-_2c5Hy24cu4.webm
+Apr 24 10:41 : update: updating YT/Odysseus/Chillwave Mixes/Space Car - A Chillwave Mix-_2c5Hy24cu4.mp3
+Apr 24 10:42 : update: added YT/Odysseus/Chillwave Mixes/Memories - A Chillwave Mix-nvsUw9yS2eg.mp3
+Apr 24 10:42 : update: added YT/Odysseus/Chillwave Mixes/Memories - A Chillwave Mix-nvsUw9yS2eg.webm
+Apr 24 10:43 : update: removing YT/Odysseus/Chillwave Mixes/Memories - A Chillwave Mix-nvsUw9yS2eg.webm
+Apr 24 10:43 : update: added YT/Odysseus/Chillwave Mixes/Dreams - A Chillwave Mix-gsEK5-hbLnA.webm
+Apr 24 10:43 : update: updating YT/Odysseus/Chillwave Mixes/Memories - A Chillwave Mix-nvsUw9yS2eg.mp3
+Apr 24 10:43 : update: added YT/Odysseus/Chillwave Mixes/Dreams - A Chillwave Mix-gsEK5-hbLnA.mp3
+Apr 24 10:44 : update: removing YT/Odysseus/Chillwave Mixes/Dreams - A Chillwave Mix-gsEK5-hbLnA.webm
+Apr 24 10:44 : update: updating YT/Odysseus/Chillwave Mixes/Dreams - A Chillwave Mix-gsEK5-hbLnA.mp3
+Apr 24 10:44 : update: added YT/Odysseus/Chillwave Mixes/Miami Palms - A Chillwave Mix-9Jmr0tTP9_E.webm
+Apr 24 10:44 : update: added YT/Odysseus/Chillwave Mixes/Miami Palms - A Chillwave Mix-9Jmr0tTP9_E.mp3
+Apr 24 10:45 : update: removing YT/Odysseus/Chillwave Mixes/Miami Palms - A Chillwave Mix-9Jmr0tTP9_E.webm
+Apr 24 10:45 : update: added YT/Odysseus/Chillwave Mixes/Orbit - A Chillwave Mix-TcCKL2rb77A.webm
+Apr 24 10:45 : update: added YT/Odysseus/Chillwave Mixes/Orbit - A Chillwave Mix-TcCKL2rb77A.mp3
+Apr 24 10:45 : update: updating YT/Odysseus/Chillwave Mixes/Miami Palms - A Chillwave Mix-9Jmr0tTP9_E.mp3
+Apr 24 10:46 : update: removing YT/Odysseus/Chillwave Mixes/Orbit - A Chillwave Mix-TcCKL2rb77A.webm
+Apr 24 10:46 : update: updating YT/Odysseus/Chillwave Mixes/Orbit - A Chillwave Mix-TcCKL2rb77A.mp3
+Apr 24 10:46 : update: added YT/Odysseus/Chillwave Mixes/Prisms - A Chillwave Mix-hBLJzPkAusk.mp3
+Apr 24 10:46 : update: added YT/Odysseus/Chillwave Mixes/Prisms - A Chillwave Mix-hBLJzPkAusk.webm
+Apr 24 10:47 : update: removing YT/Odysseus/Chillwave Mixes/Prisms - A Chillwave Mix-hBLJzPkAusk.webm
+Apr 24 10:47 : update: updating YT/Odysseus/Chillwave Mixes/Prisms - A Chillwave Mix-hBLJzPkAusk.mp3
+Apr 24 10:47 : update: added YT/Odysseus/Chillwave Mixes/Spacewaves - A Chillwave Mix-_YrbSK9HG8w.webm
+Apr 24 10:47 : update: added YT/Odysseus/Chillwave Mixes/Spacewaves - A Chillwave Mix-_YrbSK9HG8w.mp3
+Apr 24 10:48 : update: removing YT/Odysseus/Chillwave Mixes/Spacewaves - A Chillwave Mix-_YrbSK9HG8w.webm
+Apr 24 10:48 : update: updating YT/Odysseus/Chillwave Mixes/Spacewaves - A Chillwave Mix-_YrbSK9HG8w.mp3
+Apr 24 10:49 : update: added YT/Odysseus/Chillwave Mixes/Apex - Chillwave Mix-GDnf1cbEdZI.webm
+Apr 24 10:49 : update: added YT/Odysseus/Chillwave Mixes/Apex - Chillwave Mix-GDnf1cbEdZI.mp3
+Apr 24 10:50 : update: removing YT/Odysseus/Chillwave Mixes/Apex - Chillwave Mix-GDnf1cbEdZI.webm
+Apr 24 10:50 : update: updating YT/Odysseus/Chillwave Mixes/Apex - Chillwave Mix-GDnf1cbEdZI.mp3
+Apr 24 16:24 : client: [0] opened from 127.0.0.1:55786
+Apr 24 16:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 24 16:24 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Futuristic City Music - Steam City-RURgvx0nVxA.mp3"
+Apr 24 16:28 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Sky Pirates-UZQ9KgH6Z9M.mp3"
+Apr 24 16:33 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Steampunk Spies-3T-tSEwHw4k.mp3"
+Apr 24 16:35 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Futuristic City Music - Steam City-RURgvx0nVxA.mp3"
+Apr 24 16:39 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Council of the Steampunk Nobles-iDDc3WTBmsE.mp3"
+Apr 24 16:42 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Darkmor the Pirate-WVCsqjZkNzg.mp3"
+Apr 24 16:46 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dawn of Invention-LTM79-q3Ku0.mp3"
+Apr 24 16:50 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deep Sea Voyage-amV8Fm_LLQo.mp3"
+Apr 24 16:54 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deeplamp Town-z2GyJu4_1qk.mp3"
+Apr 24 16:57 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dwarven Factory-UEIpEaolZd0.mp3"
+Apr 24 17:01 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Floating Village-KACj5QqDjjs.mp3"
+Apr 24 17:04 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Gears and Cogs-Gfg2ZTQrQ0o.mp3"
+Apr 24 17:07 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Hot Air Balloons-IhYEDdjTqmM.mp3"
+Apr 24 20:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 24 20:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 24 22:33 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Hot Air Balloons-IhYEDdjTqmM.mp3"
+Apr 25 08:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 25 08:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 25 08:12 : client: [0] opened from 127.0.0.1:60858
+Apr 25 08:13 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Hot Air Balloons-IhYEDdjTqmM.mp3"
+Apr 25 08:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 25 08:13 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Hot Air Balloons-IhYEDdjTqmM.mp3"
+Apr 25 08:18 : player: played "YT/Odysseus/Cyberpunk Mixes/Bleed - A Cyberpunk Mix-4g7wqFjGf4s.mp3"
+Apr 25 09:25 : player: played "YT/JimTV/Programming _ Coding _ Hacking music vol.17 (INFINITY)-UoPpxj77Vi0.mp3"
+Apr 25 09:51 : player: played "YT/JimTV/Programming _ Coding _ Hacking music vol.13 (AFTER REPAIR)-46VPN677cLI.mp3"
+Apr 25 09:54 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Illusions and Smoke-U0yUBkFDEG0.mp3"
+Apr 25 09:58 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Lampar the Steampunk Planet-sy3AUqT47pw.mp3"
+Apr 25 10:02 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Morioch the Elder (animated)-Z3PhPgpPznA.mp3"
+Apr 25 10:06 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow Empire-dCUSa83Vei0.mp3"
+Apr 25 10:10 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow King-eTyFRjCJaWg.mp3"
+Apr 25 10:14 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Underground City-1uUTXJEtG5k.mp3"
+Apr 25 10:18 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Zorah the Elder-6PZNJ_s7Ayg.mp3"
+Apr 25 10:22 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Battle in the Sky-cXk_inWxU1s.mp3"
+Apr 25 10:26 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Sky Pirates-UZQ9KgH6Z9M.mp3"
+Apr 25 10:30 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Steampunk Spies-3T-tSEwHw4k.mp3"
+Apr 25 10:33 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Futuristic City Music - Steam City-RURgvx0nVxA.mp3"
+Apr 25 10:37 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Council of the Steampunk Nobles-iDDc3WTBmsE.mp3"
+Apr 25 10:45 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Darkmor the Pirate-WVCsqjZkNzg.mp3"
+Apr 25 10:49 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dawn of Invention-LTM79-q3Ku0.mp3"
+Apr 25 10:53 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deep Sea Voyage-amV8Fm_LLQo.mp3"
+Apr 25 10:57 : player: played "YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deeplamp Town-z2GyJu4_1qk.mp3"

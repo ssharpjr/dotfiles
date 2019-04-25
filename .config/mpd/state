@@ -2,8 +2,8 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: pause
-current: 15
-time: 3677.380000
+current: 16
+time: 34.627000
 random: 0
 repeat: 0
 single: 0
@@ -12,20 +12,37 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:YT/JimTV/Programming _ Coding _ Hacking music vol.1-kHCn5h4_dh0.mp3
-1:YT/JimTV/Programming _ Coding _ Hacking music vol.2 (BRUTAL)-FS8XtrLqIxw.mp3
-2:YT/JimTV/Programming _ Coding _ Hacking music vol.18 (ANONYMOUS HEADQUARTERS)-Z-VfaG9ZN_U.mp3
-3:YT/JimTV/Programming _ Coding _ Hacking music vol.19 (EASY THOUGHTS)-0V7X9fa0wco.mp3
-4:YT/JimTV/Programming _ Coding _ Hacking music vol.20 (UNDER THE DEEP)-rr0gvSS1OzE.mp3
-5:YT/JimTV/Programming _ Coding _ Hacking music vol.6 (SERVERS)-fKvk3tpHrdA.mp3
-6:YT/JimTV/Programming _ Coding _ Hacking music vol.7 (CYBORG CAN NOT DIE)-do7Jl_4_d5w.mp3
-7:YT/JimTV/Programming _ Coding _ Hacking music vol.22 (CYBER SOUL)-rrwjymZMLdM.mp3
-8:YT/JimTV/Programming _ Coding _ Hacking music vol.24 (TEST MODE)-ka4KN2KEGmI.mp3
-9:YT/JimTV/Programming _ Coding _ Hacking music vol.5 (HARDWARE)-TndfgYerRYY.mp3
-10:YT/JimTV/Programming _ Coding _ Hacking music vol.8 (CONNECTING)-IpV9FCBnW20.mp3
-11:YT/JimTV/Programming _ Coding _ Hacking music vol.13 (AFTER REPAIR)-46VPN677cLI.mp3
-12:YT/JimTV/Programming _ Coding _ Hacking music vol.14 (CYBORG PRODUCTION)-09j1wYdNfVQ.mp3
-13:YT/JimTV/Programming _ Coding _ Hacking music vol.15 (HIDDEN SERVICE)-1-_tyTJHgB8.mp3
-14:YT/JimTV/Programming _ Coding _ Hacking music vol.16 (CONNECTION LOST)-l9nh1l8ZIJQ.mp3
-15:YT/JimTV/Programming _ Coding _ Hacking music vol.17 (INFINITY)-UoPpxj77Vi0.mp3
+0:YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Illusions and Smoke-U0yUBkFDEG0.mp3
+1:YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Lampar the Steampunk Planet-sy3AUqT47pw.mp3
+2:YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Morioch the Elder (animated)-Z3PhPgpPznA.mp3
+3:YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow Empire-dCUSa83Vei0.mp3
+4:YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - The Shadow King-eTyFRjCJaWg.mp3
+5:YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Underground City-1uUTXJEtG5k.mp3
+6:YT/Derek&BrandonFiechter/SteampunkMusic/Dark Steampunk Music - Zorah the Elder-6PZNJ_s7Ayg.mp3
+7:YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Battle in the Sky-cXk_inWxU1s.mp3
+8:YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Sky Pirates-UZQ9KgH6Z9M.mp3
+9:YT/Derek&BrandonFiechter/SteampunkMusic/Epic Steampunk Music - Steampunk Spies-3T-tSEwHw4k.mp3
+10:YT/Derek&BrandonFiechter/SteampunkMusic/Futuristic City Music - Steam City-RURgvx0nVxA.mp3
+11:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Council of the Steampunk Nobles-iDDc3WTBmsE.mp3
+12:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Darkmor the Pirate-WVCsqjZkNzg.mp3
+13:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dawn of Invention-LTM79-q3Ku0.mp3
+14:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deep Sea Voyage-amV8Fm_LLQo.mp3
+15:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Deeplamp Town-z2GyJu4_1qk.mp3
+16:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Dwarven Factory-UEIpEaolZd0.mp3
+17:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Floating Village-KACj5QqDjjs.mp3
+18:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Gears and Cogs-Gfg2ZTQrQ0o.mp3
+19:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Hot Air Balloons-IhYEDdjTqmM.mp3
+20:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Sky Cadet Academy-ejHuZywrW_Y.mp3
+21:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Adventure-K3uxxpsbVgA.mp3
+22:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Airships-Wi5FhFEY3mM.mp3
+23:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steam Mechanics-ZDNc1b3l-kI.mp3
+24:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Fairies-Qp7WN2xlfiY.mp3
+25:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - Steampunk Lady-qqy3GUQdHxE.mp3
+26:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Gentleman-zWKOoDEnJbs.mp3
+27:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Inventor-ycUWXDudIWQ.mp3
+28:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music - The Resistance-CImKHj4Q3ew.mp3
+29:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Sky Captain-E2We_LFLHpQ.mp3
+30:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Steam Town-MuRZn5CZ-24.mp3
+31:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Music Instrumental - Time Machine-d89zr6SDrZM.mp3
+32:YT/Derek&BrandonFiechter/SteampunkMusic/Steampunk Techno Music - Sky Ships-YzN7PZWit-4.mp3
 playlist_end
