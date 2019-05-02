@@ -112,8 +112,8 @@ if args.aur:
 
 update_count = len(updates)
 if update_count > 0:
-    info = str(update_count) + ' updates available'
-    short_info = str(update_count) + ' updates'
+    info = str(update_count) + ' ARCH'
+    short_info = str(update_count) + ' ARCH'
     matches = matching_updates(updates, args.watch)
     if matches:
         info += ' [{0}]'.format(', '.join(matches))

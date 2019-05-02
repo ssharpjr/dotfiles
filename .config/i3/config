@@ -33,6 +33,10 @@ font pango:Ubuntu Mono Nerd Font 8
 #_#MOD+<F9>,Refresh Network
 bindsym $mod+<F9> $netrefresh
 
+# Move focused window (container) between monitors (outputs)
+bindsym $mod+Ctrl+greater move workspace to output right
+bindsym $mod+Ctrl+less move workspace to output left
+
 # Set display mode
 set $displayMode "Set display mode [w]ork [l]aptop"
 

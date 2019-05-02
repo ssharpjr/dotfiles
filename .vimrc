@@ -153,6 +153,8 @@ endif
 " vim-instant-markdown (:InstantMarkdownPreview)
 let g:instant_markdown_slow = 1
 let g:instant_markdown_autostart = 0
+let g:instant_markdown_allow_unsafe_content = 1
+let g:instant_markdown_open_to_the_world = 1
 map <localleader>md :InstantMarkdownPreview<CR>
 " vim-markdown-preview (C-m)
 let vim_markdown_preview_hotkey='<C-m>'
