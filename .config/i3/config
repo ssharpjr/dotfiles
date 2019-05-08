@@ -187,10 +187,13 @@ bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10 && volnoti-s
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(xbacklight -get | cut -d '.' -f 1)
 
 # Media player controls
-bindsym XF86AudioPlay exec playerctl play
-bindsym XF86AudioPause exec playerctl pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioPlay exec mpc play
+bindsym XF86AudioPause exec mpc pause
+bindsym XF86AudioNext exec mpc next
+bindsym XF86AudioPrev exec mpc prev
+
+bindsym $mod+p exec --no-startup-id mpc toggle
+bindsym $mod+shift+p exec --no-startup-id mpc stop
 
 # App Hot Keys
 #_#MOD+n,Launch File Browser
@@ -399,6 +402,8 @@ bar {
 ### Programs to run on startup
 # Replace "busy" cursor
 exec --no-startup-id xsetroot -cursor_name left_ptr
+# Map menu button to super
+exec --no-startup-id xmodmap -e 'keycode 135 = Super_R'
 # Dunst notifications
 exec --no-startup-id dunst
 # Hide inactive mouse
