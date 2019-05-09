@@ -18,10 +18,11 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'nvie/vim-flake8'
 " Frontend Plugins
-Plugin 'othree/html5.vim'
-Plugin 'othree/javascript-libraries-syntax.vim'
-Plugin 'othree/xml.vim'
+" Plugin 'othree/html5.vim'
+" Plugin 'othree/javascript-libraries-syntax.vim'
+" Plugin 'othree/xml.vim'
 " Other Syntax Plugins
+Plugin 'glench/vim-jinja2-syntax'
 " Plugin 'nelstrom/vim-markdown-folding'
 " Plugin 'suan/vim-instant-markdown.git'
 Plugin 'twidxuga/vim-instant-markdown.git'
@@ -226,5 +227,6 @@ augroup configgroup
     autocmd BufEnter *.tex setlocal linebreak
     autocmd BufEnter *.tex setlocal spell spelllang=en_us
     autocmd BufEnter *.tex setlocal noai nocin nosi inde=
+    autocmd FileType *.html setlocal shiftwidth=2 tabstop=2 expandtab
 augroup END
 
