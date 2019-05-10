@@ -45,6 +45,7 @@ fi
 sudo -n loadkeys ~/.config/scripts/ttymaps.kmap
 
 # Start mpd
+export MPD_HOST=/home/ssharp/.config/mpd/socket
 [ ! -s ~/.config/mpd/pid ] && mpd
 # ! pgrep -x mpd > /dev/null && exec mpd
 
