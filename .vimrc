@@ -9,7 +9,8 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugins
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'jeetsukumaran/vim-buffergator'
-Plugin 'scrooloose/syntastic'
+" Plugin 'scrooloose/syntastic'
+Plugin 'vim-syntastic/syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " Git Plugins
@@ -84,6 +85,17 @@ set clipboard=unnamedplus
 let mapleader = ","  " Leader is comma
 let localleader = '\\'  " LocalLeader is \
 
+" Syntastic
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
+" 
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
+
+
 " Buffers and Windows
 set hidden
 nmap <leader>T :enew<CR>
@@ -110,7 +122,7 @@ nmap <leader>bl :BuffergatorOpen<CR>
 
 " Folding
 let g:vim_markdown_folding_disabled=1
-nnoremap <Space> za
+" nnoremap <Space> za
 
 " jk is escape
 inoremap jk <esc>
