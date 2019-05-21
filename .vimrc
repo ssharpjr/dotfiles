@@ -178,9 +178,9 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " Navigating with guides
-inoremap <leader><leader> <Esc>/<++><Enter>"_c41
-vnoremap <leader><leader> <Esc>/<++><Enter>"_c41
-map <leader><leader> <Esc>/<++><Enter>"_c41
+inoremap <leader><leader> <Esc>/<++><Enter>"_c4l
+vnoremap <leader><leader> <Esc>/<++><Enter>"_c4l
+map <leader><leader> <Esc>/<++><Enter>"_c4l
 
 " Backup Settings
 set backup
