@@ -5,7 +5,7 @@
 
 case $BLOCK_BUTTON in
 	1) "$TERMINAL" -e ~/bin/weather_report.sh ;;
-	3) pgrep -x dunst > /dev/null && notify-send "<b>🌈 Weather module:</b>
+	3) pgrep -x dunst > /dev/null && notify-send "🌈 Weather module:
 - Click for wttr.in forecast." ;;
 esac
 
