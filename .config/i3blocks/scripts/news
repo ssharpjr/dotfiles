@@ -7,6 +7,7 @@ case $BLOCK_BUTTON in
 	1) setsid "$TERMINAL" -e newsboat ;;
 	2) setsid newsboat -x reload > /dev/null & exit ;;
 	3) pgrep -x dunst > /dev/null && notify-send "📰 Updating News Feeds" && setsid newsboat -x reload > /dev/null ;;
+	*) newsboat -x print-unread | awk '{print $1}'
 esac
 
 newsboat -x print-unread | awk '{print $1}'

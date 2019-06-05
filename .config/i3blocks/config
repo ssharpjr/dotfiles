@@ -4,10 +4,10 @@ command=~/.config/i3blocks/scripts/$BLOCK_NAME
 separator_block_width=15
 markup=pango
 
-# [music]
-# label=🎼
-# interval=once
-# signal=11
+[music]
+label=🎼
+interval=5
+signal=11
 
 [news]
 label=📰

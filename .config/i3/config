@@ -52,7 +52,7 @@ mode $displayMode {
 }
 
 # System Mode
-set $systemMode "[R]eboot, [S]hutdown, or [E]xit?"
+set $systemMode "[R]eboot, [S]hutdown, or [E]xit I3?"
 
 #_#MOD+Alt+q,Shutdown System
 bindsym $mod+Mod1+q mode $systemMode
@@ -158,7 +158,6 @@ bindsym $mod+a focus parent
 #_#MOD+Shift+a,Focus Child Container
 bindsym $mod+Shift+a focus child
 
-
 # Scratchpad
 for_window [instance="dropdown"] floating enable
 for_window [instance="dropdown"] resize set 825 450
@@ -256,7 +255,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 # Assign apps to workspaces
 for_window [class="Google-chrome"] move workspace $ws2; workspace $ws2
 # for_window [class="qutebrowser"] move workspace $ws2; workspace $ws2
-for_window [class="Firefox"] move workspace $ws2; workspace $ws2
+# for_window [class="Firefox"] move workspace $ws2; workspace $ws2
 for_window [class="Evolution"] move workspace $ws3; workspace $ws3
 for_window [class="org.remmina.Remmina"] move workspace $ws4; workspace $ws4
 for_window [class="Clementine"] move workspace $ws10; workspace $ws10
@@ -301,7 +300,6 @@ workspace $ws3 output DP1-1  # email on the left
 # workspace $ws8 output DP1-1 # games on the left
 workspace $ws9 output DP1-1 # chats on the left
 workspace $ws2 output DP1-2  # browser on the right
-
 
 # reload the configuration file
 #_#MOD+Shift+c,Reload i3 Configuration File
@@ -410,8 +408,6 @@ exec --no-startup-id dunst
 exec --no-startup-id unclutter -b
 # Compton
 exec --no-startup-id compton -b
-# Move back to Workspace 1
-exec --no-startup-id i3-msg workspace $ws1
 # Applets
 exec --no-startup-id nm-applet
 exec --no-startup-id blueberry-tray
@@ -421,3 +417,5 @@ exec --no-startup-id feh --bg-scale $HOME/.wall.png
 # Other programs
 exec --no-startup-id dropbox
 exec --no-startup-id syncthing -no-browser
+# Move back to Workspace 1
+exec --no-startup-id i3-msg workspace $ws1

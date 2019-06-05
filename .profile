@@ -46,7 +46,7 @@ sudo -n loadkeys ~/.config/scripts/ttymaps.kmap
 
 # Start mpd
 export MPD_HOST=/home/ssharp/.config/mpd/socket
-[ ! -s ~/.config/mpd/pid ] && mpd
+[ ! -s ~/.config/mpd/pid ] && mpd > /dev/null
 # ! pgrep -x mpd > /dev/null && exec mpd
 
 # Start X if i3 is not already running.

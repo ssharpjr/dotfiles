@@ -4,6 +4,9 @@
 alias v="vim"
 alias e="vim"
 
+# Shortcuts
+alias c="clear"
+
 # Youtube
 alias yt="youtube-dl --add-metadata -i"  # Download video link
 alias yta="yt -x --audio-format mp3  --embed-thumbnail"  # Download audio only
