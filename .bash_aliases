@@ -6,6 +6,7 @@ alias e="vim"
 
 # Shortcuts
 alias c="clear"
+alias pm="pulsemixer"
 
 # Youtube
 alias yt="youtube-dl --add-metadata -i"  # Download video link
