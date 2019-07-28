@@ -7,8 +7,12 @@
 eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
 export SSH_AUTH_SOCK
 
-# Set DISPLAY
-$HOME/bin/set_resolution.sh > /dev/null
+# Set Display
+$HOME/.screenlayout/work-dock.sh
+$HOME/bin/set_resolution.sh
+
+# Set Keyboard
+$HOME/bin/set_keyboard.sh
 
 # Set Numlock
 numlockx &

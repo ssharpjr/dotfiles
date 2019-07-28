@@ -10,4 +10,4 @@ case $BLOCK_BUTTON in
 	*) newsboat -x print-unread | awk '{print $1}'
 esac
 
-pgrep -x dunst > /dev/null && notify-send "📰 Updating News Feeds" && newsboat -x reload > /dev/null && newsboat -x print-unread | awk '{print $1}'
+newsboat -x print-unread | awk '{print $1}'

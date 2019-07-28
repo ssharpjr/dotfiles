@@ -6,7 +6,8 @@ filetype plugin on
 call plug#begin('~/.vim/plugged')
 
 " Plugins
-Plug 'ctrlpvim/ctrlp.vim'
+Plug 'junegunn/fzf.vim'
+" Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jeetsukumaran/vim-buffergator'
 Plug 'vim-syntastic/syntastic'
 Plug 'vim-airline/vim-airline'
@@ -97,16 +98,22 @@ nmap <leader>l :bnext<CR>
 nmap <leader>h :bprevious<CR>
 nmap <leader>bq :bp <BAR> bd #<CR>
 " nmap <leader>bl :ls<CR>
+
+" fzf.vim
+map <c-p> :FZF<CR>
+
 " CtrlP
-let g:ctrlp_working_path_mode = 'r'
-nmap <leader>p :CtrlP<CR>
-nmap <leader>bb :CtrlPBuffer<CR>
-nmap <leader>bm :CtrlPMixed<CR>
-nmap <leader>bs :CtrlPMRU<CR>
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site$',
-  \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg)$',
-\}
+" let g:ctrlp_map = '<c-p>'
+" let g:ctrlp_cmd = 'CtrlP'
+" let g:ctrlp_working_path_mode = 'c'
+" nmap <leader>p :CtrlP<CR>
+" nmap <leader>bb :CtrlPBuffer<CR>
+" nmap <leader>bm :CtrlPMixed<CR>
+" nmap <leader>bs :CtrlPMRU<CR>
+" let g:ctrlp_custom_ignore = {
+"   \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site$',
+"   \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg)$',
+" \}
 " Buffergator
 let g:buffergator_viewport_split_policy = 'R'
 let g:buffergator_suppress_keymaps = 1
@@ -122,13 +129,13 @@ let g:vim_markdown_folding_disabled=1
 inoremap jk <esc>
 
 " Quick Insert Mode Commands
-inoremap II <Esc>I
+"inoremap II <Esc>I
 inoremap AA <Esc>A
 inoremap OO <Esc>o
-inoremap CC <Esc>C
-inoremap SS <Esc>S
-inoremap DD <Esc>dd
-inoremap UU <Esc>u
+"inoremap CC <Esc>C
+"inoremap SS <Esc>S
+"inoremap DD <Esc>dd
+"inoremap UU <Esc>u
 
 " Shortcut to Edit .vmirc
 nnoremap <leader>ev :vsp $MYVIMRC<CR>

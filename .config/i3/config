@@ -9,7 +9,7 @@ gaps inner 5
 gaps outer 5
 mouse_warping none
 
-# Set Mod key
+# Set Mod key (Windows Key)
 set $mod Mod4
 
 # Set app defaults
@@ -69,8 +69,10 @@ floating_modifier $mod
 
 # start a terminal
 #_#MOD+Return,Open Terminal
+#_#MOD+Shift+Return,Open Terminal in current directory
 #bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Return exec urxvt
+bindsym $mod+Shift+Return exec urxvt -cd "$(xcwd)"
 
 # kill focused window
 #_#MOD+q,Kill Focused Window
@@ -160,7 +162,7 @@ bindsym $mod+Shift+a focus child
 
 # Scratchpad
 for_window [instance="dropdown"] floating enable
-for_window [instance="dropdown"] resize set 825 450
+for_window [instance="dropdown"] resize set 850 450
 for_window [instance="dropdown"] move scratchpad
 for_window [instance="dropdown"] border pixel 5
 exec --no-startup-id urxvt -name dropdown -bg [90]black -fg white -fn "xft:Ubuntu Mono Nerd Font:size=13" +sb -e tmux &
@@ -212,8 +214,10 @@ bindsym $mod+t exec --no-startup-id remmina -c ~/.remmina/TPI_RDS_ACCT.remmina
 bindsym $mod+Shift+o exec --no-startup-id remmina -c ~/.remmina/TPI-DBSVR01.remmina
 bindsym $mod+Shift+d exec --no-startup-id remmina -c ~/.remmina/TPI-DC01.remmina
 bindsym $mod+Shift+e exec --no-startup-id remmina -c ~/.remmina/TPI-EX2008R2.remmina
+bindsym $mod+Shift+m exec --no-startup-id remmina -c ~/.remmina/TPI-ORAMAINT.remmina
 bindsym $modShift+t exec --no-startup-id $rdp
-bindsym $mod+m exec --no-startup-id $musicplayer
+# bindsym $mod+m exec --no-startup-id $musicplayer
+bindsym $mod+s exec --no-startup-id gnome-screenshot -ai
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
