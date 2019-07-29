@@ -7,7 +7,7 @@ alias e="vim"
 # Shortcuts
 alias c="clear"
 alias pm="pulsemixer"
-alias explatest=expac --timefmt='%F %T' '%l %n' | sort -n
+alias explatest="expac --timefmt='%F %T' '%l %n' | sort -n"
 
 # Youtube
 alias yt="youtube-dl --add-metadata -i"  # Download video link
