@@ -95,6 +95,8 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias l1='ls -A1'
+alias lss='ls -A1'
 
 # Gruvbox color palette
 # source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"

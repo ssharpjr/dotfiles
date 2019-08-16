@@ -15,9 +15,11 @@ Plug 'vim-airline/vim-airline-themes'
 " Git Plugins
 Plug 'tpope/vim-fugitive'
 " Python Plugins
+Plug 'davidhalter/jedi-vim'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'nvie/vim-flake8'
 " Frontend Plugins
+Plug 'pangloss/vim-javascript'
 " Plug 'othree/html5.vim'
 " Plug 'othree/javascript-libraries-syntax.vim'
 " Plug 'othree/xml.vim'
@@ -152,6 +154,7 @@ nnoremap <F8> :setl noai nocin nosi inde=<CR>
 " LaTeX
 " LaTeX word count
 map <F3> :w !detex \| wc -w<CR>
+let g:tex_flavor = 'latex'
 
 " Paragraph navigation
 noremap j gj
@@ -240,6 +243,8 @@ augroup configgroup
     autocmd BufEnter *.tex setlocal linebreak
     autocmd BufEnter *.tex setlocal spell spelllang=en_us
     autocmd BufEnter *.tex setlocal noai nocin nosi inde=
-    autocmd FileType *.html setlocal shiftwidth=2 tabstop=2 expandtab
+    autocmd FileType html setlocal shiftwidth=2 tabstop=2 expandtab
+    autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
+    autocmd FileType css setlocal shiftwidth=2 tabstop=2 expandtab
 augroup END
 

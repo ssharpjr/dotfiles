@@ -195,6 +195,9 @@ bindsym XF86AudioPrev exec mpc prev
 
 bindsym $mod+p exec --no-startup-id mpc toggle
 bindsym $mod+shift+p exec --no-startup-id mpc stop
+bindsym $mod+greater exec --no-startup-id mpc next
+bindsym $mod+less exec --no-startup-id mpc prev
+bindsym $mod+Shift+v exec --nostartup-id $HOME/bin/volctrl.sh
 
 # App Hot Keys
 #_#MOD+n,Launch File Browser

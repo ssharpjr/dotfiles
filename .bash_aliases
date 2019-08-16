@@ -11,8 +11,8 @@ alias explatest="expac --timefmt='%F %T' '%l %n' | sort -n"
 
 # Youtube
 alias yt="youtube-dl --add-metadata -i"  # Download video link
-alias yta="yt -x --audio-format mp3  --embed-thumbnail"  # Download audio only
-alias ytapl="yt -x --audio-format mp3  --embed-thumbnail --write-description --download-archive archive.txt"  # Download playlist
+alias yta="yt -x --audio-format mp3  --embed-thumbnail -o '%(title)s.%(ext)s'"  # Download audio only
+alias ytapl="yt -x --audio-format mp3  --embed-thumbnail --download-archive archive.txt -o '%(title)s.%(ext)s'"  # Download playlist
 alias YT="youtube-viewer"
 
 # Configs to edit
