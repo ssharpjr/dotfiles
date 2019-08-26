@@ -1,0 +1,28 @@
+set sidebar_visible
+set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
+set mail_check_stats
+
+
+# GMail Setup
+
+# Encrypted password file
+source "gpg -dq .mutt_app_pwd.gpg|"
+
+set from = "ssharpjr@gmail.com"
+set realname = "Stacey M. Sharp, Jr."
+
+set folder = "imaps://imap.gmail.com:993"
+set imap_user = "ssharpjr"
+set imap_pass = $my_pass
+
+set smtp_url = "smtp://ssharpjr@smtp.gmail.com:587"
+set smtp_pass = "avvahpqkdaybpmgp"
+
+set spoolfile = "+INBOX"
+set record = ""
+set postponed = "+[GMail]/Drafts"
+
+mailboxes =INBOX =Sent =Trash =Drafts =Junk
+
+set header_cache = "~/.cache/mutt/headers"
+set message_cachedir = "/.cache/mutt/bodies"

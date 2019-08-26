@@ -2,42 +2,73 @@ set nocompatible              " required
 filetype plugin indent on  " required
 filetype plugin on
 
+
+" *** PLUGINS ***
+
 " Plugin Manager
 call plug#begin('~/.vim/plugged')
 
 " Plugins
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'ycm-core/YouCompleteMe', { 'do': '$HOME/.vim/plugged/YouCompleteMe/install.py' }
+Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf.vim'
-" Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jeetsukumaran/vim-buffergator'
 Plug 'vim-syntastic/syntastic'
+Plug 'SirVer/Ultisnips'
+
+" Airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
 " Git Plugins
 Plug 'tpope/vim-fugitive'
+
 " Python Plugins
-Plug 'davidhalter/jedi-vim'
+" Plug 'davidhalter/jedi-vim'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'nvie/vim-flake8'
+
 " Frontend Plugins
 Plug 'pangloss/vim-javascript'
 " Plug 'othree/html5.vim'
 " Plug 'othree/javascript-libraries-syntax.vim'
 " Plug 'othree/xml.vim'
+
 " Other Syntax Plugins
 Plug 'glench/vim-jinja2-syntax'
 " Plug 'nelstrom/vim-markdown-folding'
 Plug 'twidxuga/vim-instant-markdown'
 Plug 'lervag/vimtex'
 Plug 'mboughaba/i3config.vim'
+
 " Color Theme Plugins
 Plug 'arcticicestudio/nord-vim'
 Plug 'morhetz/gruvbox'
+
 " Prose Plugins
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 
 " All of your Plugins must be added before the following line
 call plug#end()            " required
+
+
+" *** CONFIGURATION ***
+
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
+let NERDTreeIgnore=['\.pyc$', '\~$']  " ignore files
+
+" YCM
+let g:ycm_autoclose_preview_window_after_completion=1
+map <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
+"UltiSnips
+let g:UltiSnipsExpandTrigger='<tab>'
+let g:UltiSnipsJumpForwardTrigger='<tab>'
+let g:UltiSnipsJumpBackwardTrigger='<s-tab>'
 
 " Nord Color Theme Overrides
 augroup nord-overrides
@@ -69,8 +100,6 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 " Relative numbers
 set number relativenumber
 
-let python_highlight_all=1
-syntax on
 set pastetoggle=<F5>  " Paste without indent issues
 " set mouse=a
 set encoding=utf-8
@@ -83,15 +112,14 @@ let mapleader = ","  " Leader is comma
 let localleader = '\\'  " LocalLeader is \
 
 " Syntastic
-" set statusline+=%#warningmsg#
-" set statusline+=%{SyntasticStatuslineFlag()}
-" set statusline+=%*
-" 
-" let g:syntastic_always_populate_loc_list = 1
-" let g:syntastic_auto_loc_list = 1
-" let g:syntastic_check_on_open = 1
-" let g:syntastic_check_on_wq = 0
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 
+let g:syntastic_always_populate_loc_list = 0
+let g:syntastic_auto_loc_list = 0
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
 
 " Buffers and Windows
 set hidden
@@ -101,21 +129,6 @@ nmap <leader>h :bprevious<CR>
 nmap <leader>bq :bp <BAR> bd #<CR>
 " nmap <leader>bl :ls<CR>
 
-" fzf.vim
-map <c-p> :FZF<CR>
-
-" CtrlP
-" let g:ctrlp_map = '<c-p>'
-" let g:ctrlp_cmd = 'CtrlP'
-" let g:ctrlp_working_path_mode = 'c'
-" nmap <leader>p :CtrlP<CR>
-" nmap <leader>bb :CtrlPBuffer<CR>
-" nmap <leader>bm :CtrlPMixed<CR>
-" nmap <leader>bs :CtrlPMRU<CR>
-" let g:ctrlp_custom_ignore = {
-"   \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site$',
-"   \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg)$',
-" \}
 " Buffergator
 let g:buffergator_viewport_split_policy = 'R'
 let g:buffergator_suppress_keymaps = 1
@@ -123,8 +136,11 @@ nmap <leader>jj :BuffergatorMruCyclePrev<CR>
 nmap <leader>kk :BuffergatorMruCycleNext<CR>
 nmap <leader>bl :BuffergatorOpen<CR>
 
+" fzf.vim
+map <c-p> :FZF<CR>
+
 " Folding
-let g:vim_markdown_folding_disabled=1
+" let g:vim_markdown_folding_disabled=1
 " nnoremap <Space> za
 
 " jk is escape
@@ -142,7 +158,9 @@ inoremap OO <Esc>o
 " Shortcut to Edit .vmirc
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
 
-" Execute python
+" Python stuff
+let python_highlight_all=1
+syntax on
 nnoremap <F9> <Esc>:w<CR>:!clear;python %<CR> 
 
 " Spellcheck
@@ -235,7 +253,7 @@ augroup configgroup
     autocmd BufEnter *.sh setlocal softtabstop=2
     autocmd BufEnter *.txt setlocal wrap
     autocmd BufEnter *.txt setlocal linebreak
-    autocmd BufEnter *.txt setlocal spell spelllang=en_us
+    " autocmd BufEnter *.txt setlocal spell spelllang=en_us
     autocmd BufEnter *.md setlocal wrap
     autocmd BufEnter *.md setlocal linebreak
     autocmd BufEnter *.md setlocal spell spelllang=en_us
