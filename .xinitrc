@@ -8,7 +8,7 @@ eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
 export SSH_AUTH_SOCK
 
 # Set Display
-$HOME/.screenlayout/work-dock.sh
+$HOME/.screenlayout/work-dock-850g4.sh
 $HOME/bin/set_resolution.sh
 
 # Set Keyboard

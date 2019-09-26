@@ -9,10 +9,10 @@ label=🎼
 interval=5
 signal=11
 
-[news]
-label=📰
-interval=3600
-signal=6
+# [news]
+# label=📰
+# interval=3600
+# signal=6
 
 [arch-update]
 interval=3600
@@ -21,11 +21,6 @@ markup=pango
 [aur-update]
 interval=3600
 markup=pango
-
-# [ip]
-# command=ip add | grep dynamic | awk '{print "IP:" $2}'
-# interval=once
-# color=#91e78b
 
 [weather]
 # command=curl -Ss 'https://wttr.in/30813?0&T&Q' | cut -c 16- | head -2 | xargs echo

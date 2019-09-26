@@ -15,15 +15,15 @@ urxvt*termName:		rxvt-256color
 !! urxvt*geometry:		170x40
 urxvt*scrollBar:	false
 urxvt*iso14755:		false
-urxvt*font:		xft:Ubuntu Mono Nerd Font:size=13, \
-			xft:Inconsolata Nerd Font Mono:size=13, \
-			xft:DejaVuSansMono Nerd Font:size=13, \
-			xft:DroidSansMono Nerd Font:size=13, \
-			xft:FuraMono Nerd Font:size=13, \
-			xft:RobotMono Nerd Font:size=13, \
-			xft:Ubuntu Mono derivative Powerline:size=13, \
-			xft:DejaVu Sans Mono for Powerline:size=13, \
-			xft:Noto Sans Mono:size=13, \
+urxvt*font:		xft:Ubuntu Mono Nerd Font:size=14, \
+			xft:Inconsolata Nerd Font Mono:size=14, \
+			xft:DejaVuSansMono Nerd Font:size=14, \
+			xft:DroidSansMono Nerd Font:size=14, \
+			xft:FuraMono Nerd Font:size=14, \
+			xft:RobotMono Nerd Font:size=14, \
+			xft:Ubuntu Mono derivative Powerline:size=14, \
+			xft:DejaVu Sans Mono for Powerline:size=14, \
+			xft:Noto Sans Mono:size=14, \
 			xft:Monospace:style=Medium:antialias=false
 !! urxvt*boldFont:		xft:Ubuntu Mono derivative Powerline Bold:size=13
 !! urxvt*italicFont:	xft:Ubuntu Mono derivative Powerline Italic:size=13
