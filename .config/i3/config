@@ -302,6 +302,8 @@ for_window [class="org.remmina.Remmina"] fullscreen disable
 # for_window [class="Wine"] move position 10 10
 # for_window [instance="Wine"] move position 10 10
 for_window [class="VirtualBox Manager"] floating enable
+for_window [class="Pystopwatch"] floating enable
+for_window [class="Pystopwatch"] move position center
 
 # Start workspaces on certain displays (if they exist)
 workspace $ws1 output primary  # stay on primary
