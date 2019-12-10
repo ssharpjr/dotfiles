@@ -11,7 +11,7 @@ call plug#begin('~/.vim/plugged')
 " Plugins
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
-Plug 'ycm-core/YouCompleteMe', { 'do': '$HOME/.vim/plugged/YouCompleteMe/install.py' }
+Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
 Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf.vim'
 Plug 'jeetsukumaran/vim-buffergator'

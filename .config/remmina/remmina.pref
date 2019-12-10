@@ -103,11 +103,11 @@ color15=rgb(213,204,186)
 [usage_stats]
 periodic_usage_stats_permission_asked=true
 periodic_usage_stats_permitted=true
-periodic_usage_stats_last_sent=1572959976
+periodic_usage_stats_last_sent=1575909325
 periodic_usage_stats_uuid_prefix=G3VAKBYHT3NVLJ
 
 [remmina_news]
-periodic_rmnews_last_get=1573566616
+periodic_rmnews_last_get=1575381786
 
 [remmina]
 name=

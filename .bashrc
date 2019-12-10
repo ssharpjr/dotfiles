@@ -138,7 +138,7 @@ export PATH=$HOME/dev/rpi/kernel-dev/cc-tools/arm-bcm2708/gcc-linaro-arm-linux-g
 # PATH=$PATH:/home/ssharp/dev/rpi/kernel-dev/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
 # PATH=$PATH:/home/ssharp/dev/rpi/kernel-dev/rpf/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
 
-
+export PATH=$HOME/.local/bin:$PATH
 PATH="/home/ssharp/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/ssharp/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="/home/ssharp/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
