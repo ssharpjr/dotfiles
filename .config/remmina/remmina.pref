@@ -12,7 +12,7 @@ hide_statusbar=false
 show_quick_search=false
 small_toolbutton=false
 view_file_mode=1
-resolutions=1024x768,1920x1080,1900x1040
+resolutions=1024x768,1920x1080,1900x1040,1880x1020
 main_width=937
 main_height=992
 main_maximize=false
@@ -107,7 +107,9 @@ periodic_usage_stats_last_sent=1575909325
 periodic_usage_stats_uuid_prefix=G3VAKBYHT3NVLJ
 
 [remmina_news]
-periodic_rmnews_last_get=1575381786
+periodic_rmnews_last_get=1576612889
+periodic_rmnews_get_count=2
+periodic_rmnews_uuid_prefix=2TD096VQ8SANUC
 
 [remmina]
 name=
