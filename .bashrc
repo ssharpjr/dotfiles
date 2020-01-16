@@ -119,7 +119,7 @@ source /usr/bin/virtualenvwrapper.sh
 
 
 # Directories
-export RYZOMDIR=~/.local/share/Ryzom
+# export RYZOMDIR=~/.local/share/Ryzom
 export WRITEDIR=~/Dropbox/Writing
 
 
@@ -133,7 +133,7 @@ export WRITEDIR=~/Dropbox/Writing
 # export PATH=/home/ssharp/odroid/toolchains/gcc-linaro-arm-linux-gnueabihf-4.9-2014.09_linux/bin:$PATH
 # export CROSS_COMPILE=arm-linux-gnueabihf-
 # export ARCH=arm
-export PATH=$HOME/dev/rpi/kernel-dev/cc-tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin:$PATH
+# export PATH=$HOME/dev/rpi/kernel-dev/cc-tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin:$PATH
 
 # PATH=$PATH:/home/ssharp/dev/rpi/kernel-dev/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
 # PATH=$PATH:/home/ssharp/dev/rpi/kernel-dev/rpf/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
@@ -141,8 +141,8 @@ export PATH=$HOME/dev/rpi/kernel-dev/cc-tools/arm-bcm2708/gcc-linaro-arm-linux-g
 export PATH=/home/ssharp/src/muddler/muddle-shadow-0.3/bin:$PATH
 
 export PATH=$HOME/.local/bin:$PATH
-PATH="/home/ssharp/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/ssharp/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/ssharp/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/ssharp/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/ssharp/perl5"; export PERL_MM_OPT;
+# PATH="/home/ssharp/perl5/bin${PATH:+:${PATH}}"; export PATH;
+# PERL5LIB="/home/ssharp/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+# PERL_LOCAL_LIB_ROOT="/home/ssharp/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+# PERL_MB_OPT="--install_base \"/home/ssharp/perl5\""; export PERL_MB_OPT;
+# PERL_MM_OPT="INSTALL_BASE=/home/ssharp/perl5"; export PERL_MM_OPT;

@@ -163,7 +163,7 @@ bindsym $mod+Shift+a focus child
 
 # Scratchpad
 for_window [instance="dropdown"] floating enable
-for_window [instance="dropdown"] resize set 1024 768
+for_window [instance="dropdown"] resize set 1024 600
 for_window [instance="dropdown"] move scratchpad
 for_window [instance="dropdown"] border pixel 5
 exec --no-startup-id urxvt -name dropdown -bg [90]black -fg white -fn "xft:Ubuntu Mono Nerd Font:size=13" +sb -e tmux &

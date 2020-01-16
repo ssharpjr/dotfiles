@@ -40,7 +40,12 @@ class Args(object):
 args = Args()
 args.add_argument('UPDATE_COLOR', 'yellow')
 args.add_argument('QUIET', True, bool)
-args.add_argument('IGNORE', [], list)
+args.add_argument('IGNORE', [
+    "mcpelauncher-linux-git",
+    "mcpelauncher-msa-git",
+    "mcpelauncher-msa-ui-qt-git",
+    "mcpelauncher-ui-git"
+    ], list)
 
 
 def version_in_aur(pkg):
