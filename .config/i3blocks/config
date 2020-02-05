@@ -15,11 +15,11 @@ signal=11
 # signal=6
 
 [arch-update]
-interval=14400
+interval=3600
 markup=pango
 
 [aur-update]
-interval=14400
+interval=3600
 markup=pango
 
 [weather]
