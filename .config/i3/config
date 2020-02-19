@@ -310,10 +310,13 @@ for_window [class="Pystopwatch"] move position center
 # Start workspaces on certain displays (if they exist)
 workspace $ws1 output primary  # stay on primary
 workspace $ws4 output primary  # stay on primary
-workspace $ws3 output DP1-1  # email on the left
+# workspace $ws3 output DP1-1  # email on the left
+workspace $ws3 output DP-0.1  # email on the left
 workspace $ws8 output primary # stay on primary
-workspace $ws9 output DP1-1 # chats on the left
-workspace $ws2 output DP1-2  # browser on the right
+# workspace $ws9 output DP1-1 # chats on the left
+workspace $ws9 output DP-0.1 # chats on the left
+# workspace $ws2 output DP1-2  # browser on the right
+workspace $ws2 output DP-0.2  # browser on the right
 
 # reload the configuration file
 #_#MOD+Shift+c,Reload i3 Configuration File
