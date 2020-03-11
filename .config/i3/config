@@ -20,7 +20,8 @@ set $term urxvt
 set $filebrowser nemo
 set $calculator gnome-calculator
 set $browser google-chrome-stable
-set $email GTK_THEME=Nordic-Polar evolution
+# set $email GTK_THEME=Nordic-Polar evolution
+set $email GTK_THEME=Nordic-Polar thunderbird
 set $rdp remmina
 set $musicplayer clementine
 set $ide pycharm
@@ -264,6 +265,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 for_window [class="Google-chrome"] move workspace $ws2, workspace $ws2
 # for_window [class="qutebrowser"] move workspace $ws2, workspace $ws2
 # for_window [class="Firefox"] move workspace $ws2, workspace $ws2
+for_window [class="Thunderbird"] move workspace $ws3, workspace $ws3
 for_window [class="Evolution"] move workspace $ws3, workspace $ws3
 for_window [class="org.remmina.Remmina"] move workspace $ws4, workspace $ws4
 for_window [class="Clementine"] move workspace $ws10, workspace $ws10
@@ -401,7 +403,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 bar {
   	status_command i3blocks
 	tray_output primary
-	font pango:Ubuntu Mono Nerd Font 10
+	font pango:Ubuntu Mono Nerd Font 12
 	colors {
 		background $nord0
 	    	separator #757575

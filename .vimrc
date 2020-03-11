@@ -13,6 +13,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
 Plug 'scrooloose/nerdtree'
+Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 Plug 'jeetsukumaran/vim-buffergator'
 Plug 'vim-syntastic/syntastic'
@@ -39,7 +40,7 @@ Plug 'pangloss/vim-javascript'
 " Other Syntax Plugins
 Plug 'glench/vim-jinja2-syntax'
 " Plug 'nelstrom/vim-markdown-folding'
-Plug 'twidxuga/vim-instant-markdown'
+Plug 'suan/vim-instant-markdown', { 'for': 'markdown' }
 Plug 'lervag/vimtex'
 Plug 'mboughaba/i3config.vim'
 
@@ -56,6 +57,42 @@ call plug#end()            " required
 
 
 " *** CONFIGURATION ***
+
+" REMAPS
+let mapleader = ","  " Leader is comma
+let localleader = '\\'  " LocalLeader is \
+
+" jk is escape
+inoremap jk <esc>
+
+" Quick Insert Mode Commands
+"inoremap II <Esc>I
+inoremap AA <Esc>A
+inoremap OO <Esc>o
+"inoremap CC <Esc>C
+"inoremap SS <Esc>S
+"inoremap DD <Esc>dd
+"inoremap UU <Esc>u
+
+" Paragraph navigation
+noremap j gj
+noremap k gk
+
+" Shortcut to Edit .vmirc
+nnoremap <leader>ev :vsp $MYVIMRC<CR>
+
+" Disable automatic commenting on newline
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+" Relative numbers
+set number relativenumber
+
+set pastetoggle=<F5>  " Paste without indent issues
+" set mouse=a
+set encoding=utf-8
+set splitbelow
+set splitright
+set clipboard=unnamedplus
 
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
@@ -94,23 +131,6 @@ autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
 map <localleader>g :Goyo<CR>:<Esc><Esc>
 
-" Disable automatic commenting on newline
-autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-
-" Relative numbers
-set number relativenumber
-
-set pastetoggle=<F5>  " Paste without indent issues
-" set mouse=a
-set encoding=utf-8
-set splitbelow
-set splitright
-set clipboard=unnamedplus
-
-" REMAPS
-let mapleader = ","  " Leader is comma
-let localleader = '\\'  " LocalLeader is \
-
 " Syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -143,21 +163,6 @@ map <c-p> :FZF<CR>
 " let g:vim_markdown_folding_disabled=1
 " nnoremap <Space> za
 
-" jk is escape
-inoremap jk <esc>
-
-" Quick Insert Mode Commands
-"inoremap II <Esc>I
-inoremap AA <Esc>A
-inoremap OO <Esc>o
-"inoremap CC <Esc>C
-"inoremap SS <Esc>S
-"inoremap DD <Esc>dd
-"inoremap UU <Esc>u
-
-" Shortcut to Edit .vmirc
-nnoremap <leader>ev :vsp $MYVIMRC<CR>
-
 " Python stuff
 let python_highlight_all=1
 syntax on
@@ -174,9 +179,6 @@ nnoremap <F8> :setl noai nocin nosi inde=<CR>
 map <F3> :w !detex \| wc -w<CR>
 let g:tex_flavor = 'latex'
 
-" Paragraph navigation
-noremap j gj
-noremap k gk
 " Replace all double spaces with single spaces
 " noremap <localleader>ss :s/ \{2,}/ /g<CR>
 noremap <localleader>ss :g/ \+/s// /g<CR>
@@ -192,11 +194,6 @@ let g:instant_markdown_autostart = 0
 let g:instant_markdown_allow_unsafe_content = 1
 let g:instant_markdown_open_to_the_world = 1
 map <localleader>md :InstantMarkdownPreview<CR>
-" vim-markdown-preview (C-m)
-let vim_markdown_preview_hotkey='<C-m>'
-let vim_markdown_preview_github=1
-let vim_markdown_preview_toggle=1
-let vim_markdown_preview_use_xdg_open=1
 
 " split navigations
 set splitright splitbelow
