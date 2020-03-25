@@ -11,9 +11,9 @@ $HOME/.screenlayout/zbookg5-docked.sh
 [[ -f ~/.Xresources ]] && xrdb -load ~/.Xresources
 
 # Load Keyring
-# . /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-# eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
-# export SSH_AUTH_SOCK
+. /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+export SSH_AUTH_SOCK
 
 # Set Keyboard
 $HOME/bin/set_keyboard.sh
@@ -25,11 +25,11 @@ numlockx
 volnoti
 
 # Replace "busy" cursor
-# xsetroot -cursor_name left_ptr
+xsetroot -cursor_name left_ptr
 
 # Set Caps Lock to Escape
 setxkbmap -option caps:escape
 
 # Start i3
-exec i3
+exec i3 --shmlog-size=26214400
 

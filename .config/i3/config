@@ -10,6 +10,8 @@ gaps outer 5
 mouse_warping none
 
 # Set Mod key (Windows Key)
+# Mod1 = Alt Key
+# Mod4 = Windows Key
 set $mod Mod4
 
 # Set app defaults
@@ -162,14 +164,23 @@ bindsym $mod+a focus parent
 #_#MOD+Shift+a,Focus Child Container
 bindsym $mod+Shift+a focus child
 
-# Scratchpad
-for_window [instance="dropdown"] floating enable
-for_window [instance="dropdown"] resize set 1024 600
-for_window [instance="dropdown"] move scratchpad
-for_window [instance="dropdown"] border pixel 5
+### Scratchpads ###
+# Make currently focused window a scratchpad
+#_#MOD+Shift+minus,Add current window to scratchpad
+# bindsym $mod+Shift+minus move scratchpad
+#_#MOD+minus,Show scratchpad
+# bindsym $mod+minus scratchpad show
+
+# Dropdown Terminal Scratchpad
+for_window [instance="dropdown"] floating enable, resize set 1024 600, move scratchpad, border pixel 5
 exec --no-startup-id urxvt -name dropdown -bg [90]black -fg white -fn "xft:Ubuntu Mono Nerd Font:size=13" +sb -e tmux &
-#_#MOD+u,Show Scratchpad
+#_#MOD+u,Show Dropdown Scratchpad
 bindsym $mod+u [instance="dropdown"] scratchpad show; [instance="dropdown"] move position center
+
+# KeePassXC Scratchpad
+#_#MOD+Alt+p,Show KeePassXC Scratchpad
+for_window [instance="keepassxc"] floating enable, resize set 800 600, move scratchpad, border pixel 5
+bindsym $mod+Mod1+p [instance="keepassxc"] scratchpad show, move position center
 
 # Resize gaps
 #_#MOD+z,Increase Gap Size
@@ -182,12 +193,12 @@ bindsym $mod+Shift+z gaps outer current minus 5
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6) 
 # Decrease volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6) 
-
 # Mute volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle && volnoti-show -m
+
 # Screen brightness
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(xbacklight -get | cut -d '.' -f 1)
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(xbacklight -get | cut -d '.' -f 1)
+bindsym XF86MonBrightnessUp exec --no-startup-id sudo light -A 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
+bindsym XF86MonBrightnessDown exec --no-startup-id sudo light -U 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
 
 # Media player controls
 bindsym XF86AudioPlay exec mpc play
@@ -436,5 +447,6 @@ exec --no-startup-id feh --bg-scale $HOME/.wall.png
 # Other programs
 exec --no-startup-id dropbox
 exec --no-startup-id syncthing -no-browser
+exec --no-startup-id keepassxc &
 # Move back to Workspace 1
 exec --no-startup-id i3-msg workspace $ws1
