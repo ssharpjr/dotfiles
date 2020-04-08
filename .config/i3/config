@@ -29,7 +29,8 @@ set $musicplayer clementine
 set $ide pycharm
 
 # Set font
-font pango:Ubuntu Mono Nerd Font 8
+# font pango:Ubuntu Mono Nerd Font 8
+font pango:DejaVuSansMono Nerd Font 13
 
 
 # Refresh Network Manager
@@ -173,7 +174,7 @@ bindsym $mod+Shift+a focus child
 
 # Dropdown Terminal Scratchpad
 for_window [instance="dropdown"] floating enable, resize set 1024 600, move scratchpad, border pixel 5
-exec --no-startup-id urxvt -name dropdown -bg [90]black -fg white -fn "xft:Ubuntu Mono Nerd Font:size=13" +sb -e tmux &
+exec --no-startup-id urxvt -name dropdown -bg [90]black -fg white -fn "xft:DejaVuSansMono Nerd Font:size=13" +sb -e tmux &
 #_#MOD+u,Show Dropdown Scratchpad
 bindsym $mod+u [instance="dropdown"] scratchpad show; [instance="dropdown"] move position center
 
@@ -414,7 +415,8 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 bar {
   	status_command i3blocks
 	tray_output primary
-	font pango:Ubuntu Mono Nerd Font 12
+	# font pango:Ubuntu Mono Nerd Font 13
+	font pango:DejaVuSansMono Nerd Font 13
 	colors {
 		background $nord0
 	    	separator #757575

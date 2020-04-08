@@ -9,6 +9,8 @@ $HOME/.screenlayout/zbookg5-docked.sh
 
 # Load URxvt settings
 [[ -f ~/.Xresources ]] && xrdb -load ~/.Xresources
+# export QT_STYLE_OVERRIDE=adwaita
+export QT_QPA_PLATFORMTHEME=qt5ct
 
 # Load Keyring
 . /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
