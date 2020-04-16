@@ -180,7 +180,7 @@ bindsym $mod+u [instance="dropdown"] scratchpad show; [instance="dropdown"] move
 
 # KeePassXC Scratchpad
 #_#MOD+Alt+p,Show KeePassXC Scratchpad
-for_window [instance="keepassxc"] floating enable, resize set 800 600, move scratchpad, border pixel 5
+for_window [instance="keepassxc"] floating enable, resize set 1024 800, move scratchpad, border pixel 5
 bindsym $mod+Mod1+p [instance="keepassxc"] scratchpad show, move position center
 
 # Resize gaps
