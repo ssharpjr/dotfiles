@@ -6,9 +6,9 @@ xft.dpi:	96
 xft.antialias:	true
 xft.hinting:	true
 xft.rgba:	rgb
-xft.autohint:	true
+xft.autohint:	false
 xft.hintstyle:	hintfull
-xft.lcdfilter:	lcdfilter
+xft.lcdfilter:	lcddefault
 
 !! URxvt
 urxvt*termName:		rxvt-256color
@@ -16,18 +16,19 @@ urxvt*termName:		rxvt-256color
 urxvt*scrollBar:	false
 urxvt*iso14755:		false
 urxvt*font:		xft:DejaVuSansMono Nerd Font:size=14, \
-!! 			xft:DejaVu Sans Mono for Powerline:size=14
-!! 			xft:Ubuntu Mono Nerd Font:size=14, \
-!! 			xft:Inconsolata Nerd Font Mono:size=14, \
-!! 			xft:DroidSansMono Nerd Font:size=14, \
-!! 			xft:FuraMono Nerd Font:size=14, \
-!! 			xft:RobotMono Nerd Font:size=14, \
-!! 			xft:Ubuntu Mono derivative Powerline:size=14, \
-!! 			xft:Noto Sans Mono:size=14, \
-!! 			xft:Monospace:style=Medium:antialias=false
+ 			xft:DejaVu Sans Mono for Powerline:size=14 \
+ 			xft:Ubuntu Mono Nerd Font:size=14, \
+ 			xft:Inconsolata Nerd Font Mono:size=14, \
+ 			xft:DroidSansMono Nerd Font:size=14, \
+ 			xft:FuraMono Nerd Font:size=14, \
+ 			xft:RobotMono Nerd Font:size=14, \
+ 			xft:Ubuntu Mono derivative Powerline:size=14, \
+ 			xft:Noto Sans Mono:size=14, \
+ 			xft:Monospace:style=Medium:antialias=false
 !! urxvt*boldFont:		xft:Ubuntu Mono derivative Powerline Bold:size=13
 !! urxvt*italicFont:	xft:Ubuntu Mono derivative Powerline Italic:size=13
 !! urxvt*boldItalicFont:	xft:Ubuntu Mono derivative Powerline Bold Italic:size=13
+
 !! urxvt*letterSpace:	-1
 urxvt*borderColor:	#000000
 urxvt*internalBorder:	1

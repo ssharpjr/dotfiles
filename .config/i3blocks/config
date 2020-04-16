@@ -6,7 +6,7 @@ markup=pango
 
 [music]
 label=🎼
-interval=5
+interval=once
 signal=11
 
 # [news]
