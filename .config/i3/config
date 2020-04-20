@@ -202,6 +202,12 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle && volno
 # Screen brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id sudo light -A 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
 bindsym XF86MonBrightnessDown exec --no-startup-id sudo light -U 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
+bindsym $mod+F4 exec --no-startup-id sudo light -A 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
+bindsym $mod+F3 exec --no-startup-id sudo light -U 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
+# Set brightness to my max and min levels
+bindsym $mod+Mod1+F4 exec --no-startup-id sudo light -S 25 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
+bindsym $mod+Mod1+F3 exec --no-startup-id sudo light -S 1 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
+
 
 # Media player controls
 bindsym XF86AudioPlay exec mpc play
