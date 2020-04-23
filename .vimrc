@@ -18,6 +18,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'jeetsukumaran/vim-buffergator'
 Plug 'vim-syntastic/syntastic'
 Plug 'SirVer/Ultisnips'
+Plug 'vimwiki/vimwiki'
 
 " Airline
 Plug 'vim-airline/vim-airline'
@@ -201,6 +202,16 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" Split Resizing
+" <C-w>= will center horizontal splits
+" <C-w>_ will max size a horizontal window
+" <C-w>| will max size a vertical window
+" <C-w>R will swap 2 splits
+noremap <silent> <C-Left> :vertical resize +3<CR>
+noremap <silent> <C-Right> :vertical resize -3<CR>
+noremap <silent> <C-Up> :resize +3<CR>
+noremap <silent> <C-Down> :resize -3<CR>
 
 " Navigating with guides
 inoremap <leader><leader> <Esc>/<++><Enter>"_c4l

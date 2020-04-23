@@ -13,7 +13,7 @@ show_quick_search=false
 small_toolbutton=false
 view_file_mode=1
 resolutions=1024x768,1920x1080,1900x1040,1880x1020,1898x1005
-main_width=1898
+main_width=945
 main_height=998
 main_maximize=false
 main_sort_column_id=1
@@ -103,12 +103,12 @@ color15=rgb(213,204,186)
 [usage_stats]
 periodic_usage_stats_permission_asked=true
 periodic_usage_stats_permitted=true
-periodic_usage_stats_last_sent=1584569308
+periodic_usage_stats_last_sent=1587393655
 periodic_usage_stats_uuid_prefix=G3VAKBYHT3NVLJ
 
 [remmina_news]
-periodic_rmnews_last_get=1586988513
-periodic_rmnews_get_count=22
+periodic_rmnews_last_get=1587593328
+periodic_rmnews_get_count=24
 periodic_rmnews_uuid_prefix=2TD096VQ8SANUC
 
 [remmina]

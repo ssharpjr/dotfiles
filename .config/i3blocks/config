@@ -9,18 +9,20 @@ label=🎼
 interval=once
 signal=11
 
-# [news]
-# label=📰
-# interval=3600
-# signal=6
+[news]
+label=📰
+interval=3600
+signal=6
 
 [arch-update]
 interval=3600
 markup=pango
+signal=12
 
 [aur-update]
 interval=3600
 markup=pango
+signal=12
 
 [weather]
 # command=curl -Ss 'https://wttr.in/30813?0&T&Q' | cut -c 16- | head -2 | xargs echo

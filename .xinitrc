@@ -21,6 +21,9 @@ export SSH_AUTH_SOCK
 # Set Keyboard
 $HOME/bin/set_keyboard.sh
 
+# Setup Wacom Tablet
+xsetwacom set "Wacom Intuos4 4x6 Pen stylus" rotate half
+
 # Set Numlock
 numlockx
 
