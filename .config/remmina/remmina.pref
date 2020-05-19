@@ -13,7 +13,7 @@ show_quick_search=false
 small_toolbutton=false
 view_file_mode=1
 resolutions=1024x768,1920x1080,1900x1040,1880x1020,1898x1005
-main_width=945
+main_width=1898
 main_height=998
 main_maximize=false
 main_sort_column_id=1
@@ -69,7 +69,7 @@ show_buttons_icons=0
 show_menu_icons=0
 shortcutkey_viewonly=109
 shortcutkey_screenshot=65481
-rdp_deviceScaleFactor=100
+rdp_deviceScaleFactor=140
 rdp_desktopScaleFactor=100
 rdp_desktopOrientation=0
 datadir_path=
@@ -78,6 +78,7 @@ use_master_password=false
 unlock_timeout=0
 unlock_password=
 last_quickconnect_protocol=
+recent_RDP=10.130.2.223
 
 [ssh_colors]
 background=rgb(213,204,186)
@@ -107,8 +108,8 @@ periodic_usage_stats_last_sent=1587393655
 periodic_usage_stats_uuid_prefix=G3VAKBYHT3NVLJ
 
 [remmina_news]
-periodic_rmnews_last_get=1587593328
-periodic_rmnews_get_count=24
+periodic_rmnews_last_get=1589901864
+periodic_rmnews_get_count=2
 periodic_rmnews_uuid_prefix=2TD096VQ8SANUC
 
 [remmina]

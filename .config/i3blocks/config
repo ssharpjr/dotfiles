@@ -6,13 +6,13 @@ markup=pango
 
 [music]
 label=🎼
-interval=once
+interval=5
 signal=11
 
-[news]
-label=📰
-interval=3600
-signal=6
+# [news]
+# label=📰
+# interval=3600
+# signal=6
 
 [arch-update]
 interval=3600
