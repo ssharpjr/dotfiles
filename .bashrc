@@ -8,6 +8,9 @@ case $- in
       *) return;;
 esac
 
+# Sudo completeion
+complete -cf sudo
+
 # Set vim mode in bash
 set -o vi
 
