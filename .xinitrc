@@ -22,7 +22,7 @@ export SSH_AUTH_SOCK
 $HOME/bin/set_keyboard.sh
 
 # Setup Wacom Tablet
-xsetwacom set "Wacom Intuos4 4x6 Pen stylus" rotate half
+# xsetwacom set "Wacom Intuos4 4x6 Pen stylus" rotate half
 
 # Set Numlock
 numlockx
@@ -38,4 +38,5 @@ setxkbmap -option caps:escape
 
 # Start i3
 exec i3 --shmlog-size=26214400
+# exec dwm
 

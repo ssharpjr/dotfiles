@@ -17,7 +17,7 @@ set $mod Mod4
 # Set app defaults
 set $shutdown sudo -A shutdown -h now
 set $reboot sudo -A reboot
-set $netrefresh --no-startup-id sudo -A systemctl restart NetworkManager
+set $netrefresh --no-startup-id sudo systemctl restart NetworkManager
 set $term urxvt
 set $filebrowser nemo
 set $calculator gnome-calculator
