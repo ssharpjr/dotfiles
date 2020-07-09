@@ -12,9 +12,10 @@
 export EDITOR="vim"
 export VISUAL="vim"
 export TERMINAL="urxvt"
-export MYBROWSER="google-chrome"
-export READER="zathura"
-export FILE="vifm"
+export MYBROWSER="google-chrome-stable"
+export MYEMAIL="thunderbird"
+export MYREADER="zathura"
+export MYFILE="nemo"
 
 # Instant Markdown Variables
 # export INSTANT_MARKDOWN_OPEN_TO_THE_WORLD=
