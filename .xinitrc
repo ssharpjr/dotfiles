@@ -2,19 +2,19 @@
 
 # Set Display
 # $HOME/bin/set_resolution.sh
-$HOME/.screenlayout/zbookg5-docked.sh
+$HOME/.screenlayout/zbookg5-home-dock.sh
 # xrandr --setprovideroutputsource modesetting NVIDIA-0
 # xrandr --auto
 
 # DWM Bar
-xsetroot -name " Loading... "
-$HOME/.local/src/dwm-bar/dwm_bar.sh &
+# xsetroot -name " Loading... "
+# $HOME/.local/src/dwm-bar/dwm_bar.sh &
 
 # Load Compositor
 picom -f -b
 
 # Wallpaper
-nitrogen --restore &
+# nitrogen --restore &
 
 # Load URxvt settings
 [[ -f ~/.Xresources ]] && xrdb -load ~/.Xresources
@@ -37,7 +37,7 @@ export SSH_AUTH_SOCK
 numlockx &
 
 # OSD
-# volnoti
+volnoti
 
 # Set Caps Lock to Escape
 setxkbmap -option caps:escape &
@@ -58,24 +58,26 @@ blueberry-tray &
 redshift-gtk &
 
 # Start i3
-# exec i3 --shmlog-size=26214400
-
+exec i3 --shmlog-size=26214400
+# exec dwm
 # DWM Run Loop
 # while true; do
-#     dwm > /dev/null 2>&1
+#     dwm 2> ~/.dwm-error.log
 # done
+
+#
 # relaunch DWM if the binary changes, otherwise bail
-csum=$(sha1sum $(which dwm))
-new_csum=""
-while true
-do
-    if [ "$csum" != "$new_csum" ]
-    then
-        csum=$new_csum
-        dwm
-    else
-        exit 0
-    fi
-    new_csum=$(sha1sum $(which dwm))
-    sleep 0.5
-done
+# csum=$(sha1sum $(which dwm))
+# new_csum=""
+# while true
+# do
+#     if [ "$csum" != "$new_csum" ]
+#     then
+#         csum=$new_csum
+#         dwm
+#     else
+#         exit 0
+#     fi
+#     new_csum=$(sha1sum $(which dwm))
+#     sleep 0.5
+# done

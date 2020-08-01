@@ -160,6 +160,19 @@ nmap <leader>bl :BuffergatorOpen<CR>
 " fzf.vim
 map <c-p> :FZF<CR>
 
+" Vimwiki
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
+let g:vimwiki_list = [{
+	\ 'path': '~/vimwiki',
+	\ 'template_path': '~/vimwiki/templates/',
+	\ 'template_default': 'default',
+	\ 'syntax': 'markdown',
+	\ 'ext': '.md',
+	\ 'path_html': '~/vimwiki/site_html/',
+	\ 'custom_wiki2html': 'vimwiki_markdown',
+	\ 'template_ext': '.tpl'}]
+
 " Folding
 " let g:vim_markdown_folding_disabled=1
 " nnoremap <Space> za
@@ -256,6 +269,9 @@ augroup configgroup
     autocmd BufEnter *.cls setlocal filetype=java
     autocmd BufEnter *.zsh-theme setlocal filetype=zsh
     autocmd BufEnter Makefile setlocal noexpandtab
+    autocmd BufEnter *.c setlocal tabstop=4
+    autocmd BufEnter *.c setlocal shiftwidth=4
+    autocmd BufEnter *.c setlocal softtabstop=4
     autocmd BufEnter *.sh setlocal tabstop=2
     autocmd BufEnter *.sh setlocal shiftwidth=2
     autocmd BufEnter *.sh setlocal softtabstop=2

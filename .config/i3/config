@@ -40,16 +40,18 @@ bindsym $mod+<F9> $netrefresh
 # Move focused window (container) between monitors (outputs)
 bindsym $mod+Ctrl+greater move workspace to output right
 bindsym $mod+Ctrl+less move workspace to output left
+bindsym $mod+Ctrl+Down move workspace to output down
+bindsym $mod+Ctrl+Up move workspace to output up
 
 # Set display mode
-set $displayMode "Set display mode [w]ork [l]aptop"
+set $displayMode "Set display mode [d]ual [l]aptop"
 
 #_#MOD+x,Display Mode
 bindsym $mod+x mode $displayMode
 
 mode $displayMode {
-	bindsym w exec --no-startup-id ~/.config/i3/scripts/i3-work-displays.sh; mode "default"
-	bindsym l exec --no-startup-id ~/.config/i3/scripts/i3-laptop-display.sh; mode "default"
+	bindsym d exec --no-startup-id ~/.screenlayout/zbookg5-home-dock.sh; mode "default"
+	bindsym l exec --no-startup-id ~/.screenlayout/laptop-only.sh; mode "default"
 	bindsym Return mode "default"
 	bindsym Escape mode "default"
 	bindsym $mod+x mode "default"
@@ -180,8 +182,8 @@ bindsym $mod+u [instance="dropdown"] scratchpad show; [instance="dropdown"] move
 
 # KeePassXC Scratchpad
 #_#MOD+Alt+p,Show KeePassXC Scratchpad
-for_window [instance="keepassxc"] floating enable, resize set 1024 800, move scratchpad, border pixel 5
-bindsym $mod+Mod1+p [instance="keepassxc"] scratchpad show, move position center
+# for_window [instance="keepassxc"] floating enable, resize set 1024 800, move scratchpad, border pixel 5
+# bindsym $mod+Mod1+p [instance="keepassxc"] scratchpad show, move position center
 
 # Resize gaps
 #_#MOD+z,Increase Gap Size
@@ -190,6 +192,8 @@ bindsym $mod+z gaps outer current plus 5
 bindsym $mod+Shift+z gaps outer current minus 5
 
 # Media Hot Keys
+# Set volume to 50%
+bindsym $mod+F7 exec --no-startup-id pactl set-sink-volume 0 50% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6 | pkill -SIGTMIN+10 i3blocks
 # Increase volume
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6) | pkill -SIGRTMIN+10 i3blocks
 # Decrease volume
@@ -202,8 +206,8 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle && volno
 # Screen brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id sudo light -A 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
 bindsym XF86MonBrightnessDown exec --no-startup-id sudo light -U 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
-bindsym $mod+F4 exec --no-startup-id sudo light -A 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
-bindsym $mod+F3 exec --no-startup-id sudo light -U 10 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
+bindsym $mod+F4 exec --no-startup-id sudo light -A 5 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
+bindsym $mod+F3 exec --no-startup-id sudo light -U 5 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
 # Set brightness to my max and min levels
 bindsym $mod+Mod1+F4 exec --no-startup-id sudo light -S 25 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
 bindsym $mod+Mod1+F3 exec --no-startup-id sudo light -S 1 && volnoti-show -s /usr/share/pixmaps/volnoti/display-brightness-symbolic.svg $(light -G | cut -d '.' -f 1)
@@ -331,14 +335,16 @@ for_window [class="Pystopwatch"] move position center
 
 # Start workspaces on certain displays (if they exist)
 workspace $ws1 output primary  # stay on primary
+workspace $ws2 output primary  # stay on primary
+workspace $ws3 output primary  # stay on primary
 workspace $ws4 output primary  # stay on primary
 # workspace $ws3 output DP1-1  # email on the left
-workspace $ws3 output DP-0.1  # email on the left
-workspace $ws8 output primary # stay on primary
+# workspace $ws3 output DP-0.1  # email on the left
+# workspace $ws8 output primary # stay on primary
 # workspace $ws9 output DP1-1 # chats on the left
-workspace $ws9 output DP-0.1 # chats on the left
+# workspace $ws9 output DP-0.1 # chats on the left
 # workspace $ws2 output DP1-2  # browser on the right
-workspace $ws2 output DP-0.2  # browser on the right
+# workspace $ws2 output DP-0.2  # browser on the right
 
 # reload the configuration file
 #_#MOD+Shift+c,Reload i3 Configuration File
@@ -443,20 +449,20 @@ exec --no-startup-id xsetroot -cursor_name left_ptr
 # Map menu button to super
 exec --no-startup-id xmodmap -e 'keycode 135 = Super_R'
 # Dunst notifications
-exec --no-startup-id dunst
+# exec --no-startup-id dunst
 # Hide inactive mouse
-exec --no-startup-id unclutter -b
+# exec --no-startup-id unclutter -b
 # Compton
-exec --no-startup-id compton -b
+# exec --no-startup-id compton -b
 # Applets
-exec --no-startup-id nm-applet
-exec --no-startup-id blueberry-tray
-exec --no-startup-id redshift-gtk
+# exec --no-startup-id nm-applet
+# exec --no-startup-id blueberry-tray
+# exec --no-startup-id redshift-gtk
 # Set background image
 exec --no-startup-id feh --bg-scale $HOME/.wall.png
 # Other programs
-exec --no-startup-id dropbox
-exec --no-startup-id syncthing -no-browser
+# exec --no-startup-id dropbox
+# exec --no-startup-id syncthing -no-browser
 # exec --no-startup-id keepassxc &
 # Move back to Workspace 1
 exec --no-startup-id i3-msg workspace $ws1
