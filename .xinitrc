@@ -6,6 +6,9 @@ $HOME/.screenlayout/zbookg5-home-dock.sh
 # xrandr --setprovideroutputsource modesetting NVIDIA-0
 # xrandr --auto
 
+# Set Audio
+. $HOME/bin/set_audio_sink
+
 # DWM Bar
 # xsetroot -name " Loading... "
 # $HOME/.local/src/dwm-bar/dwm_bar.sh &

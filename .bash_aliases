@@ -27,7 +27,7 @@ alias config='/usr/bin/git --git-dir=/home/ssharp/.cfg/ --work-tree=/home/ssharp
 
 # Directory aliases
 alias gowrite="cd $WRITEDIR"
-alias gowritetdp="cd $WRITEDIR/The_Denasia_Project/design_documents"
+alias gowritetdp="cd $WRITEDIR/Projects/The_Denasia_Project/design_documents"
 alias gomusic="cd $HOME/Dropbox/Music\ Sheets/Templates"
 alias goml="cd $HOME/Dropbox/Documents/Coursera/Machine\ Learning\ Course"
 alias gotpi="cd $HOME/Dropbox/Documents/TPI"

@@ -14,6 +14,9 @@ mouse_warping none
 # Mod4 = Windows Key
 set $mod Mod4
 
+# set_from_resource $audio_sink $AUDIO_SINK
+set $audio_sink 1
+
 # Set app defaults
 set $shutdown sudo -A shutdown -h now
 set $reboot sudo -A reboot
@@ -193,14 +196,14 @@ bindsym $mod+Shift+z gaps outer current minus 5
 
 # Media Hot Keys
 # Set volume to 50%
-bindsym $mod+F7 exec --no-startup-id pactl set-sink-volume 0 50% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6 | pkill -SIGTMIN+10 i3blocks
+bindsym $mod+F7 exec --no-startup-id pactl set-sink-volume $audio_sink 50% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6 | pkill -SIGTMIN+10 i3blocks
 # Increase volume
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6) | pkill -SIGRTMIN+10 i3blocks
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume $audio_sink +5% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6) | pkill -SIGRTMIN+10 i3blocks
 # Decrease volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6) | pkill -SIGRTMIN+10 i3blocks
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume $audio_sink -5% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6) | pkill -SIGRTMIN+10 i3blocks
 
 # Mute volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle && volnoti-show -m | pkill -SIGRTMIN+10 i3blocks
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute $audio_sink toggle && volnoti-show -m | pkill -SIGRTMIN+10 i3blocks
 
 
 # Screen brightness
@@ -324,8 +327,10 @@ for_window [class="Lxappearance"] floating enable
 for_window [class="Lxappearance"] move position center
 for_window [class="Blueberry.py"] floating enable
 for_window [class="Blueberry.py"] move position center
-for_window [class="org.remmina.Remmina"] fullscreen enable
-for_window [class="org.remmina.Remmina"] fullscreen disable
+for_window [instance="org.remmina.Remmina"] floating enable
+for_window [instance="org.remmina.Remmina"] move position center
+# for_window [class="org.remmina.Remmina"] fullscreen enable
+# for_window [class="org.remmina.Remmina"] fullscreen disable
 # for_window [class="Wine"] floating enable
 # for_window [class="Wine"] move position 10 10
 # for_window [instance="Wine"] move position 10 10
