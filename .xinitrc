@@ -1,8 +1,8 @@
 # .xinitrc - Configures and launches X session
 
 # Set Display
-# $HOME/bin/set_resolution.sh
-$HOME/.screenlayout/zbookg5-home-dock.sh
+$HOME/bin/set_resolution-zbookg5-home.sh
+# $HOME/.screenlayout/zbookg5-home-dock.sh
 # xrandr --setprovideroutputsource modesetting NVIDIA-0
 # xrandr --auto
 

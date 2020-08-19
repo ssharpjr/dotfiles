@@ -15,7 +15,8 @@ mouse_warping none
 set $mod Mod4
 
 # set_from_resource $audio_sink $AUDIO_SINK
-set $audio_sink 1
+# set $audio_sink 1 # builtin speakers
+set $audio_sink 6 # bluetooth headset
 
 # Set app defaults
 set $shutdown sudo -A shutdown -h now
@@ -327,8 +328,8 @@ for_window [class="Lxappearance"] floating enable
 for_window [class="Lxappearance"] move position center
 for_window [class="Blueberry.py"] floating enable
 for_window [class="Blueberry.py"] move position center
-for_window [instance="org.remmina.Remmina"] floating enable
-for_window [instance="org.remmina.Remmina"] move position center
+# for_window [instance="org.remmina.Remmina"] floating enable
+# for_window [instance="org.remmina.Remmina"] move position center
 # for_window [class="org.remmina.Remmina"] fullscreen enable
 # for_window [class="org.remmina.Remmina"] fullscreen disable
 # for_window [class="Wine"] floating enable
