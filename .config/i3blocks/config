@@ -22,7 +22,7 @@ signal=12
 [aur-update]
 interval=3600
 markup=pango
-signal=12
+signal=13
 
 [weather]
 # command=curl -Ss 'https://wttr.in/30813?0&T&Q' | cut -c 16- | head -2 | xargs echo

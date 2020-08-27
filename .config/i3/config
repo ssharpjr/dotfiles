@@ -179,7 +179,7 @@ bindsym $mod+Shift+a focus child
 # bindsym $mod+minus scratchpad show
 
 # Dropdown Terminal Scratchpad
-for_window [instance="dropdown"] floating enable, resize set 1024 600, move scratchpad, border pixel 5
+for_window [instance="dropdown"] floating enable, resize set 1280 600, move scratchpad, border pixel 5
 exec --no-startup-id urxvt -name dropdown -bg [90]black -fg white -fn "xft:DejaVuSansMono Nerd Font:size=13" +sb -e tmux &
 #_#MOD+u,Show Dropdown Scratchpad
 bindsym $mod+u [instance="dropdown"] scratchpad show; [instance="dropdown"] move position center
