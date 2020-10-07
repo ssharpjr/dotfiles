@@ -15,8 +15,9 @@ mouse_warping none
 set $mod Mod4
 
 # set_from_resource $audio_sink $AUDIO_SINK
-# set $audio_sink 1 # builtin speakers
-set $audio_sink 6 # bluetooth headset
+set $audio_sink 0 # builtin speakers
+# set $audio_sink 1 # hdmi-stereo monitor
+# set $audio_sink 6 # bluetooth headset
 
 # Set app defaults
 set $shutdown sudo -A shutdown -h now
@@ -196,15 +197,20 @@ bindsym $mod+z gaps outer current plus 5
 bindsym $mod+Shift+z gaps outer current minus 5
 
 # Media Hot Keys
+#_#MOD+F7, Set volume to 50%
+#_#FN+F7, Raise volume 5%
+#_#FN+F6, Lower volume 5%
+#_#FN+F5, Mute volume
+
 # Set volume to 50%
-bindsym $mod+F7 exec --no-startup-id pactl set-sink-volume $audio_sink 50% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6 | pkill -SIGTMIN+10 i3blocks
+bindsym $mod+F7 exec --no-startup-id pactl set-sink-volume 0 50% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6 | pkill -SIGTMIN+10 i3blocks
 # Increase volume
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume $audio_sink +5% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6) | pkill -SIGRTMIN+10 i3blocks
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6) | pkill -SIGRTMIN+10 i3blocks
 # Decrease volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume $audio_sink -5% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6) | pkill -SIGRTMIN+10 i3blocks
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% && volnoti-show $(pactl list sinks | grep Volume: | head -1 | cut -d ' ' -f 5-6) | pkill -SIGRTMIN+10 i3blocks
 
 # Mute volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute $audio_sink toggle && volnoti-show -m | pkill -SIGRTMIN+10 i3blocks
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle && volnoti-show -m | pkill -SIGRTMIN+10 i3blocks
 
 
 # Screen brightness
@@ -254,16 +260,16 @@ bindsym $mod+s exec --no-startup-id gnome-screenshot -ai
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: TERM"
-set $ws2 "2: WWW"
-set $ws3 "3: MAIL"
-set $ws4 "4: RDP"
-set $ws5 "5: DEV"
-set $ws6 "6: FILE"
-set $ws7 "7: WRITING"
-set $ws8 "8: GAMES"
-set $ws9 "9: MISC"
-set $ws10 "10: MEDIA"
+set $ws1   "1: TERM"
+set $ws2   "2: WWW"
+set $ws3   "3: EMAIL"
+set $ws4   "4: RDS"
+set $ws5   "5: DATA"
+set $ws6   "6: FILE"
+set $ws7   "7: WRITE"
+set $ws8   "8: GAME"
+set $ws9   "9: CHAT"
+set $ws10 "10: MISC"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -303,6 +309,7 @@ for_window [class="Spotify"] move workspace $ws10, workspace $ws10
 for_window [class="Hexchat"] move workspace $ws9, workspace $ws9
 for_window [class="discord"] move workspace $ws9, workspace $ws9
 for_window [class="Wine"] move workspace $ws5, workspace $ws5
+for_window [class="libreoffice-calc"] move workspace $ws5, workspace $ws5
 for_window [class="jetbrains-pycharm-ce"] move workspace $ws5, workspace $ws5
 for_window [class="nel"] move workspace $ws8, workspace $ws8
 for_window [class="manuskript"] move workspace $ws7, workspace $ws7

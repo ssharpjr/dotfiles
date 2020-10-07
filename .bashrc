@@ -8,7 +8,7 @@ case $- in
       *) return;;
 esac
 
-# Sudo completeion
+# Sudo completion
 complete -cf sudo
 
 # Set vim mode in bash
@@ -100,6 +100,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias l1='ls -A1'
 alias lss='ls -A1'
+alias lls='ls -A1'
 
 # Gruvbox color palette
 # source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
@@ -141,7 +142,7 @@ export WRITEDIR=~/Dropbox/Writing
 # PATH=$PATH:/home/ssharp/dev/rpi/kernel-dev/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
 # PATH=$PATH:/home/ssharp/dev/rpi/kernel-dev/rpf/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
 
-export PATH=/home/ssharp/src/muddler/muddle-shadow-0.3/bin:$PATH
+export PATH=/home/ssharp/src/muddler/muddle-shadow-0.5/bin:$PATH
 
 export PATH=$HOME/.local/bin:$PATH
 # PATH="/home/ssharp/perl5/bin${PATH:+:${PATH}}"; export PATH;

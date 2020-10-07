@@ -15,7 +15,7 @@ $HOME/.screenlayout/laptop-only.sh
 # $HOME/.local/src/dwm-bar/dwm_bar.sh &
 
 # Load Compositor
-picom -f -b
+# picom -f -b
 
 # Wallpaper
 # nitrogen --restore &

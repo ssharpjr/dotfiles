@@ -1,0 +1,4 @@
+#! /bin/bash
+
+pgrep -x dunst > /dev/null && notify-send "Checking for AUR updates"
+./aur-update

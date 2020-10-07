@@ -36,6 +36,10 @@ MOD+u,Show Dropdown Scratchpad
 MOD+Alt+p,Show KeePassXC Scratchpad
 MOD+z,Increase Gap Size
 MOD+Shift+z,Decrease Gap Size
+MOD+F7, Set volume to 50%
+FN+F7, Raise volume 5%
+FN+F6, Lower volume 5%
+FN+F5, Mute volume
 MOD+n,Launch File Browser
 MOD+w,Launch Web Browser
 MOD+c,Launch Calculator
