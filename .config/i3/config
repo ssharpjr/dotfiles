@@ -345,6 +345,9 @@ for_window [class="Blueberry.py"] move position center
 for_window [class="VirtualBox Manager"] floating enable
 for_window [class="Pystopwatch"] floating enable
 for_window [class="Pystopwatch"] move position center
+# for_window [class="Anaconda-Navigator"] floating enable
+# for_window [class="Anaconda-Navigator"] resize set 1280 900
+# for_window [class="Anaconda-Navigator"] move position center
 
 # Start workspaces on certain displays (if they exist)
 workspace $ws1 output primary  # stay on primary

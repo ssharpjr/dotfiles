@@ -150,3 +150,19 @@ export PATH=$HOME/.local/bin:$PATH
 # PERL_LOCAL_LIB_ROOT="/home/ssharp/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 # PERL_MB_OPT="--install_base \"/home/ssharp/perl5\""; export PERL_MB_OPT;
 # PERL_MM_OPT="INSTALL_BASE=/home/ssharp/perl5"; export PERL_MM_OPT;
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/ssharp/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/ssharp/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/ssharp/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/ssharp/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
