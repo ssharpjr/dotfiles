@@ -67,6 +67,8 @@ let localleader = '\\'  " LocalLeader is \
 " jk is escape
 inoremap jk <esc>
 
+let g:BASH_Ctrl_k = 'off'
+
 " Quick Insert Mode Commands
 "inoremap II <Esc>I
 inoremap AA <Esc>A
@@ -181,7 +183,7 @@ let g:vimwiki_list = [{
 " Python stuff
 let python_highlight_all=1
 syntax on
-nnoremap <F9> <Esc>:w<CR>:!clear;python %<CR> 
+nnoremap <F9> <Esc>:w<CR>:!python %<CR> 
 
 " Spellcheck
 map <leader>sc :setlocal spell! spelllang=en_us<CR>
@@ -212,10 +214,10 @@ map <localleader>md :InstantMarkdownPreview<CR>
 
 " split navigations
 set splitright splitbelow
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
+" nnoremap <C-J> <C-W><C-J>
+" nnoremap <C-K> <C-W><C-K>
+" nnoremap <C-L> <C-W><C-L>
+" nnoremap <C-H> <C-W><C-H>
 
 " Split Resizing
 " <C-w>= will center horizontal splits
@@ -240,13 +242,13 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set writebackup
 
 " Tmux cursor change
-if exists('$TMUX')
-    let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
-    let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
-else
-    let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-    let &t_EI = "\<Esc>]50;CursorShape=0\x7"
-endif
+" if exists('$TMUX')
+"     let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+"     let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+" else
+"     let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+"     let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+" endif
 
 " Autogroups
 augroup configgroup

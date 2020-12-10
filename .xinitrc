@@ -53,6 +53,7 @@ unclutter -b
 dunst &
 
 # Other Startup Programs
+davmail &
 dropbox &
 syncthing -no-browser &
 
