@@ -31,12 +31,12 @@ color=#A4C2F4
 
 [cpu]
 label=💻
-interval=5
+interval=2
 
 [memory]
 label=🧠
 instance=mem
-interval=30
+interval=10
 
 [volume]
 interval=once

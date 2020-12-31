@@ -6,6 +6,7 @@ $HOME/.screenlayout/laptop-only.sh
 # $HOME/.screenlayout/zbookg5-home-dock.sh
 # xrandr --setprovideroutputsource modesetting NVIDIA-0
 # xrandr --auto
+$HOME/bin/screensaver-off
 
 # Set Audio
 . $HOME/bin/set_audio_sink
@@ -64,25 +65,4 @@ redshift-gtk &
 
 # Start i3
 exec i3 --shmlog-size=26214400
-# exec dwm
-# DWM Run Loop
-# while true; do
-#     dwm 2> ~/.dwm-error.log
-# done
 
-#
-# relaunch DWM if the binary changes, otherwise bail
-# csum=$(sha1sum $(which dwm))
-# new_csum=""
-# while true
-# do
-#     if [ "$csum" != "$new_csum" ]
-#     then
-#         csum=$new_csum
-#         dwm
-#     else
-#         exit 0
-#     fi
-#     new_csum=$(sha1sum $(which dwm))
-#     sleep 0.5
-# done
