@@ -14,7 +14,7 @@ small_toolbutton=false
 view_file_mode=1
 resolutions=1024x768,1920x1080,1900x1040,1880x1020,1898x1005
 main_width=945
-main_height=998
+main_height=992
 main_maximize=false
 main_sort_column_id=1
 main_sort_order=0
@@ -77,9 +77,13 @@ remmina_file_name=%G_%P_%N_%h
 use_master_password=false
 unlock_timeout=0
 unlock_password=
-last_quickconnect_protocol=
+last_quickconnect_protocol=RDP
 recent_RDP=10.130.2.223
 trust_all=false
+dark_theme=false
+shortcutkey_multimon=65365
+grab_color=#00ff00
+grab_color_switch=false
 
 [ssh_colors]
 background=rgb(213,204,186)
@@ -101,11 +105,16 @@ color12=rgb(66,106,121)
 color13=rgb(151,82,44)
 color14=rgb(152,154,156)
 color15=rgb(213,204,186)
+bold=#45373c
+cursor_foreground=#d5ccba
+highlight=#45373c
+highlight_foreground=#d5ccba
+colorBD=#45373c
 
 [usage_stats]
 periodic_usage_stats_permission_asked=true
 periodic_usage_stats_permitted=true
-periodic_usage_stats_last_sent=1609159943
+periodic_usage_stats_last_sent=1617284016
 periodic_usage_stats_uuid_prefix=G3VAKBYHT3NVLJ
 
 [remmina_news]

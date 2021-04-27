@@ -1,9 +1,8 @@
 # .xinitrc - Configures and launches X session
 
 # Set Display
-$HOME/.screenlayout/laptop-only.sh
-# $HOME/bin/set_resolution-zbookg5-home.sh
-# $HOME/.screenlayout/zbookg5-home-dock.sh
+$HOME/.screenlayout/zbookg5-work-dock-2-displays-only.sh
+# $HOME/.screenlayout/laptop-only.sh
 # xrandr --setprovideroutputsource modesetting NVIDIA-0
 # xrandr --auto
 $HOME/bin/screensaver-off
@@ -54,7 +53,7 @@ unclutter -b
 dunst &
 
 # Other Startup Programs
-davmail &
+# davmail &
 dropbox &
 syncthing -no-browser &
 

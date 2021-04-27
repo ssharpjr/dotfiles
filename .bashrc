@@ -166,3 +166,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Azure CLI Tab Complete
+# source /home/ssharp/.cache/yay/azure-cli/src/azure-cli/az.completion

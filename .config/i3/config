@@ -23,7 +23,8 @@ set $audio_sink 0 # builtin speakers
 set $shutdown sudo -A shutdown -h now
 set $reboot sudo -A reboot
 set $netrefresh --no-startup-id sudo systemctl restart NetworkManager
-set $term urxvt
+set $term lxterminal
+# set $term urxvt
 set $filebrowser nemo
 set $calculator gnome-calculator
 set $browser google-chrome-stable
@@ -49,7 +50,7 @@ bindsym $mod+Ctrl+Down move workspace to output down
 bindsym $mod+Ctrl+Up move workspace to output up
 
 # Set display mode
-set $displayMode "Set display mode [s]tacked [d]ocked [l]aptop"
+set $displayMode "Set display mode [s]tacked-HDMI, [d]ocked-stacked [l]aptop-only [w]ork-dual-display-only"
 
 #_#MOD+x,Display Mode
 bindsym $mod+x mode $displayMode
@@ -58,6 +59,7 @@ mode $displayMode {
 	bindsym s exec --no-startup-id ~/.screenlayout/zbookg5-home-stacked.sh; mode "default"
 	bindsym d exec --no-startup-id ~/.screenlayout/zbookg5-home-dock-stacked.sh; mode "default"
 	bindsym l exec --no-startup-id ~/.screenlayout/laptop-only.sh; mode "default"
+	bindsym w exec --no-startup-id ~/.screenlayout/zbookg5-work-dock-2-displays-only.sh; mode "default"
 	bindsym Return mode "default"
 	bindsym Escape mode "default"
 	bindsym $mod+x mode "default"
@@ -251,10 +253,8 @@ bindsym $mod+w exec --no-startup-id $browser
 bindsym $mod+c exec --no-startup-id $calculator
 bindsym $mod+e exec --no-startup-id $email
 bindsym $mod+t exec --no-startup-id remmina -c ~/.remmina/TPI_RDS_ACCT.remmina
-bindsym $mod+Shift+o exec --no-startup-id remmina -c ~/.remmina/TPI-DBSVR01.remmina
 bindsym $mod+Shift+d exec --no-startup-id remmina -c ~/.remmina/TPI-DC01.remmina
-bindsym $mod+Shift+e exec --no-startup-id remmina -c ~/.remmina/TPI-EX2008R2.remmina
-bindsym $mod+Shift+m exec --no-startup-id remmina -c ~/.remmina/TPI-ORAMAINT.remmina
+bindsym $mod+Shift+o exec --no-startup-id remmina -c ~/.remmina/TPI-ORAMAINT.remmina
 bindsym $modShift+t exec --no-startup-id $rdp
 # bindsym $mod+m exec --no-startup-id $musicplayer
 bindsym $mod+s exec --no-startup-id gnome-screenshot -ai
@@ -309,8 +309,10 @@ for_window [class="Nemo"] move workspace $ws6, workspace $ws6
 for_window [class="Spotify"] move workspace $ws10, workspace $ws10
 for_window [class="Hexchat"] move workspace $ws9, workspace $ws9
 for_window [class="discord"] move workspace $ws9, workspace $ws9
+for_window [class="Microsoft Teams - Preview"] move workspace $ws9, workspace $ws9
 for_window [class="Wine"] move workspace $ws5, workspace $ws5
 for_window [class="libreoffice-calc"] move workspace $ws5, workspace $ws5
+for_window [class="libreoffice-writer"] move workspace $ws5, workspace $ws5
 for_window [class="jetbrains-pycharm-ce"] move workspace $ws5, workspace $ws5
 for_window [class="nel"] move workspace $ws8, workspace $ws8
 for_window [class="manuskript"] move workspace $ws7, workspace $ws7
