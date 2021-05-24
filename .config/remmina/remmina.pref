@@ -84,6 +84,12 @@ dark_theme=false
 shortcutkey_multimon=65365
 grab_color=#00ff00
 grab_color_switch=false
+vte_shortcutkey_copy=99
+vte_shortcutkey_paste=118
+vte_shortcutkey_select_all=97
+vte_shortcutkey_increase_font=65365
+vte_shortcutkey_decrease_font=65366
+vte_shortcutkey_search_text=103
 
 [ssh_colors]
 background=rgb(213,204,186)
@@ -114,7 +120,7 @@ colorBD=#45373c
 [usage_stats]
 periodic_usage_stats_permission_asked=true
 periodic_usage_stats_permitted=true
-periodic_usage_stats_last_sent=1617284016
+periodic_usage_stats_last_sent=1620045696
 periodic_usage_stats_uuid_prefix=G3VAKBYHT3NVLJ
 
 [remmina_news]

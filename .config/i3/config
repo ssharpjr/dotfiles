@@ -50,14 +50,13 @@ bindsym $mod+Ctrl+Down move workspace to output down
 bindsym $mod+Ctrl+Up move workspace to output up
 
 # Set display mode
-set $displayMode "Set display mode [s]tacked-HDMI, [d]ocked-stacked [l]aptop-only [w]ork-dual-display-only"
+set $displayMode "Set display mode [h]ome-docked, [l]aptop-only [w]ork-dual-display-only"
 
 #_#MOD+x,Display Mode
 bindsym $mod+x mode $displayMode
 
 mode $displayMode {
-	bindsym s exec --no-startup-id ~/.screenlayout/zbookg5-home-stacked.sh; mode "default"
-	bindsym d exec --no-startup-id ~/.screenlayout/zbookg5-home-dock-stacked.sh; mode "default"
+	bindsym h exec --no-startup-id ~/.screenlayout/zbookg5-home-dock-external-only.sh; mode "default"
 	bindsym l exec --no-startup-id ~/.screenlayout/laptop-only.sh; mode "default"
 	bindsym w exec --no-startup-id ~/.screenlayout/zbookg5-work-dock-2-displays-only.sh; mode "default"
 	bindsym Return mode "default"
