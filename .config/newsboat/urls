@@ -5,29 +5,14 @@ https://www.archlinux.org/feeds/news/ "~ARCH: Latest News"
 https://security.archlinux.org/advisory/feed.atom "~ARCH: Security Advisories"
 https://www.archlinux.org/feeds/planet/ "~ARCH: Arch Planet"
 -------------------------
------YOUTUBE_MUSIC-------
+------LINUX_KERNEL-------
 -------------------------
-https://www.youtube.com/feeds/videos.xml?channel_id=UCjMZjGhrFq_4llVS_x2XJ_w "~YOUTUBE MUSIC: Derek & Brandon Fiechter"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCwoTj-pZgZZ8DInOXSSLMmA "~YOUTUBE MUSIC: Odysseus"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC4L4Vac0HBJ8-f3LBFllMsg "~YOUTUBE MUSIC: ThePrimeCronus"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCmYTgpKxd-QOJCPDrmaXuqQ "~YOUTUBE MUSIC: ThePrimeThanatos"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC9ImTi0cbFHs7PQ4l2jGO1g "~YOUTUBE MUSIC: Epic Music World"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCT5RMcRGa32Th0AZ0Dxxviw "~YOUTUBE MUSIC: JimTV"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCj350LGE2wzt6MpjoU3q8iw "~YOUTUBE MUSIC: Hot Potato"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCJOyipX4XAxoFpdoy14W8Qg  "~YOUTUBE MUSIC: Lucid Zen"
--------------------------
---------YOUTUBE----------
--------------------------
-https://www.youtube.com/feeds/videos.xml?channel_id=UCMu5gPmKp5av0QCAajKTMhw "~YOUTUBE: ERB"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg "~YOUTUBE: DistroTube"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA "~YOUTUBE: Bryan Lunduke"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~YOUTUBE: Luke Smith"
+https://www.kernel.org/feeds/kdist.xml "~Linux Kernel Releases"
 -------------------------
 -------GIT_REPOS---------
 -------------------------
 https://github.com/ssharpjr.atom "~GITHUB: ssharpjr"
-https://gitlab.com/dwt1.atom "~GITLAB: dwt1 (distrotube)"
-https://github.com/LukeSmithxyz.atom "~GITHUB: LukeSmithxyz"
+https://gitlab.com/ssharpjr.atom "~GITLAB: ssharpjr"
 -------------------------
 -------PODCASTS----------
 -------------------------

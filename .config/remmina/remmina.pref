@@ -14,7 +14,7 @@ small_toolbutton=false
 view_file_mode=1
 resolutions=1024x768,1920x1080,1900x1040,1880x1020,1898x1005
 main_width=945
-main_height=992
+main_height=994
 main_maximize=false
 main_sort_column_id=1
 main_sort_order=0
@@ -120,7 +120,7 @@ colorBD=#45373c
 [usage_stats]
 periodic_usage_stats_permission_asked=true
 periodic_usage_stats_permitted=true
-periodic_usage_stats_last_sent=1620045696
+periodic_usage_stats_last_sent=1622725114
 periodic_usage_stats_uuid_prefix=G3VAKBYHT3NVLJ
 
 [remmina_news]
