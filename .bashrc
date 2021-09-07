@@ -126,6 +126,8 @@ source /usr/bin/virtualenvwrapper.sh
 # export RYZOMDIR=~/.local/share/Ryzom
 export WRITEDIR=~/Dropbox/Writing
 
+# Load dircolors
+test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
 
 # Oracle Instantclient
 # export ORACLE_HOME="/usr/lib/oracle/11.2/client64"

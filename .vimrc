@@ -112,14 +112,15 @@ let g:UltiSnipsJumpForwardTrigger='<tab>'
 let g:UltiSnipsJumpBackwardTrigger='<s-tab>'
 
 " Nord Color Theme Overrides
-augroup nord-overrides
-  autocmd!
-  autocmd ColorScheme nord highlight Comment ctermfg=8
-augroup END
+" augroup nord-overrides
+"   autocmd!
+"   autocmd ColorScheme nord highlight Comment ctermfg=8
+" augroup END
 
 " Color Theme Settings
 set background=dark
 colorscheme nord
+" let g:nord_cursor_line_number_background = 1
 " Airline
 let g:airline_theme='nord'
 set laststatus=2

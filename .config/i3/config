@@ -251,7 +251,7 @@ bindsym $mod+n exec --no-startup-id $filebrowser
 bindsym $mod+w exec --no-startup-id $browser
 bindsym $mod+c exec --no-startup-id $calculator
 bindsym $mod+e exec --no-startup-id $email
-bindsym $mod+t exec --no-startup-id remmina -c ~/.remmina/TPI_RDS_ACCT.remmina
+bindsym $mod+t exec --no-startup-id remmina -c ~/.remmina/rdacct-thomsonplastics-net.remmina
 bindsym $mod+Shift+d exec --no-startup-id remmina -c ~/.remmina/TPI-DC01.remmina
 bindsym $mod+Shift+o exec --no-startup-id remmina -c ~/.remmina/TPI-ORAMAINT.remmina
 bindsym $modShift+t exec --no-startup-id $rdp
