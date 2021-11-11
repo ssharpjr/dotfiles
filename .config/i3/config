@@ -28,8 +28,8 @@ set $term lxterminal
 set $filebrowser nemo
 set $calculator gnome-calculator
 set $browser google-chrome-stable
-# set $email GTK_THEME=Nordic-Polar evolution
-set $email GTK_THEME=Nordic-Polar thunderbird
+set $email GTK_THEME=Nordic-Polar evolution
+# set $email GTK_THEME=Nordic-Polar thunderbird
 set $rdp remmina
 set $musicplayer clementine
 set $ide pycharm
@@ -322,6 +322,9 @@ for_window [class="vlc"] move workspace $ws10, workspace $ws10
 for_window [class="Mudlet"] move workspace $ws8, workspace $ws8
 for_window [class="PyLNP"] move workspace $ws5, workspace $ws5
 for_window [class="Dwarf_Fortress"] move workspace $ws10, workspace $ws10
+for_window [class="Minecraft Launcher"] move workspace $ws8, workspace $ws8
+for_window [class="Minecraft* 1.17.1"] move workspace $ws8, workspace $ws8
+
 
 # Floating apps
 # for_window [class="Evolution"] floating enable

@@ -18,7 +18,7 @@ main_height=797
 main_maximize=false
 main_sort_column_id=1
 main_sort_order=0
-expanded_group=TPI RDS,TPI VNC
+expanded_group=IQ RDS,TPI RDS,TPI VNC
 toolbar_pin_down=false
 sshtunnel_port=4732
 applet_new_ontop=true
@@ -72,7 +72,7 @@ shortcutkey_screenshot=65481
 rdp_deviceScaleFactor=140
 rdp_desktopScaleFactor=100
 rdp_desktopOrientation=0
-datadir_path=
+datadir_path=/home/ssharp/.remmina
 remmina_file_name=%G_%P_%N_%h
 use_master_password=false
 unlock_timeout=0
@@ -91,6 +91,9 @@ vte_shortcutkey_increase_font=65365
 vte_shortcutkey_decrease_font=65366
 vte_shortcutkey_search_text=103
 recent_VNC=192.168.11.185
+rdp_disable_smooth_scrolling=0
+rdp_reconnect_attempts=
+rdp_kbd_remap=
 
 [ssh_colors]
 background=rgb(213,204,186)
@@ -113,15 +116,15 @@ color13=rgb(151,82,44)
 color14=rgb(152,154,156)
 color15=rgb(213,204,186)
 bold=#45373c
-cursor_foreground=#d5ccba
-highlight=#45373c
-highlight_foreground=#d5ccba
-colorBD=#45373c
+cursor_foreground=rgb(213,204,186)
+highlight=rgb(69,55,60)
+highlight_foreground=rgb(213,204,186)
+colorBD=rgb(69,55,60)
 
 [usage_stats]
 periodic_usage_stats_permission_asked=true
 periodic_usage_stats_permitted=true
-periodic_usage_stats_last_sent=1631020740
+periodic_usage_stats_last_sent=1636383800
 periodic_usage_stats_uuid_prefix=G3VAKBYHT3NVLJ
 
 [remmina_news]
