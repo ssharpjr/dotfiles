@@ -1,7 +1,8 @@
 # .xinitrc - Configures and launches X session
 
 # Set Display
-$HOME/.screenlayout/zbookg5-work-dock-2-displays-only.sh
+$HOME/.screenlayout/zbookg5-work-dock-2-displays-intel.sh
+# $HOME/.screenlayout/zbookg5-work-dock-2-displays-only.sh
 # $HOME/.screenlayout/laptop-only.sh
 # xrandr --setprovideroutputsource modesetting NVIDIA-0
 # xrandr --auto

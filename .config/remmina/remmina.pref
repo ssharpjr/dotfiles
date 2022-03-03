@@ -14,7 +14,7 @@ small_toolbutton=false
 view_file_mode=1
 resolutions=1024x768,1920x1080,1900x1040,1880x1020,1898x1005
 main_width=945
-main_height=797
+main_height=992
 main_maximize=false
 main_sort_column_id=1
 main_sort_order=0
@@ -74,7 +74,6 @@ rdp_desktopScaleFactor=100
 rdp_desktopOrientation=0
 datadir_path=/home/ssharp/.remmina
 remmina_file_name=%G_%P_%N_%h
-use_master_password=false
 unlock_timeout=0
 unlock_password=
 last_quickconnect_protocol=RDP
@@ -94,6 +93,11 @@ recent_VNC=192.168.11.185
 rdp_disable_smooth_scrolling=0
 rdp_reconnect_attempts=
 rdp_kbd_remap=
+use_primary_password=false
+lock_connect=false
+lock_edit=false
+enc_mode=1
+audit=false
 
 [ssh_colors]
 background=rgb(213,204,186)
@@ -124,7 +128,7 @@ colorBD=rgb(69,55,60)
 [usage_stats]
 periodic_usage_stats_permission_asked=true
 periodic_usage_stats_permitted=true
-periodic_usage_stats_last_sent=1636383800
+periodic_usage_stats_last_sent=1639063371
 periodic_usage_stats_uuid_prefix=G3VAKBYHT3NVLJ
 
 [remmina_news]

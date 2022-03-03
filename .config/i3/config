@@ -86,6 +86,7 @@ floating_modifier $mod
 #bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+Return exec urxvt -cd "$(xcwd)"
+bindsym $mod+Control+Return exec st
 
 # kill focused window
 #_#MOD+q,Kill Focused Window
@@ -266,7 +267,7 @@ set $ws3   "3: EMAIL"
 set $ws4   "4: RDS"
 set $ws5   "5: DATA"
 set $ws6   "6: FILE"
-set $ws7   "7: WRITE"
+set $ws7   "7: CODE"
 set $ws8   "8: GAME"
 set $ws9   "9: CHAT"
 set $ws10 "10: MISC"
@@ -308,10 +309,11 @@ for_window [class="Nemo"] move workspace $ws6, workspace $ws6
 for_window [class="Spotify"] move workspace $ws10, workspace $ws10
 for_window [class="Hexchat"] move workspace $ws9, workspace $ws9
 for_window [class="discord"] move workspace $ws9, workspace $ws9
+for_window [class="telegram-desktop"] move workspace $ws9, workspace $ws9
 for_window [class="Microsoft Teams - Preview"] move workspace $ws9, workspace $ws9
 for_window [class="Wine"] move workspace $ws5, workspace $ws5
-for_window [class="libreoffice-calc"] move workspace $ws5, workspace $ws5
-for_window [class="libreoffice-writer"] move workspace $ws5, workspace $ws5
+for_window [class="libreoffice-calc"] move workspace $ws7, workspace $ws7
+for_window [class="libreoffice-writer"] move workspace $ws7, workspace $ws7
 for_window [class="jetbrains-pycharm-ce"] move workspace $ws5, workspace $ws5
 for_window [class="nel"] move workspace $ws8, workspace $ws8
 for_window [class="manuskript"] move workspace $ws7, workspace $ws7
@@ -324,6 +326,7 @@ for_window [class="PyLNP"] move workspace $ws5, workspace $ws5
 for_window [class="Dwarf_Fortress"] move workspace $ws10, workspace $ws10
 for_window [class="Minecraft Launcher"] move workspace $ws8, workspace $ws8
 for_window [class="Minecraft* 1.17.1"] move workspace $ws8, workspace $ws8
+for_window [class="code-oss"] move workspace $ws7, workspace $ws7
 
 
 # Floating apps
@@ -353,6 +356,8 @@ for_window [class="Pystopwatch"] move position center
 # for_window [class="Anaconda-Navigator"] floating enable
 # for_window [class="Anaconda-Navigator"] resize set 1280 900
 # for_window [class="Anaconda-Navigator"] move position center
+for_window [class="monero-core"] floating enable
+for_window [class="monero-core"] move position center
 
 # Start workspaces on certain displays (if they exist)
 workspace $ws1 output primary  # stay on primary
